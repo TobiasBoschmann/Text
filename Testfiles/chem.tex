@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage[version=4]{mhchem}
+\usepackage{longtable}	% For tables longer than a page
+\usepackage{multirow}	% Allows multirow in tables
+\usepackage{multicol}	% Allows multicolumn in tables
+\usepackage{booktabs}	% Better horizontal lines in tables \toprule \midrule ...
+
+\usepackage{dcolumn} 	% Allows allignment by decimal point
+  \newcolumntype{d}[1]{D{.}{.}{#1}}	% Defining some new formats
+  \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+
+\begin{document}
+
+\begin{table}[ht]
+		\centering
+		\caption{Standardtbildungsenthalpien und Standardtentropien für  [\cite{?%Entwicklung und Charakterisierung von Elektroden für die Sauerstoffentwicklung in der alkalischen Wasserelektrolyse
+		}] sowie stöchometrische Koeffizienten aus (3.1)}
+		\begin{tabular}{c c c c}
+		\toprule
+		\multirow{2}{*}{Komponenten i} & 
+		\multicolumn{1}{c}{$\Delta_f H^0_{f,i}$} & 
+		\multicolumn{1}{c}{$S^0_i$} &
+		\multicolumn{1}{c}{$\nu_i$}
+		\\
+		& 
+		\multicolumn{1}{c}{$\textrm{[kJ/mol]}$}& 
+		\multicolumn{1}{c}{$\textrm{[J/(molK)]}$} &
+		\multicolumn{1}{c}{$\textrm{[--]}$}
+		\\
+		\midrule
+		$\ce{H2O}$ & -285,25 & 70,12 & -1\\
+		$\ce{O2}$ & 0 & 205,25 & 2\\
+		$\ce{H2}$ & 0 & 130,7 & 1\\
+		\bottomrule
+		\end{tabular}
+		\label{tab:rule}
+		\end{table}		
+
+\end{document}
