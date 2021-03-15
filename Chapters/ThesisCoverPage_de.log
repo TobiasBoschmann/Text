@@ -1,0 +1,768 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  24 FEB 2021 10:52
+entering extended mode
+**./ThesisCoverPage_de.tex
+(ThesisCoverPage_de.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment addmargin undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{addmargin}
+                     {\offsetCoverPage}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.2 \begin{addmargin}{\offsetCoverPage
+                                      }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \includegraphics 
+                            [width = 0.5\textwidth ]{Resources/rwth_eerc_rgb...
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+! Extra }, or forgotten $.
+<argument> ...urces/rwth_eerc_rgb_ohne_Schutzraum}
+                                                  
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\put  ...\hb@xt@ \z@ {\kern #1\unitlength #3\hss }
+                                                  \ignorespaces 
+l.11 ...{Resources/rwth_eerc_rgb_ohne_Schutzraum}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+4.
+("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+! Undefined control sequence.
+<argument> \fontfamily {phv}\selectfont \huge 
+                                              {MA 000}
+l.14 ...{\fontfamily{phv}\selectfont\huge{MA 000}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+\endpicture ->\egroup 
+                      \hss \egroup \ht \@picbox \@picht \dp \@picbox \z@ \mb...
+l.15 \end{picture}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\endpicture ->\egroup \hss \egroup 
+                                   \ht \@picbox \@picht \dp \@picbox \z@ \mb...
+l.15 \end{picture}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 \end{picture}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \end{picture}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \end{picture}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \end{picture}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.15 \end{picture}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{addmargin}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{addmargin}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment addmargin undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{addmargin}
+                      [\marginCoverPage]{0cm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \begin{addmargin}[
+                       \marginCoverPage]{0cm}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+! Undefined control sequence.
+l.22 \begin{addmargin}[\marginCoverPage
+                                       ]{0cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
+[] 
+ []
+
+! Undefined control sequence.
+l.24 {\fontfamily{phv}\selectfont\huge
+                                       Bachelorarbeit}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (64.36923pt too wide) in paragraph at lines 24--25
+ \OT1/phv/m/n/10 Bachelorarbeit 
+ []
+
+! Undefined control sequence.
+l.27 {\Large
+             \par}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--29
+[] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
+! Undefined control sequence.
+<argument> \fontfamily {phv}\selectfont {\huge 
+                                               Design einer Abschlussarbeit}
+l.34 ...tfont{\huge Design einer Abschlussarbeit}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (33.3397pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 Design 
+ []
+
+
+Overfull \hbox (23.89964pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 einer 
+ []
+
+
+Overfull \hbox (16.65991pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 Ab- 
+ []
+
+
+Overfull \hbox (34.90964pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 schlus- 
+ []
+
+
+Overfull \hbox (18.13977pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 sar- 
+ []
+
+
+Overfull \hbox (17.77977pt too wide) in paragraph at lines 34--35
+ \OT1/phv/b/n/10 beit 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--38
+[] 
+ []
+
+
+Overfull \hbox (31.11975pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 Design 
+ []
+
+
+Overfull \hbox (8.33983pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 of 
+ []
+
+
+Overfull \hbox (5.55994pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 a 
+ []
+
+
+Overfull \hbox (22.21985pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 Mas- 
+ []
+
+
+Overfull \hbox (18.38974pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 ter's 
+ []
+
+
+Overfull \hbox (17.22972pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 the- 
+ []
+
+
+Overfull \hbox (12.21997pt too wide) in paragraph at lines 40--41
+ \OT1/phv/m/n/10 sis 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--47
+[] 
+ []
+
+! Undefined control sequence.
+l.51 Aachen, \monthyeardate
+                           \today \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.51 Aachen, \monthyeardate\today
+                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (36.68956pt too wide) in paragraph at lines 51--51
+ \OT1/phv/m/n/10 Aachen, 
+ []
+
+
+Overfull \hbox (31.42978pt too wide) in paragraph at lines 54--54
+ []\OT1/phv/b/n/10 Tobias 
+ []
+
+
+Overfull \hbox (44.4497pt too wide) in paragraph at lines 54--54
+ \OT1/phv/b/n/10 Jonathan 
+ []
+
+
+Overfull \hbox (57.12962pt too wide) in paragraph at lines 54--54
+ \OT1/phv/b/n/10 Boschmann 
+ []
+
+
+Overfull \hbox (74.59906pt too wide) in paragraph at lines 55--55
+ []\OT1/phv/m/n/10 Matrikelnummer: 
+ []
+
+
+Overfull \hbox (33.35962pt too wide) in paragraph at lines 55--55
+ \OT1/phv/m/n/10 379947 
+ []
+
+
+Overfull \hbox (41.42929pt too wide) in paragraph at lines 58--58
+ []\OT1/phv/m/n/10 Betreuer: 
+ []
+
+
+Overfull \hbox (35.01965pt too wide) in paragraph at lines 59--59
+ []\OT1/phv/m/n/10 Hannah 
+ []
+
+
+Overfull \hbox (41.93939pt too wide) in paragraph at lines 59--59
+ \OT1/phv/m/n/10 Kr[]utzfeld, 
+ []
+
+
+Overfull \hbox (11.10985pt too wide) in paragraph at lines 59--59
+ \OT1/phv/m/n/10 M. 
+ []
+
+
+Overfull \hbox (14.44981pt too wide) in paragraph at lines 59--59
+ \OT1/phv/m/n/10 Sc. 
+ []
+
+
+Overfull \hbox (25.30978pt too wide) in paragraph at lines 60--60
+ []\OT1/phv/m/n/10 Univ.- 
+ []
+
+
+Overfull \hbox (20.81966pt too wide) in paragraph at lines 60--60
+ \OT1/phv/m/n/10 Prof. 
+ []
+
+
+Overfull \hbox (16.15976pt too wide) in paragraph at lines 60--60
+ \OT1/phv/m/n/10 Dr.- 
+ []
+
+
+Overfull \hbox (16.67966pt too wide) in paragraph at lines 60--60
+ \OT1/phv/m/n/10 Ing. 
+ []
+
+
+Overfull \hbox (17.91978pt too wide) in paragraph at lines 60--60
+ \OT1/phv/m/n/10 Dirk 
+ []
+
+
+Overfull \hbox (27.21973pt too wide) in paragraph at lines 60--60
+ \OT1/phv/m/n/10 M[]uller 
+ []
+
+
+Overfull \hbox (25.55981pt too wide) in paragraph at lines 63--63
+ []\OT1/phv/m/n/10 Diese 
+ []
+
+
+Overfull \hbox (13.32983pt too wide) in paragraph at lines 63--63
+ \OT1/phv/m/n/10 Ar- 
+ []
+
+
+Overfull \hbox (16.11974pt too wide) in paragraph at lines 63--63
+ \OT1/phv/m/n/10 beit 
+ []
+
+
+Overfull \hbox (27.22974pt too wide) in paragraph at lines 63--63
+ \OT1/phv/m/n/10 wurde 
+ []
+
+
+Overfull \hbox (40.8795pt too wide) in paragraph at lines 63--63
+ \OT1/phv/m/n/10 vorgelegt 
+ []
+
+
+Overfull \hbox (16.66978pt too wide) in paragraph at lines 63--63
+ \OT1/phv/m/n/10 am: 
+ []
+
+
+Overfull \hbox (24.44968pt too wide) in paragraph at lines 64--64
+ []\OT1/phv/m/n/10 E.ON 
+ []
+
+
+Overfull \hbox (15.55981pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 En- 
+ []
+
+
+Overfull \hbox (19.44983pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 ergy 
+ []
+
+
+Overfull \hbox (16.10986pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 Re- 
+ []
+
+
+Overfull \hbox (30.00977pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 search 
+ []
+
+
+Overfull \hbox (21.6698pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 Cen- 
+ []
+
+
+Overfull \hbox (11.66978pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 ter 
+ []
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 | 
+ []
+
+
+Overfull \hbox (21.10986pt too wide) in paragraph at lines 64--64
+ \OT1/phv/m/n/10 ERC 
+ []
+
+
+Overfull \hbox (35.01935pt too wide) in paragraph at lines 65--65
+ []\OT1/phv/m/n/10 Institute 
+ []
+
+
+Overfull \hbox (11.36984pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 for 
+ []
+
+
+Overfull \hbox (15.55981pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 En- 
+ []
+
+
+Overfull \hbox (19.44983pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 ergy 
+ []
+
+
+Overfull \hbox (12.77977pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 Ef- 
+ []
+
+
+Overfull \hbox (8.32996pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 fi- 
+ []
+
+
+Overfull \hbox (21.11974pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 cient 
+ []
+
+
+Overfull \hbox (25.5597pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 Build- 
+ []
+
+
+Overfull \hbox (18.33984pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 ings 
+ []
+
+
+Overfull \hbox (16.67981pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 and 
+ []
+
+
+Overfull \hbox (11.66978pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 In- 
+ []
+
+
+Overfull \hbox (20.00977pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 door 
+ []
+
+
+Overfull \hbox (14.98987pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 Cli- 
+ []
+
+
+Overfull \hbox (22.22972pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 mate 
+ []
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 | 
+ []
+
+
+Overfull \hbox (20.55981pt too wide) in paragraph at lines 65--65
+ \OT1/phv/m/n/10 EBC 
+ []
+
+
+Overfull \hbox (44.45946pt too wide) in paragraph at lines 66--66
+ []\OT1/phv/m/n/10 (Lehrstuhl 
+ []
+
+
+Overfull \hbox (11.66978pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 f[]ur 
+ []
+
+
+Overfull \hbox (44.46947pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 Geb[]aude- 
+ []
+
+
+Overfull \hbox (16.67981pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 und 
+ []
+
+
+Overfull \hbox (34.99976pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 Raumk- 
+ []
+
+
+Overfull \hbox (7.7699pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 li- 
+ []
+
+
+Overfull \hbox (19.99974pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 mat- 
+ []
+
+
+Overfull \hbox (8.8899pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 e- 
+ []
+
+
+Overfull \hbox (13.8899pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 ch- 
+ []
+
+
+Overfull \hbox (16.10986pt too wide) in paragraph at lines 66--66
+ \OT1/phv/m/n/10 nik) 
+ []
+
+
+Overfull \hbox (63.80928pt too wide) in paragraph at lines 67--67
+ []\OT1/phv/m/n/10 Mathieustrae 
+ []
+
+
+Overfull \hbox (13.89977pt too wide) in paragraph at lines 67--67
+ \OT1/phv/m/n/10 10, 
+ []
+
+
+Overfull \hbox (27.79968pt too wide) in paragraph at lines 67--67
+ \OT1/phv/m/n/10 52074 
+ []
+
+
+Overfull \hbox (33.90967pt too wide) in paragraph at lines 67--67
+ \OT1/phv/m/n/10 Aachen 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{addmargin}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \end{addmargin}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./ThesisCoverPage_de.tex
+                            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 85 strings out of 480930
+ 1587 string characters out of 2899292
+ 242229 words of memory out of 3000000
+ 16050 multiletter control sequences out of 15000+200000
+ 533788 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 20i,5n,15p,158b,164s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
