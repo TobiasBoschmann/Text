@@ -31,7 +31,7 @@
 \contentsline {subsection}{\numberline {3.1.6}Protonen Austausch Membran (PEM) Elektrolyseur}{17}{subsection.3.1.6}%
 \contentsline {subsection}{\numberline {3.1.7}Feststoffoxid Elektrolyseur}{17}{subsection.3.1.7}%
 \contentsline {subsection}{\numberline {3.1.8}Polarisationskurve und Betriebsbereiche von Elektrolyseuren}{18}{subsection.3.1.8}%
-\contentsline {subsection}{\numberline {3.1.9}Brennstoffzelle}{20}{subsection.3.1.9}%
+\contentsline {section}{\numberline {3.2}Brennstoffzelle}{20}{section.3.2}%
 \contentsline {chapter}{\numberline {4}Methode+Anwendung}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}K.A.}{21}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Modell Aufbau}{21}{subsection.4.1.1}%

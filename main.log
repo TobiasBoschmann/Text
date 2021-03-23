@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  15 MAR 2021 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  19 MAR 2021 13:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -1619,9 +1619,6 @@ Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
 \@bibunitauxcnt=\count409
 ) (main.aux (Chapters/NomenclatureTable.aux)
 
-LaTeX Warning: Label `tab:rule' multiply defined.
-
-
 LaTeX Warning: Label `sec:Sektion 1' multiply defined.
 
 
@@ -2027,31 +2024,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 Package natbib Warning: Citation `Tjaarks' on page 13 undefined on input line 9
 .
 
-<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=437, 353.67477pt x 122.5
+<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=439, 353.67477pt x 122.5
 6429pt>
 File: Figures/LadungstraegerBeiDerWasserelektrolyse.pdf Graphic file (type pdf)
 
 <use Figures/LadungstraegerBeiDerWasserelektrolyse.pdf>
 Package pdftex.def Info: Figures/LadungstraegerBeiDerWasserelektrolyse.pdf  use
-d on input line 20.
+d on input line 21.
 (pdftex.def)             Requested size: 353.6739pt x 122.56396pt.
 
 Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 13 undefined 
-on input line 22.
+on input line 23.
 
 
 Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 13 undefined 
-on input line 22.
+on input line 23.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13]
 
-Package natbib Warning: Citation `?' on page 14 undefined on input line 42.
+Package natbib Warning: Citation `?' on page 14 undefined on input line 43.
 
 
-Package natbib Warning: Citation `?' on page 14 undefined on input line 42.
+Package natbib Warning: Citation `?' on page 14 undefined on input line 43.
+
+
+Overfull \hbox (14.74489pt too wide) in paragraph at lines 39--64
+[] []$\T1/lmr/m/n/10.95 ) er-gibt sich mit den Da-ten aus [][]3.1[][] die Re-ak
+-ti-ons-ent-hal-pie zu $\OT1/lmr/m/n/10.95 \OML/lmm/m/it/10.95 H[] \OT1/lmr/m/
+n/10.95 = [] []$
+ []
 
 
 Underfull \vbox (badness 3439) has occurred while \output is active []
@@ -2059,126 +2063,126 @@ Underfull \vbox (badness 3439) has occurred while \output is active []
  [14 <./Figures/LadungstraegerBeiDerWasserelektrolyse.pdf>]
 
 Package natbib Warning: Citation `guideline' on page 15 undefined on input line
- 80.
+ 82.
 
 
 Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 15 undefined on input line 85.
+iew' on page 15 undefined on input line 87.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 [15]
 
 Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 16 undefined on input line 88.
+iew' on page 16 undefined on input line 90.
 
 
 Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 16 undefined 
-on input line 88.
+on input line 90.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
 Package natbib Warning: Citation `A semiempirical study of the temperature depe
 ndence of the anode charge transfer coefficient of a 6 kW PEM electrolyzer' on 
-page 16 undefined on input line 93.
+page 16 undefined on input line 95.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
 
 
 Package natbib Warning: Citation `L. Bertuccioli' on page 16 undefined on input
- line 107.
+ line 109.
 
 
 Package natbib Warning: Citation `A. Chan' on page 16 undefined on input line 1
-07.
+09.
 
 
 Package natbib Warning: Citation `D. Hart' on page 16 undefined on input line 1
-07.
+09.
 
 
 Package natbib Warning: Citation `F. Lehner' on page 16 undefined on input line
- 107.
+ 109.
 
 
 Package natbib Warning: Citation `B. Madden' on page 16 undefined on input line
- 107.
+ 109.
 
 
 Package natbib Warning: Citation `E. Standen' on page 16 undefined on input lin
-e 107.
+e 109.
 
 
 Package natbib Warning: Citation `Study on development of water electrolysis in
  the EU. Fuel Cells and Hydrogen Joint Undertaking (2014)' on page 16 undefined
- on input line 107.
+ on input line 109.
 
 [16]
 
 Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 17 undefined 
-on input line 114.
+on input line 116.
 
 
 Package natbib Warning: Citation `review on PEM electrolyzer modelling: Guideli
-nes for beginners' on page 17 undefined on input line 114.
+nes for beginners' on page 17 undefined on input line 116.
 
 
 Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 17 undefined on input line 124.
+ page 17 undefined on input line 126.
 
 
 Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
-with different cell components' on page 17 undefined on input line 125.
+with different cell components' on page 17 undefined on input line 127.
 
 
 Package natbib Warning: Citation `Decomposition of 8.5 mol.' on page 17 undefin
-ed on input line 128.
+ed on input line 130.
 
 
 Package natbib Warning: Citation `High temperature water electrolysis using met
 al supported solid oxide electrolyser cells (SOEC)' on page 17 undefined on inp
-ut line 129.
+ut line 131.
 
 
 Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 17 undefined on input line 129.
+iew' on page 17 undefined on input line 131.
 
 [17]
 
 Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 18 undefined on input line 134.
+iew' on page 18 undefined on input line 136.
 
 
 Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
-with different cell components' on page 18 undefined on input line 135.
+with different cell components' on page 18 undefined on input line 137.
 
-<Figures/PolarisationskurvenElektrolyseure.pdf, id=494, 210.68333pt x 115.90785
+<Figures/PolarisationskurvenElektrolyseure.pdf, id=499, 210.68333pt x 115.90785
 pt>
 File: Figures/PolarisationskurvenElektrolyseure.pdf Graphic file (type pdf)
 <use Figures/PolarisationskurvenElektrolyseure.pdf>
 Package pdftex.def Info: Figures/PolarisationskurvenElektrolyseure.pdf  used on
- input line 142.
+ input line 144.
 (pdftex.def)             Requested size: 210.6828pt x 115.90756pt.
 
 Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 18 undefined on input line 143.
+ page 18 undefined on input line 145.
 
 
 Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 18 undefined on input line 143.
+ page 18 undefined on input line 145.
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 143--143
+Underfull \hbox (badness 1888) in paragraph at lines 145--145
 [][][]|\T1/lmr/m/n/10.95 Mög-li-che Be-rei-che der Po-la-ri-sa-ti-ons-kur-ven v
 er-schie-de-ner Elektrolyse-
  []
@@ -2187,16 +2191,11 @@ er-schie-de-ner Elektrolyse-
 
 Package natbib Warning: Citation `A semiempirical study of the temperature depe
 ndence of the anode charge transfer coefficient of a 6 kW PEM electrolyzer' on 
-page 19 undefined on input line 156.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
+page 19 undefined on input line 158.
 
 
 Package natbib Warning: Citation `Alkaline Water Electrolysis Powered by Renewa
-ble Energy: A Review' on page 19 undefined on input line 160.
+ble Energy: A Review' on page 19 undefined on input line 161.
 
 
 Package natbib Warning: Citation `High-pressure PEM water electrolysis and corr
@@ -2286,10 +2285,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45762 strings out of 480930
- 1063971 string characters out of 2899292
- 1759546 words of memory out of 3000000
- 60515 multiletter control sequences out of 15000+200000
+ 45764 strings out of 480930
+ 1063694 string characters out of 2899292
+ 1759645 words of memory out of 3000000
+ 60517 multiletter control sequences out of 15000+200000
  637644 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,19n,136p,10105b,2873s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2322,9 +2321,9 @@ public/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmtt9.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (45 pages, 788083 bytes).
+Output written on main.pdf (45 pages, 791081 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
+ 830 PDF objects out of 1000 (max. 8388607)
  169 named destinations out of 1000 (max. 500000)
  473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
