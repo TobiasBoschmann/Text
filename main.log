@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  19 MAR 2021 13:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  25 MAR 2021 12:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -1624,12 +1624,6 @@ LaTeX Warning: Label `sec:Sektion 1' multiply defined.
 
 LaTeX Warning: Label `subsec:Abschnitt1' multiply defined.
 
-
-LaTeX Warning: Label `sec:Sektion 1' multiply defined.
-
-
-LaTeX Warning: Label `subsec:Abschnitt1' multiply defined.
-
 (bu.aux))
 \openout1 = `main.aux'.
 
@@ -1829,13 +1823,17 @@ Overfull \hbox (2.58478pt too wide) detected at line 7
  [][][]\T1/lmss/bx/n/10.95 XIII[][]
  []
 
-[5
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [5
 
 ])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [6]
+
+[6]
 \openout2 = `Chapters/NomenclatureTable.aux'.
 
  (Chapters/NomenclatureTable.tex
@@ -1972,7 +1970,7 @@ Package pdftex.def Info: Resources/rwth_eerc_rgb_ohne_Schutzraum.pdf  used on i
 nput line 141.
 (pdftex.def)             Requested size: 159.95049pt x 24.37961pt.
 [3] (Figures/DHConceptBase.pdf_tex
-<Figures/DHConceptBase.pdf, id=336, 960.48987pt x 523.36752pt>
+<Figures/DHConceptBase.pdf, id=327, 960.48987pt x 523.36752pt>
 File: Figures/DHConceptBase.pdf Graphic file (type pdf)
 <use Figures/DHConceptBase.pdf>
 Package pdftex.def Info: Figures/DHConceptBase.pdf  used on input line 52.
@@ -2021,10 +2019,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Package natbib Warning: Citation `Tjaarks' on page 13 undefined on input line 9
-.
+Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 13 undefined 
+on input line 9.
 
-<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=439, 353.67477pt x 122.5
+
+Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 13 undefined 
+on input line 18.
+
+<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=430, 353.67477pt x 122.5
 6429pt>
 File: Figures/LadungstraegerBeiDerWasserelektrolyse.pdf Graphic file (type pdf)
 
@@ -2051,10 +2053,11 @@ Package natbib Warning: Citation `?' on page 14 undefined on input line 43.
 Package natbib Warning: Citation `?' on page 14 undefined on input line 43.
 
 
-Overfull \hbox (14.74489pt too wide) in paragraph at lines 39--64
-[] []$\T1/lmr/m/n/10.95 ) er-gibt sich mit den Da-ten aus [][]3.1[][] die Re-ak
--ti-ons-ent-hal-pie zu $\OT1/lmr/m/n/10.95 \OML/lmm/m/it/10.95 H[] \OT1/lmr/m/
-n/10.95 = [] []$
+Overfull \hbox (13.71907pt too wide) in paragraph at lines 39--64
+[]\T1/lmr/m/n/10.95 Für die Was-se-r-elek-tro-ly-se ([][]3.1[][]) bei Stan-dard
+t-be-din-gun-gen ($\OML/lmm/m/it/10.95 T[] \OT1/lmr/m/n/10.95 = [] []$ \T1/lmr/
+m/n/10.95 und $\OML/lmm/m/it/10.95 p[] \OT1/lmr/m/n/10.95 = [] []$\T1/lmr/m/n/1
+0.95 )
  []
 
 
@@ -2062,172 +2065,253 @@ Underfull \vbox (badness 3439) has occurred while \output is active []
 
  [14 <./Figures/LadungstraegerBeiDerWasserelektrolyse.pdf>]
 
+Package natbib Warning: Citation `Low-temperature electrolysis system modelling
+: A review' on page 15 undefined on input line 76.
+
+
 Package natbib Warning: Citation `guideline' on page 15 undefined on input line
- 82.
+ 77.
 
 
 Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 15 undefined on input line 87.
+iew' on page 15 undefined on input line 83.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
+iew' on page 15 undefined on input line 86.
+
+
+Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 15 undefined 
+on input line 86.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
 [15]
 
-Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 16 undefined on input line 90.
-
-
-Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 16 undefined 
-on input line 90.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
-
- []
+Package natbib Warning: Citation `Modelling and simulation of a proton exchange
+ membrane (PEM) electrolyser cell' on page 16 undefined on input line 90.
 
 
 Package natbib Warning: Citation `A semiempirical study of the temperature depe
 ndence of the anode charge transfer coefficient of a 6 kW PEM electrolyzer' on 
-page 16 undefined on input line 95.
+page 16 undefined on input line 92.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
 
  []
 
-
-Package natbib Warning: Citation `L. Bertuccioli' on page 16 undefined on input
- line 109.
-
-
-Package natbib Warning: Citation `A. Chan' on page 16 undefined on input line 1
-09.
-
-
-Package natbib Warning: Citation `D. Hart' on page 16 undefined on input line 1
-09.
-
-
-Package natbib Warning: Citation `F. Lehner' on page 16 undefined on input line
- 109.
-
-
-Package natbib Warning: Citation `B. Madden' on page 16 undefined on input line
- 109.
-
-
-Package natbib Warning: Citation `E. Standen' on page 16 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Study on development of water electrolysis in
- the EU. Fuel Cells and Hydrogen Joint Undertaking (2014)' on page 16 undefined
- on input line 109.
-
-[16]
-
-Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 17 undefined 
-on input line 116.
-
-
-Package natbib Warning: Citation `review on PEM electrolyzer modelling: Guideli
-nes for beginners' on page 17 undefined on input line 116.
-
-
-Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 17 undefined on input line 126.
-
-
-Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
-with different cell components' on page 17 undefined on input line 127.
-
-
-Package natbib Warning: Citation `Decomposition of 8.5 mol.' on page 17 undefin
-ed on input line 130.
-
-
-Package natbib Warning: Citation `High temperature water electrolysis using met
-al supported solid oxide electrolyser cells (SOEC)' on page 17 undefined on inp
-ut line 131.
-
-
-Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 17 undefined on input line 131.
-
-[17]
-
-Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
-iew' on page 18 undefined on input line 136.
-
-
-Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
-with different cell components' on page 18 undefined on input line 137.
-
-<Figures/PolarisationskurvenElektrolyseure.pdf, id=499, 210.68333pt x 115.90785
+<Figures/PolarisationskurvenElektrolyseure.pdf, id=480, 210.68333pt x 115.90785
 pt>
 File: Figures/PolarisationskurvenElektrolyseure.pdf Graphic file (type pdf)
 <use Figures/PolarisationskurvenElektrolyseure.pdf>
 Package pdftex.def Info: Figures/PolarisationskurvenElektrolyseure.pdf  used on
- input line 144.
+ input line 99.
 (pdftex.def)             Requested size: 210.6828pt x 115.90756pt.
 
 Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 18 undefined on input line 145.
+ page 16 undefined on input line 100.
 
 
 Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
- page 18 undefined on input line 145.
+ page 16 undefined on input line 100.
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 145--145
+Underfull \hbox (badness 1888) in paragraph at lines 100--100
 [][][]|\T1/lmr/m/n/10.95 Mög-li-che Be-rei-che der Po-la-ri-sa-ti-ons-kur-ven v
 er-schie-de-ner Elektrolyse-
  []
 
-[18 <./Figures/PolarisationskurvenElektrolyseure.pdf>]
+[16 <./Figures/PolarisationskurvenElektrolyseure.pdf>]
 
 Package natbib Warning: Citation `A semiempirical study of the temperature depe
 ndence of the anode charge transfer coefficient of a 6 kW PEM electrolyzer' on 
-page 19 undefined on input line 158.
+page 17 undefined on input line 114.
 
 
 Package natbib Warning: Citation `Alkaline Water Electrolysis Powered by Renewa
-ble Energy: A Review' on page 19 undefined on input line 161.
+ble Energy: A Review' on page 17 undefined on input line 115.
+
+
+Package natbib Warning: Citation `Alkaline Water Electrolysis Powered by Renewa
+ble Energy: A Review' on page 17 undefined on input line 117.
 
 
 Package natbib Warning: Citation `High-pressure PEM water electrolysis and corr
-esponding safety issues' on page 19 undefined on input line 162.
+esponding safety issues' on page 17 undefined on input line 118.
 
-) (Chapters/Methode+Anwendung.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
-[20]
+Package natbib Warning: Citation `Electricity-based Fuels' on page 17 undefined
+ on input line 129.
+
+[17]
+
+Package natbib Warning: Citation `L. Bertuccioli' on page 18 undefined on input
+ line 135.
+
+
+Package natbib Warning: Citation `A. Chan' on page 18 undefined on input line 1
+35.
+
+
+Package natbib Warning: Citation `D. Hart' on page 18 undefined on input line 1
+35.
+
+
+Package natbib Warning: Citation `F. Lehner' on page 18 undefined on input line
+ 135.
+
+
+Package natbib Warning: Citation `B. Madden' on page 18 undefined on input line
+ 135.
+
+
+Package natbib Warning: Citation `E. Standen' on page 18 undefined on input lin
+e 135.
+
+
+Package natbib Warning: Citation `Study on development of water electrolysis in
+ the EU. Fuel Cells and Hydrogen Joint Undertaking (2014)' on page 18 undefined
+ on input line 135.
+
+
+Package natbib Warning: Citation `ISBN 978-3-95806-217-7' on page 18 undefined 
+on input line 142.
+
+
+Package natbib Warning: Citation `review on PEM electrolyzer modelling: Guideli
+nes for beginners' on page 18 undefined on input line 142.
+
+[18]
+
+Package natbib Warning: Citation `https://doi.org/10.1007/978-3-319-72459-1' on
+ page 19 undefined on input line 152.
+
+
+Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
+with different cell components' on page 19 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Decomposition of 8.5 mol.' on page 19 undefin
+ed on input line 156.
+
+
+Package natbib Warning: Citation `High temperature water electrolysis using met
+al supported solid oxide electrolyser cells (SOEC)' on page 19 undefined on inp
+ut line 157.
+
+
+Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
+iew' on page 19 undefined on input line 157.
+
+
+Package natbib Warning: Citation `Solid Oxide Electrolyzer Cell Modeling: A Rev
+iew' on page 19 undefined on input line 162.
+
+
+Package natbib Warning: Citation `Performance and degradation of an SOEC stack 
+with different cell components' on page 19 undefined on input line 162.
+
+) (Chapters/Methode.tex [19] [20
+
+]
 chapter 4.
-) [21
 
-] (Chapters/Diskussion.tex [22]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
+
+ []
+
+) (Chapters/Anwendung.tex [23] [24
+
+]
 chapter 5.
-) (Chapters/Erkenntnisse.tex [23
 
-] [24
+Underfull \hbox (badness 10000) in paragraph at lines 7--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+) (Chapters/Diskussion.tex [25] [26
 
 ]
 chapter 6.
+) (Chapters/Erkenntnisse.tex [27] [28
+
+]
+chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-) [25]
+) [29]
 \openout5 = `bu.aux'.
 
 
 No file main.bbl.
-[26
+[30
 
 
 ]
@@ -2243,9 +2327,9 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 613.
+(scrreprt)              `\appendix' on input line 614.
 
-[27] (Chapters/Appendix.tex) [28] (Chapters/declarationOfOriginality_de.tex
+[31] (Chapters/Appendix.tex) [32] (Chapters/declarationOfOriginality_de.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2269,14 +2353,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 Package natbib Warning: There were undefined citations.
 
-[29
+[33
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 644.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 644.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
  (main.aux (Chapters/NomenclatureTable.aux) (bu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 644.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 644.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2285,45 +2369,54 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45764 strings out of 480930
- 1063694 string characters out of 2899292
- 1759645 words of memory out of 3000000
- 60517 multiletter control sequences out of 15000+200000
+ 45801 strings out of 480930
+ 1064187 string characters out of 2899292
+ 1760754 words of memory out of 3000000
+ 60524 multiletter control sequences out of 15000+200000
  637644 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,19n,136p,10105b,2873s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.
-enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thex.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-mathit.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/lm/lm-mathsy.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-ts1.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/e
-nc/dvips/base/8r.enc}<C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbx10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmbx12.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmbx8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/tobias/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tobias/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tobias/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Users/tobias/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/tobias/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/tobias
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/tob
-ias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/
-tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/U
-sers/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
-b><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy
-10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmtk10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmtt9.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (45 pages, 791081 bytes).
+pdfTeX warning (dest): name{subsection.5.2.3} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
+c}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+ex.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
+-mathit.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
+lm/lm-mathsy.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-ts1.enc}{C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
+/dvips/base/8r.enc}<C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmbx10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmbx12.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmbx8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/tobias/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tobias/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tobias/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Users/tobias/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/tobias/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/tobias/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/tobia
+s/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/to
+bias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Use
+rs/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+<C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10
+.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+msy8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+lm/lmtk10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmtt9.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (49 pages, 802829 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 880 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 

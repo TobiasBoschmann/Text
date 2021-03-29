@@ -1,0 +1,78 @@
+\chapter{Methode}
+\label{cha:Methode}
+
+\section{Modelle der Wasserstoffkomponenten}
+
+\subsection{Modellierung des Elektrolyseurs}
+ Inhalt:\\
+-für mein Modell gewählte Gleichungen\\
+(Temp. und Druck Abhängigkeit der idealen Spannung, Überspannungen für die drei Technologien)\\ 
+-Modellierung des Temperaturverhaltens\\
+-Wichtig: Dynamik des Elektrolyseurs!!\\
+(PEM nach Tjaarks keine Einschränkung, AEC dynamisch schlecht -> wie modellieren??, Idee: über Cp T/dt aber Cp Bestimmen für jeden Elektrolyseur nötig!\\ 
+-Berücksichtigung weiterer Systemkomponenten im Modell
+
+
+\paragraph{reversible Zellspannung}
+Abhängigkeit der reversiblen Zellspannung von Druck und Temperatur.\\
+\begin{align}
+U_{rev} = U^0_{rev} + \Delta U_{rev}(p) + \Delta U_{rev}(T)
+\end{align}
+Nernst-Gleichung - Abhängigkeit der reversiblen Zellspannung $U_{rev}$ von den Partialdrücken der Produkte ($p_{H_2}$ für Wasserstoff und $p_{O_2}$ für Sauerstoff) sowie der Aktivität des Wassers ($a_{H_{2}O}$)\\
+Festoxid Elektrolyse: gasförmiges Wasser-> Partialdruck des Wassers ($p_{H_{2}O}$) 
+\begin{align}
+ \Delta U_{rev}(p) = \frac{RT}{nF}\ln{(\frac{p_{H_2}\sqrt{p_{O_2}}}{a_{H_{2}O}})} \\ 
+ \Delta U_{rev}(p) = \frac{RT}{nF}\ln{(\frac{p_{H_2}\sqrt{p_{O_2}}}{p_{H_{2}O}})}
+\end{align}
+Temperatur:\\
+\begin{align}
+	\Delta U_{rev}(T) = 8.5 \cdot 10^{-4} \cdot (T-298)
+\end{align}
+%???Gilt diese Gl. auch bei hohen Temperaturen (800 C bei SOEC)???\\
+
+\paragraph{Aktivierungsverluste}
+Für PEM und Alk:
+\begin{align}
+	U_{Akt} = \frac{T \cdot R}{z \cdot \alpha_k
+		\cdot F} \cdot ln(i/i_0)\\ %PEM und Alk
+\end{align}
+
+\paragraph{Ohmsche Verluste}
+Für PEM und Alk:\\
+
+\begin{align}
+	U_{Ohm} = \frac{\delta}{\sigma}\\ %PEM und Alk
+	\sigma _{PEM} = (0.005139 \cdot \lambda -0.00326) \cdot exp(1268 \cdot (1/303-1/T))\\
+	\sigma _{Alk} = -2.04m -0.0028m^2  + 0.005332mT +207.2 \frac{m}{T} +0.001043m^3-3 \cdot 10^{-3}m^2T^2
+\end{align}
+\textbf{R(T)} bestimmen?\\
+
+\paragraph{Diffusionsüberspannung}
+Für PEM und Alk:
+\begin{align}
+	U_{Diff} = - R \cdot T/(z \cdot F) \cdot log(1 - i/i_{max})
+\end{align}
+
+\paragraph{Modellierung der Thermodynamik}\ \\
+Annahmen: stationär, T(Betrieb) = T(Austritt), i.G. u. i.Flüssigkeiten\\
+Q>0 (Wärmeüberschuss) (weil bei i>0 -> U(rev)>U(tn) d.h. thermische Energie durch Verlustmech.)\\ 
+
+Für PEM und Alk:\\
+\begin{align}
+	dU/dt = \dot{n} (h_{ein} - h_{aus}) + P_el - \dot{Q}\\
+	0 = \dot{n}_{H2O, in} \cdot c_{p, H2O} \cdot (T_{H2O, in} - T) - I \cdot (U_{Zell} - U_{tn}) - \dot{Q}
+\end{align}
+
+Für SOEC, Wasser gasförmig -> i.G.\\
+
+
+\subsection{Modellierung der Brennstoffzelle}
+-für mein Modell gewählte Gleichungen\\
+
+\section{Entwicklung von Energiesystem-Konzepten}
+-Bewertungskriterien ausarbeiten\\
+-Systemrandbedingungen festlegen\\
+(H-Bedarf, Input-Temperaturen, Wärmebedarf, Stromkosten...)\\
+-Konzepte entwickeln\\
+-Festlegen von Parametern für Elektrolyseur, Brennstoffzelle usw. für die Simulation (Welche Leistungsklasse etc.)\\
+
