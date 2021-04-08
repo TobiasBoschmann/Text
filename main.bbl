@@ -1,0 +1,243 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abdin et~al.(2015)Abdin, Webb, and Gray]{abdin_modelling_2015}
+Z.~Abdin, C.~J. Webb, and E.~MacA. Gray.
+\newblock Modelling and simulation of a proton exchange membrane ({PEM})
+  electrolyser cell.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (39):\penalty0 13243--13257, October 2015.
+\newblock ISSN 0360-3199.
+\newblock \doi{10.1016/j.ijhydene.2015.07.129}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319915019321}.
+
+\bibitem[Amores et~al.(2014)Amores, Rodríguez, and
+  Carreras]{amores_influence_2014}
+Ernesto Amores, Jesús Rodríguez, and Christian Carreras.
+\newblock Influence of operation parameters in the modeling of alkaline water
+  electrolyzers for hydrogen production.
+\newblock \emph{International Journal of Hydrogen Energy}, 39\penalty0
+  (25):\penalty0 13063--13078, August 2014.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/f6gzxj}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319914019120}.
+
+\bibitem[Barragan et~al.(2020)Barragan, Enrique, Segura, and
+  Andujar]{barragan_iterative_2020}
+Antonio~J. Barragan, Juan~M. Enrique, Francisca Segura, and Jose~M. Andujar.
+\newblock Iterative {Fuzzy} {Modeling} of {Hydrogen} {Fuel} {Cells} by the
+  {Extended} {Kalman} {Filter}.
+\newblock \emph{IEEE Access}, 8:\penalty0 180280--180294, 2020.
+\newblock ISSN 2169-3536.
+\newblock \doi{10/gjnk8h}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/9154375/}.
+
+\bibitem[Biaku et~al.(2008)Biaku, Dale, Mann, Salehfar, Peters, and
+  Han]{biaku_semiempirical_2008}
+C.~Y. Biaku, N.~V. Dale, M.~D. Mann, H.~Salehfar, A.~J. Peters, and T.~Han.
+\newblock A semiempirical study of the temperature dependence of the anode
+  charge transfer coefficient of a {6kW} {PEM} electrolyzer.
+\newblock \emph{International Journal of Hydrogen Energy}, 33\penalty0
+  (16):\penalty0 4247--4254, August 2008.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/fkhj5k}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319908007118}.
+
+\bibitem[Brauns and Turek(2020)]{brauns_alkaline_2020}
+Jörn Brauns and Thomas Turek.
+\newblock Alkaline water electrolysis powered by renewable energy: {A} review.
+\newblock \emph{Processes}, 8\penalty0 (2):\penalty0 248, 2020.
+\newblock \doi{10/gjh7mg}.
+\newblock Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Butz et~al.(2009)Butz, Schneider, Gerthsen, Schowalter, and
+  Rosenauer]{butz_decomposition_2009}
+B.~Butz, R.~Schneider, D.~Gerthsen, M.~Schowalter, and A.~Rosenauer.
+\newblock Decomposition of 8.5mol.\% {Y2O3}-doped zirconia and its contribution
+  to the degradation of ionic conductivity.
+\newblock \emph{Acta Materialia}, 57\penalty0 (18):\penalty0 5480--5490,
+  October 2009.
+\newblock ISSN 1359-6454.
+\newblock \doi{10/b2tc8h}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1359645409004790}.
+
+\bibitem[Falcão and Pinto(2020)]{falcao_review_2020}
+D.~S. Falcão and AMFR Pinto.
+\newblock A review on {PEM} electrolyzer modelling: {Guidelines} for beginners.
+\newblock \emph{Journal of Cleaner Production}, 261:\penalty0 121184, 2020.
+\newblock \doi{10/gg47r5}.
+\newblock Publisher: Elsevier.
+
+\bibitem[Grigoriev et~al.(2011)Grigoriev, Porembskiy, Korobtsev, Fateev,
+  Auprêtre, and Millet]{grigoriev_high-pressure_2011}
+S.~A. Grigoriev, V.~I. Porembskiy, S.~V. Korobtsev, V.~N. Fateev, F.~Auprêtre,
+  and P.~Millet.
+\newblock High-pressure {PEM} water electrolysis and corresponding safety
+  issues.
+\newblock \emph{International journal of hydrogen energy}, 36\penalty0
+  (3):\penalty0 2721--2728, 2011.
+\newblock \doi{10/ctvxzt}.
+\newblock Publisher: Elsevier.
+
+\bibitem[Guandalini et~al.(2016)Guandalini, Campanari, and
+  Valenti]{guandalini_comparative_2016}
+Giulio Guandalini, Stefano Campanari, and Gianluca Valenti.
+\newblock Comparative assessment and safety issues in state-of-the-art hydrogen
+  production technologies.
+\newblock \emph{International Journal of Hydrogen Energy}, 41\penalty0
+  (42):\penalty0 18901--18920, November 2016.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/f89dfv}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319916302592}.
+
+\bibitem[Hauth(2008)]{hauth_grey-box_2008}
+Jan Hauth.
+\newblock Grey-{Box} {Modelling} for {Nonlinear} {Systems}.
+\newblock 2008.
+\newblock URL
+  \url{https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2045}.
+
+\bibitem[Isenberg(1981)]{isenberg_energy_1981}
+A.~O. Isenberg.
+\newblock Energy conversion via solid oxide electrolyte electrochemical cells
+  at high temperatures.
+\newblock \emph{Solid State Ionics}, 3-4:\penalty0 431--437, August 1981.
+\newblock ISSN 0167-2738.
+\newblock \doi{10/cs8rrj}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0167273881901272}.
+
+\bibitem[Koj(2021)]{koj_entwicklung_2021}
+Matthias Koj.
+\newblock Entwicklung und {Charakterisierung} von {Elektroden} für die
+  {Sauerstoffentwicklung} in der alkalischen {Wasserelektrolyse}.
+\newblock February 2021.
+\newblock \doi{10.21268/20210202-2}.
+\newblock URL
+  \url{https://dokumente.ub.tu-clausthal.de/receive/clausthal_mods_00001680}.
+
+\bibitem[Milanzi et~al.(2018)Milanzi, Spiller, Grosse, Hermann, and
+  Müller-Kirchenbauer]{milanzi_technischer_2018}
+Sarah Milanzi, Carla Spiller, Benjamin Grosse, Lisa Hermann, and Joachim
+  Müller-Kirchenbauer.
+\newblock Technischer {Stand} und {Flexibilität} des
+  {Power}-to-{Gas}-{Verfahrens}.
+\newblock August 2018.
+\newblock \doi{10/gjnmdv}.
+\newblock URL \url{https://zenodo.org/record/2620253}.
+\newblock Publisher: Zenodo Version Number: V01.
+
+\bibitem[Olivier et~al.(2017)Olivier, Bourasseau, and
+  Bouamama]{olivier_low-temperature_2017}
+Pierre Olivier, Cyril Bourasseau, and Pr.~Belkacem Bouamama.
+\newblock Low-temperature electrolysis system modelling: {A} review.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 78:\penalty0
+  280--300, October 2017.
+\newblock ISSN 1364-0321.
+\newblock \doi{10/gbsxvk}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S136403211730432X}.
+
+\bibitem[Rashid et~al.(2015)Rashid, Al~Mesfer, Naseem, and
+  Danish]{rashid_hydrogen_2015}
+Md~Mamoon Rashid, Mohammed~K. Al~Mesfer, Hamid Naseem, and Mohd Danish.
+\newblock Hydrogen production by water electrolysis: a review of alkaline water
+  electrolysis, {PEM} water electrolysis and high temperature water
+  electrolysis.
+\newblock \emph{Int. J. Eng. Adv. Technol}, 4\penalty0 (3):\penalty0
+  2249--8958, 2015.
+
+\bibitem[Rodríguez and Amores(2020)]{rodriguez_cfd_2020}
+Jesús Rodríguez and Ernesto Amores.
+\newblock {CFD} {Modeling} and {Experimental} {Validation} of an {Alkaline}
+  {Water} {Electrolysis} {Cell} for {Hydrogen} {Production}.
+\newblock \emph{Processes}, 8\penalty0 (12):\penalty0 1634, December 2020.
+\newblock \doi{10/gjnkf8}.
+\newblock URL \url{https://www.mdpi.com/2227-9717/8/12/1634}.
+\newblock Number: 12 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Schamai(2009)]{schamai_modelica_2009}
+Wladimir Schamai.
+\newblock \emph{Modelica {Modeling} {Language} ({ModelicaML}) : {A} {UML}
+  {Profile} for {Modelica}}.
+\newblock Linköping University Electronic Press, 2009.
+\newblock URL \url{http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-20553}.
+
+\bibitem[Schiller et~al.(2010)Schiller, Ansar, and Patz]{schiller_high_2010}
+Günter Schiller, Asif Ansar, and Olaf Patz.
+\newblock High {Temperature} {Water} {Electrolysis} {Using} {Metal} {Supported}
+  {Solid} {Oxide} {Electrolyser} {Cells} ({SOEC}).
+\newblock \emph{Advances in Science and Technology}, 72:\penalty0 135--143,
+  October 2010.
+\newblock ISSN 1662-0356.
+\newblock \doi{10/dnsghx}.
+\newblock URL \url{https://www.scientific.net/AST.72.135}.
+
+\bibitem[Stempien et~al.(2013)Stempien, Sun, and Chan]{stempien_solid_2013}
+J.~P. Stempien, Q.~Sun, and S.~H. Chan.
+\newblock Solid {Oxide} {Electrolyzer} {Cell} {Modeling}: {A} {Review}.
+\newblock \emph{Journal of Power of Technologies}, Vol. 93\penalty0 (nr 4),
+  2013.
+\newblock ISSN 1425-1353.
+\newblock URL
+  \url{http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-48815965-a9b4-4185-9caa-ffd04b51a12e}.
+
+\bibitem[Tabeling(2006)]{tabeling_softwaresysteme_2006}
+Peter Tabeling.
+\newblock \emph{Softwaresysteme und ihre {Modellierung}: {Grundlagen},
+  {Methoden} und {Techniken}}.
+\newblock Springer-Verlag, January 2006.
+\newblock ISBN 978-3-540-29276-0.
+\newblock Google-Books-ID: t4ouBAAAQBAJ.
+
+\bibitem[Tjarks(2017)]{tjarks_pem-elektrolyse-systeme_2017}
+Geert~Hauke Tjarks.
+\newblock \emph{{PEM}-{Elektrolyse}-{Systeme} zur {Anwendung} in
+  {Power}-to-{Gas} {Anlagen}}, volume RWTH Aachen University.
+\newblock RWTH Aachen University, 2017.
+\newblock \doi{10.18154/RWTH-2017-04470}.
+\newblock URL \url{http://publications.rwth-aachen.de/record/689617}.
+\newblock Artwork Size: pages IV, 135 Seiten : Illustrationen, Diagramme ISSN:
+  1866-1793 Pages: pages IV, 135 Seiten : Illustrationen, Diagramme Publication
+  Title: Dissertation.
+
+\bibitem[Tremel(2018)]{tremel_electrolysisfundamental_2018}
+Alexander Tremel.
+\newblock Electrolysis—{Fundamental} {Technologies}, {Requirements} and
+  {Current} {Status}.
+\newblock In Alexander Tremel, editor, \emph{Electricity-based {Fuels}},
+  {SpringerBriefs} in {Applied} {Sciences} and {Technology}, pages 19--31.
+  Springer International Publishing, Cham, 2018.
+\newblock ISBN 978-3-319-72459-1.
+\newblock \doi{10.1007/978-3-319-72459-1_2}.
+\newblock URL \url{https://doi.org/10.1007/978-3-319-72459-1_2}.
+
+\bibitem[Ulleberg(2003)]{ulleberg_modeling_2003}
+Øystein Ulleberg.
+\newblock Modeling of advanced alkaline electrolyzers: a system simulation
+  approach.
+\newblock \emph{International Journal of Hydrogen Energy}, 28\penalty0
+  (1):\penalty0 21--33, January 2003.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/b8s496}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319902000332}.
+
+\bibitem[Yan et~al.(2017)Yan, Fang, Blum, and Lehnert]{yan_performance_2017}
+Yulin Yan, Q.~Fang, L.~Blum, and W.~Lehnert.
+\newblock Performance and degradation of an {SOEC} stack with different cell
+  components.
+\newblock \emph{Electrochimica acta}, 258:\penalty0 1254--1261, 2017.
+\newblock \doi{10/gcqc6j}.
+\newblock Publisher: Elsevier.
+
+\end{thebibliography}

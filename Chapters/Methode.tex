@@ -22,7 +22,7 @@ Nernst-Gleichung - Abhängigkeit der reversiblen Zellspannung $U_{rev}$ von den 
 Festoxid Elektrolyse: gasförmiges Wasser-> Partialdruck des Wassers ($p_{H_{2}O}$) 
 \begin{align}
  \Delta U_{rev}(p) = \frac{RT}{nF}\ln{(\frac{p_{H_2}\sqrt{p_{O_2}}}{a_{H_{2}O}})} \\ 
- \Delta U_{rev}(p) = \frac{RT}{nF}\ln{(\frac{p_{H_2}\sqrt{p_{O_2}}}{p_{H_{2}O}})}
+ \Delta U_{rev}(p) = \frac{RT}{nF}\ln{(\frac{p_{H_2}\sqrt{p_{O_2}}}{p_{H_{2}O}})} \\
 \end{align}
 Temperatur:\\
 \begin{align}
@@ -38,12 +38,16 @@ Für PEM und Alk:
 \end{align}
 
 \paragraph{Ohmsche Verluste}
-Für PEM und Alk:\\
+
+$ \sigma _{Alk} $ aus \cite{Low-temperature electrolysis system modelling: A review}\\
+$ \sigma _{PEM} $ aus \cite{A review on PEM electrolyzer modelling: Guidelines for beginners} oder \cite{Low-temperature electrolysis system modelling: A review}\\
+$ \sigma _{SO} $ aus \cite{Mathematical modeling of solid oxide fuel cells: A review}\\
 
 \begin{align}
-	U_{Ohm} = \frac{\delta}{\sigma}\\ %PEM und Alk
+	U_{Ohm} = \frac{\delta}{\sigma}\\
+	\sigma _{Alk} = -2.04m -0.0028m^2  + 0.005332mT +207.2 \frac{m}{T} +0.001043m^3-3 \cdot 10^{-3}m^2T^2 \\
 	\sigma _{PEM} = (0.005139 \cdot \lambda -0.00326) \cdot exp(1268 \cdot (1/303-1/T))\\
-	\sigma _{Alk} = -2.04m -0.0028m^2  + 0.005332mT +207.2 \frac{m}{T} +0.001043m^3-3 \cdot 10^{-3}m^2T^2
+	\sigma _{SO} = 3.34*10^4 + exp(-10300/T)\\
 \end{align}
 \textbf{R(T)} bestimmen?\\
 

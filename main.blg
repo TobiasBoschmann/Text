@@ -1,0 +1,103 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Chapters/NomenclatureTable.aux
+White space in argument---line 139 of file main.aux
+ : \citation{olabi
+ :                 - Prospects of Fuel Cell Combined Heat and Power Systems}
+I'm skipping whatever remains of this command
+White space in argument---line 140 of file main.aux
+ : \citation{chungh
+ :                  - Experimental and modelling studies of low temperature PEMFC performance}
+I'm skipping whatever remains of this command
+White space in argument---line 144 of file main.aux
+ : \citation{lucia
+ :                 - Overview on fuel cells}
+I'm skipping whatever remains of this command
+White space in argument---line 145 of file main.aux
+ : \citation{lucia
+ :                 - Overview on fuel cells}
+I'm skipping whatever remains of this command
+White space in argument---line 146 of file main.aux
+ : \citation{Overview
+ :                    on fuel cells}
+I'm skipping whatever remains of this command
+White space in argument---line 147 of file main.aux
+ : \citation{olabi
+ :                 - Prospects of Fuel Cell Combined Heat and Power Systems}
+I'm skipping whatever remains of this command
+White space in argument---line 148 of file main.aux
+ : \citation{olabi
+ :                 - Prospects of Fuel Cell Combined Heat and Power Systems}
+I'm skipping whatever remains of this command
+White space in argument---line 186 of file main.aux
+ : \citation{Low-temperature
+ :                           electrolysis system modelling: A review}
+I'm skipping whatever remains of this command
+White space in argument---line 187 of file main.aux
+ : \citation{A
+ :             review on PEM electrolyzer modelling: Guidelines for beginners}
+I'm skipping whatever remains of this command
+White space in argument---line 188 of file main.aux
+ : \citation{Low-temperature
+ :                           electrolysis system modelling: A review}
+I'm skipping whatever remains of this command
+White space in argument---line 189 of file main.aux
+ : \citation{Mathematical
+ :                        modeling of solid oxide fuel cells: A review}
+I'm skipping whatever remains of this command
+White space in argument---line 201 of file main.aux
+ : \citation{rashid
+ :                  - Hydrogen Production by Water Electrolysis: A Review of Alkaline Water Electrolysis,PEM Water Electrolysis and High Temperature Water Electrolysis}
+I'm skipping whatever remains of this command
+The style file: plainnat.bst
+A level-1 auxiliary file: bu.aux
+Database file #1: Literature.bib
+Warning--I didn't find a database entry for "Informatics"
+Warning--I didn't find a database entry for "Milanzi"
+Warning--I didn't find a database entry for "sjöberg_nonlinear_1995"
+Warning--empty journal in hauth_grey-box_2008
+Warning--empty journal in koj_entwicklung_2021
+Warning--empty journal in milanzi_technischer_2018
+You've used 24 entries,
+            2773 wiz_defined-function locations,
+            794 strings with 11276 characters,
+and the built_in function-call counts, 12108 in all, are:
+= -- 1162
+> -- 654
+< -- 13
++ -- 223
+- -- 199
+* -- 1068
+:= -- 1927
+add.period$ -- 131
+call.type$ -- 24
+change.case$ -- 135
+chr.to.int$ -- 24
+cite$ -- 51
+duplicate$ -- 500
+empty$ -- 934
+format.name$ -- 229
+if$ -- 2499
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 27
+newline$ -- 186
+num.names$ -- 98
+pop$ -- 206
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 356
+stack$ -- 0
+substring$ -- 514
+swap$ -- 42
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 249
+warning$ -- 3
+while$ -- 105
+width$ -- 0
+write$ -- 430
+(There were 12 error messages)
