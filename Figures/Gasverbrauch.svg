@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="549.62524"
+   height="217.59254"
+   overflow="hidden"
+   version="1.1"
+   id="svg249"
+   sodipodi:docname="Gasverbrauch.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata253">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview251"
+     showgrid="false"
+     inkscape:zoom="2.8195883"
+     inkscape:cx="80.709074"
+     inkscape:cy="88.838027"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g247" />
+  <defs
+     id="defs107">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect2" />
+    </clipPath>
+    <clipPath
+       id="clip1">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect5" />
+    </clipPath>
+    <clipPath
+       id="clip2">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect8" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect11" />
+    </clipPath>
+    <clipPath
+       id="clip4">
+      <rect
+         x="107"
+         y="177"
+         width="471"
+         height="220"
+         id="rect14" />
+    </clipPath>
+    <clipPath
+       id="clip5">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect17" />
+    </clipPath>
+    <clipPath
+       id="clip6">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect20" />
+    </clipPath>
+    <clipPath
+       id="clip7">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect23" />
+    </clipPath>
+    <clipPath
+       id="clip8">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect26" />
+    </clipPath>
+    <clipPath
+       id="clip9">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect29" />
+    </clipPath>
+    <clipPath
+       id="clip10">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect32" />
+    </clipPath>
+    <clipPath
+       id="clip11">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect35" />
+    </clipPath>
+    <clipPath
+       id="clip12">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect38" />
+    </clipPath>
+    <clipPath
+       id="clip13">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect41" />
+    </clipPath>
+    <clipPath
+       id="clip14">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect44" />
+    </clipPath>
+    <clipPath
+       id="clip15">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect47" />
+    </clipPath>
+    <clipPath
+       id="clip16">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect50" />
+    </clipPath>
+    <clipPath
+       id="clip17">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect53" />
+    </clipPath>
+    <clipPath
+       id="clip18">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect56" />
+    </clipPath>
+    <clipPath
+       id="clip19">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect59" />
+    </clipPath>
+    <clipPath
+       id="clip20">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect62" />
+    </clipPath>
+    <clipPath
+       id="clip21">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect65" />
+    </clipPath>
+    <clipPath
+       id="clip22">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect68" />
+    </clipPath>
+    <clipPath
+       id="clip23">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect71" />
+    </clipPath>
+    <clipPath
+       id="clip24">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect74" />
+    </clipPath>
+    <clipPath
+       id="clip25">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect77" />
+    </clipPath>
+    <clipPath
+       id="clip26">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect80" />
+    </clipPath>
+    <clipPath
+       id="clip27">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect83" />
+    </clipPath>
+    <clipPath
+       id="clip28">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect86" />
+    </clipPath>
+    <clipPath
+       id="clip29">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect89" />
+    </clipPath>
+    <clipPath
+       id="clip30">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect92" />
+    </clipPath>
+    <clipPath
+       id="clip31">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect95" />
+    </clipPath>
+    <clipPath
+       id="clip32">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect98" />
+    </clipPath>
+    <clipPath
+       id="clip33">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect101" />
+    </clipPath>
+    <clipPath
+       id="clip34">
+      <rect
+         x="0"
+         y="0"
+         width="640"
+         height="720"
+         id="rect104" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1088">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1090"
+         width="549.62524"
+         height="217.59254"
+         x="11.67375"
+         y="300.53708" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1092">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1094"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1096">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1098"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1100">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1102"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1104">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1106"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1108">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1110"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1112">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1114"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1116">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1118"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1120">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1122"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1124">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1126"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1128">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1130"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1132">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1134"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1136">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1138"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1140">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1142"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1144">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1146"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1148">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1150"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1152">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1154"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1156">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1158"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1160">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1162"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1164">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1166"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1168">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1170"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1172">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1174"
+         width="549.62524"
+         height="217.59254"
+         x="83.209396"
+         y="201.74367" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1176">
+      <rect
+         style="opacity:0.996;fill:#4472c4;stroke:#00ffff;stroke-width:1.97688"
+         id="rect1178"
+         width="549.62524"
+         height="217.59254"
+         x="37.209393"
+         y="209.74367" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g247"
+     transform="translate(-37.209393,-209.74367)">
+    <rect
+       x="0"
+       y="0"
+       width="1280"
+       height="720"
+       fill="#ffffff"
+       id="rect109"
+       clip-path="url(#clipPath1176)" />
+    <g
+       clip-path="url(#clipPath1172)"
+       id="g113"
+       transform="translate(-2,2)">
+      <path
+         d="m 107.5,352.5 h 470 m -470,-44 h 470 m -470,-44 h 470 m -470,-43 h 470 m -470,-44 h 470"
+         stroke="#d9d9d9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="path111" />
+    </g>
+    <g
+       clip-path="url(#clipPath1168)"
+       id="g117">
+      <path
+         d="m 107.5,396.5 h 470"
+         stroke="#d9d9d9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path115" />
+    </g>
+    <g
+       clip-path="url(#clipPath1164)"
+       id="g121">
+      <path
+         d="m 107.5,396.5 v 5 m 42,-5 v 5 m 39,-5 v 5 m 41,-5 v 5 m 40,-5 v 5 m 41,-5 v 5 m 40,-5 v 5 m 42,-5 v 5 m 41,-5 v 5 m 40,-5 v 5 m 42,-5 v 5 m 40,-5 v 5"
+         stroke="#d9d9d9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="path119" />
+    </g>
+    <g
+       clip-path="url(#clipPath1160)"
+       id="g125">
+      <path
+         d="m 108.5,321.5 1,33 2,17 1,6 1,1 4,-42 2,20 1,14 1,-6 2,11 4,-55 1,-26 1,-20 2,23 1,-14 4,71 1,-33 2,-4 1,45 1,24 4,-24 2,-47 1,37 1,-5 2,-6 h 4 l 1,-7 1,-3 2,17 1,15 4,-1 1,-2 2,-18 1,27 1,-17 4,-22 2,37 1,-71 1,-4 2,39 4,16 h 1 2 1 1 l 4,10 2,5 1,21 1,-6 2,-5 4,-6 1,10 1,6 2,1 1,-13 4,-87 1,59 2,-6 1,4 1,14 4,-72 2,59 1,-11 1,13 2,42 4,11 1,-2 1,2 h 2 l 6,-11 2,-17 1,28 h 1 l 4,-10 2,1 1,7 1,2 h 2 4 1 1 2 l 5,-5 1,3 2,2 1,-7 1,7 4,-33 2,14 1,7 1,-11 2,8 4,15 h 1 1 3 4 1 2 1 1 7 1 2 4 1 1 3 4 1 2 1 1 4 2 1 1 2 4 1 1 2 1 4 1 2 1 1 4 2 1 1 2 4 1 1 2 1 4 1 2 1 1 5 1 1 2 1 4 1 2 1 1 4 2 1 1 2 4 1 1 2 1 4 1 2 1 1 4 2 1 1 2 4 1 1 2 1 4 1 2 1 1 l 4,-13 2,10 h 1 l 1,1 2,-3 4,-7 1,1 1,4 2,2 1,3 4,-14 1,-1 2,-18 1,-1 h 1 l 4,-33 2,40 1,17 1,9 2,3 4,-60 1,10 1,14 2,-5 1,20 4,16 1,-40 2,-11 1,-31 1,27 4,4 2,23 1,9 1,-28 2,2 4,-32 1,32 1,14 2,-30 1,-10 4,-23 1,26 2,-12 1,21 1,-23 4,-79 2,41 1,46 1,-75 2,51 4,-75 1,27 1,10 2,-26 1,56 4,-4 1,27 2,9 1,16 1,-4 4,-63 2,49"
+         stroke="#4472c4"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         id="path123" />
+    </g>
+    <g
+       clip-path="url(#clipPath1156)"
+       id="g129"
+       transform="translate(4.9652639)">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(84.9931,400)"
+         id="text127"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">0</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1152)"
+       id="g133"
+       transform="translate(4.9652639)">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(76.9063,357)"
+         id="text131"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">50</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1148)"
+       id="g137"
+       transform="translate(4.9652639)">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(68.8196,313)"
+         id="text135"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">100</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1144)"
+       id="g141"
+       transform="translate(4.9652639)">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(68.8196,269)"
+         id="text139"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">150</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1140)"
+       id="g145"
+       transform="translate(4.9652639)">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(68.8196,225)"
+         id="text143"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">200</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1136)"
+       id="g153">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(98.452,421)"
+         id="text151"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.1</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1132)"
+       id="g157">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(139.852,421)"
+         id="text155"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.2</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1128)"
+       id="g161">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(178.581,421)"
+         id="text159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.3</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1124)"
+       id="g165">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(219.981,421)"
+         id="text163"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.4</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1120)"
+       id="g169">
+      <text
+         fill="#595959"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(260.045,421)"
+         id="text167"
+         style="font-weight:400;font-size:16px;font-family:Calibri, Calibri_MSFontService, sans-serif;fill:#595959"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan1080">1.5</tspan></text>
+    </g>
+    <g
+       clip-path="url(#clipPath1116)"
+       id="g173">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(301.445,421)"
+         id="text171"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.6</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1112)"
+       id="g177">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(341.509,421)"
+         id="text175"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.7</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1108)"
+       id="g181">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(382.909,421)"
+         id="text179"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.8</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1104)"
+       id="g185">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(424.309,421)"
+         id="text183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.9</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1100)"
+       id="g189">
+      <text
+         fill="#595959"
+         font-family="Calibri,Calibri_MSFontService,sans-serif"
+         font-weight="400"
+         font-size="16"
+         transform="translate(460.33,421)"
+         id="text187"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.10</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1096)"
+       id="g193">
+      <text
+         fill="#595959"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(501.73,421)"
+         id="text191"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.11</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1092)"
+       id="g197">
+      <text
+         fill="#595959"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="16px"
+         transform="translate(541.795,421)"
+         id="text195"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959">1.12</text>
+    </g>
+    <g
+       clip-path="url(#clipPath1088)"
+       id="g201"
+       transform="translate(31.919554,-76.961591)">
+      <text
+         fill="#595959"
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="27px"
+         transform="rotate(-90,246.67505,219.32495)"
+         id="text199"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#595959"><tspan
+           sodipodi:role="line"
+           id="tspan1078"
+           x="0"
+           y="0">Gasverbrauch [m3/Tag]</tspan></text>
+    </g>
+  </g>
+</svg>

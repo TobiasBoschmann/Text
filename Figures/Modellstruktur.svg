@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="715.3786"
+   height="301.49921"
+   overflow="hidden"
+   version="1.1"
+   id="svg85"
+   sodipodi:docname="Modellstruktur.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata89">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview87"
+     showgrid="false"
+     inkscape:zoom="0.70489707"
+     inkscape:cx="364.53934"
+     inkscape:cy="185.76092"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g83" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="clip0">
+      <rect
+         x="0"
+         y="0"
+         width="1280"
+         height="720"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#clip0)"
+     id="g83"
+     transform="translate(-26.748798,-62.939877)">
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       id="text73-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"
+       x="131.49371"
+       y="310.83572"><tspan
+         sodipodi:role="line"
+         id="tspan930-5"
+         x="131.49371"
+         y="310.83572">Elektrische</tspan><tspan
+         sodipodi:role="line"
+         id="tspan932-3"
+         x="131.49371"
+         y="330.83572" /></text>
+    <rect
+       x="26.748798"
+       y="62.939877"
+       width="715.3786"
+       height="301.49921"
+       fill="#ffffff"
+       id="rect7"
+       style="stroke-width:0.483771" />
+    <path
+       d="m 38.5001,84.6669 c 0,-5.0627 4.1041,-9.1668 9.1668,-9.1668 H 199.333 c 5.063,0 9.167,4.1041 9.167,9.1668 v 36.6661 c 0,5.063 -4.104,9.167 -9.167,9.167 H 47.6669 c -5.0627,0 -9.1668,-4.104 -9.1668,-9.167 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path9" />
+    <text
+       fill="#FFFFFF"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(74.7031,108)"
+       id="text11"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Brennstoffzelle</text>
+    <path
+       d="m 86.5001,159.5 c 0,-4.97 4.0295,-9 9.0002,-9 H 246.5 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 H 95.5003 c -4.9707,0 -9.0002,-4.029 -9.0002,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path13" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(107.888,182)"
+       id="text15"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4">Reale Zellspannung</text>
+    <path
+       d="m 85.5001,227.5 c 0,-4.97 4.0294,-9 9.0001,-9 H 246.5 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 H 94.5002 c -4.9707,0 -9.0001,-4.029 -9.0001,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path17" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(129.207,241)"
+       id="text21"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"><tspan
+         sodipodi:role="line"
+         id="tspan1018"
+         x="0"
+         y="0">Thermisches</tspan></text>
+    <path
+       d="m 85.5001,296.5 c 0,-4.97 4.0294,-9 9.0001,-9 H 246.5 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 H 94.5002 c -4.9707,0 -9.0001,-4.029 -9.0001,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path23" />
+    <path
+       d="m 58.5001,130.5 v 47.475 h 28.0134"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path29" />
+    <path
+       d="M 0,0 H 115.28 V 28.0133"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,57.5001,130.5)"
+       id="path31" />
+    <path
+       d="M 0,0 H 184.402 V 28.0134"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,57.5001,130.5)"
+       id="path33" />
+    <path
+       d="m 274.5,84.6669 c 0,-5.0627 4.104,-9.1668 9.167,-9.1668 h 151.666 c 5.063,0 9.167,4.1041 9.167,9.1668 v 36.6661 c 0,5.063 -4.104,9.167 -9.167,9.167 H 283.667 c -5.063,0 -9.167,-4.104 -9.167,-9.167 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path35" />
+    <text
+       fill="#FFFFFF"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(304.162,108)"
+       id="text37"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Partielles Modell</text>
+    <path
+       d="m 321.5,159.5 c 0,-4.97 4.03,-9 9,-9 h 152 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 h -152 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path39" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       id="text43"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"
+       x="338.28299"
+       y="173"><tspan
+         sodipodi:role="line"
+         id="tspan1030"
+         x="338.28299"
+         y="173">Kopplung von Strom</tspan></text>
+    <path
+       d="m 321.5,227.5 c 0,-4.97 4.03,-9 9,-9 h 152 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 h -152 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path45" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(372.493,241)"
+       id="text49"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"><tspan
+         sodipodi:role="line"
+         id="tspan1024"
+         x="0"
+         y="0">Reversible</tspan></text>
+    <path
+       d="m 321.5,296.5 c 0,-4.97 4.03,-9 9,-9 h 151 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 h -151 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path51" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(337.335,319)"
+       id="text53"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4">Verlustmechanismen</text>
+    <path
+       d="M 0,0 H 47.475 V 28.0134"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,293.5,130.5)"
+       id="path55" />
+    <path
+       d="M 0,0 H 115.28 V 28.0133"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,293.5,130.5)"
+       id="path57" />
+    <path
+       d="M 0,0 H 184.402 V 28.0134"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,293.5,130.5)"
+       id="path59" />
+    <path
+       d="m 509.5,84.6669 c 0,-5.0627 4.104,-9.1668 9.167,-9.1668 h 151.666 c 5.063,0 9.167,4.1041 9.167,9.1668 v 36.6661 c 0,5.063 -4.104,9.167 -9.167,9.167 H 518.667 c -5.063,0 -9.167,-4.104 -9.167,-9.167 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path61" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="16px"
+       transform="translate(552.041,108)"
+       id="text63"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Elektrlolyseur</text>
+    <path
+       d="m 557.5,159.5 c 0,-4.97 4.03,-9 9,-9 h 151 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 h -151 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path65" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(579.005,182)"
+       id="text67"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4">Reale Zellspannung</text>
+    <path
+       d="m 556.5,227.5 c 0,-4.97 4.03,-9 9,-9 h 152 c 4.971,0 9,4.03 9,9 v 36 c 0,4.971 -4.029,9 -9,9 h -152 c -4.97,0 -9,-4.029 -9,-9 z"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path69" />
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       transform="translate(605.952,241)"
+       id="text73"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"><tspan
+         sodipodi:role="line"
+         id="tspan930"
+         x="0"
+         y="0">Elektrische</tspan><tspan
+         sodipodi:role="line"
+         id="tspan932"
+         x="0"
+         y="20"></tspan></text>
+    <path
+       d="M 0,0 H 47.475 V 28.0134"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,529.5,130.5)"
+       id="path75" />
+    <path
+       d="M 0,0 H 115.28 V 28.0133"
+       stroke="#4472c4"
+       stroke-width="2.66667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,528.5,130.5)"
+       id="path77" />
+    <path
+       d="m 208,100 h 55.748 v 4 H 208 Z m 53.748,-3.9999 12,5.9999 -12,6 z"
+       fill="#4472c4"
+       id="path79" />
+    <path
+       d="M 3.1936e-6,-2 55.7482,-1.99991 v 4 L -3.1936e-6,2 Z M 53.7482,-5.99991 l 12,6.000014987 -12,5.999985013 z"
+       fill="#4472c4"
+       transform="matrix(-1,0,0,1,509.748,102)"
+       id="path81" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#4472c4;fill-opacity:1"
+       x="565.84619"
+       y="258.04904"
+       id="text936"><tspan
+         sodipodi:role="line"
+         id="tspan934"
+         x="565.84619"
+         y="258.04904">Umwandlungsverluste</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#4472c4;fill-opacity:1"
+       x="96.469742"
+       y="327.13678"
+       id="text936-3"><tspan
+         sodipodi:role="line"
+         id="tspan934-0"
+         x="96.469742"
+         y="327.13678">Umwandlungsverluste</tspan></text>
+    <text
+       fill="#4472C4"
+       font-family="Calibri,Calibri_MSFontService,sans-serif"
+       font-weight="400"
+       font-size="16"
+       id="text73-2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4472c4"
+       x="132.91237"
+       y="308.48108"><tspan
+         sodipodi:role="line"
+         id="tspan930-3"
+         x="132.91237"
+         y="308.48108">Elektrische</tspan><tspan
+         sodipodi:role="line"
+         id="tspan932-2"
+         x="132.91237"
+         y="328.48108" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#4472c4;fill-opacity:1"
+       x="132.64348"
+       y="261.03101"
+       id="text1022"><tspan
+         sodipodi:role="line"
+         id="tspan1020"
+         x="132.64348"
+         y="261.03101"> Verhalten</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#4472c4;fill-opacity:1"
+       x="358.11914"
+       y="258.80878"
+       id="text1028"><tspan
+         sodipodi:role="line"
+         id="tspan1026"
+         x="358.11914"
+         y="258.80878"> Zellspannung</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#4472c4;fill-opacity:1"
+       x="356.42633"
+       y="191.57994"
+       id="text1034"><tspan
+         sodipodi:role="line"
+         id="tspan1032"
+         x="356.42633"
+         y="191.57994">und Stoffmenge</tspan></text>
+  </g>
+</svg>

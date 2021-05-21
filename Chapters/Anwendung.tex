@@ -1,9 +1,9 @@
 \chapter{Anwendung}
 \label{cha:Anwendung}
 
-\section{Modelle der Wasserstoffkomponenten}
+\section{Simulation der Wasserstoffkomponenten}
 
-\subsection{Modellierung des Alkalischen Elektrolyseurs}
+\subsection{Parameter des Alkalischen Elektrolyseurs}
 -Gewählte Parameter und Annahmen für die Simulation aufführen und begründen\\
 (Membrandicke, Lambda usw., Temperaturführung;)\\
 Tmin=20C; ->50-60C normal; Wahl von Tmax!\\
@@ -11,21 +11,39 @@ A*Zellanzahl aus n-max und i-max ableiten\\
 
 Alkalischer Elektrolyseur:\\
 -20 \% NaOH.\\
--nMaxO2 = 18,2 Liter/Stunde\\
--P-el-ges-max = 108kW\\
--I-max = 165A\\
--dicke: 100-200 mü m \cite{rashid - Hydrogen Production by Water Electrolysis: A
+-n-max = 21,33 Nmc/h(Normkubikmeter/Stunde) = 0.2643 mol/s \\
+-A aus i-max und n abgeschätzt ca.10 m2\\
+
+
+
+-Validierung, Membrandicke: 100-200 mü m \cite{rashid - Hydrogen Production by Water Electrolysis: A
 Review of Alkaline Water Electrolysis, PEM Water
 Electrolysis and High Temperature Water
-Electrolysis}
+Electrolysis}\\
 
+
+Daten aus Elektolyse-Modelica (PEM):\\
+$i_0 = \SI{1,08e-4}{\A\per\m\squared}$
+
+$\alpha = 0,7353$\\
+
+Daten aus Modelling and simulation of an alkaline electrolyser cell (alk):\\
+$i_0 = \SI{1e-10}{\A\per\cm\squared}$
+
+$\alpha = 1.75$\\
+
+nach Milewski et al.:\\
+$delta-alk = 0,66cm$\\
+andere ohmsche Verluste um Faktor 300 kleiner -> vernachlässigen\\ 
 
 Thermische Kapazität in Elektrolyseur Modelica\\
 -> Man könnte Cp über die Leistung skalieren\\ 
+Cp nach Elektrolyseur-Modelica 162116 J/K bei PEM mit A=60*290e-4\\
+
+Q-verlust aus Elektrolyseur-Modelica: $1/R_(th)(T-T_u)$ (mit $R_(th) = 0,0668 K/W$ und $C_p = 162116 J/K$ bei $60 \cdot 290 cm^2$)\\
 
 
-
-\subsection{Modellierung der Brennstoffzelle}
+\subsection{Parameter der Brennstoffzelle}
 -Gewählte Parameter und Annahmen für die Simulation aufführen und begründen\\
 (Membrandicke, Lambda usw., Temperaturführung;)\\
 
@@ -33,4 +51,4 @@ Thermische Kapazität in Elektrolyseur Modelica\\
 -Systemrandbedingungen festlegen\\
 (H-Bedarf, Input-Temperaturen, Wärmebedarf, Stromkosten...)\\
 -Festlegen von Parametern für Elektrolyseur, Brennstoffzelle usw. für die Simulation (Welche Leistungsklasse etc.)\\
-
+30\% der Dachfläche (1500m*m) -> 450m*m\\

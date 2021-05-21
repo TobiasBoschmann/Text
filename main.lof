@@ -4,10 +4,25 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ladungsträger bei der Wasserelektrolyse \citep {tjarks_pem-elektrolyse-systeme_2017}\relax }}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Abhängigkeit der Reaktionsenthalpie und der freien Enthalpie von der Temperatur nach \citet {tremel_electrolysisfundamental_2018}\relax }}{5}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Mögliche Bereiche der Polarisationskurven verschiedener Elektrolyse-Technologien nach \citet {tremel_electrolysisfundamental_2018}\relax }}{7}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Überdeckung der Eigenschaften von System und Modell nach \citet {tabeling_softwaresysteme_2006}\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Überdeckung der Eigenschaften von System und Modell nach \citet {tabeling_softwaresysteme_2006}.\relax }}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ladungsträger bei der Wasserelektrolyse nach \citet {tjarks_pem-elektrolyse-systeme_2017}.\relax }}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Abhängigkeit der Reaktionsenthalpie und der freien Enthalpie von der Temperatur nach \citet {tremel_electrolysisfundamental_2018}.\relax }}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mögliche Bereiche der Polarisationskurven der in \ref {subsec:Technologien der Wasserelektrolyse} erläuterten technischen Verfahren nach \citet {tremel_electrolysisfundamental_2018}.\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Übersicht der benötigten Systemkomponenten zum Betrieb eines Elektrolyseurs \citep {tjarks_pem-elektrolyse-systeme_2017}.\relax }}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Übersicht der benötigten Systemkomponenten zum Betrieb einer Brennstoffzelle.\relax }}{17}{figure.caption.17}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Struktur des entwickelten Modells.\relax }}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Aktuelles System sowie betrachtete Erweiterungen (1.Netzanschluss 2.Elektrolyseur 3.Gasheizung 4.Strombedarf 5.Wasserstoffbedarf 6.Sauerstoffbedarf 7.Heizwärmebedarf - Erweiterungen: 8.Brennstoffzelle 9.PV-Anlage 10.Gasspeicher).\relax }}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An 2018 angelehnter, exemplarischer Verlauf des Wasserstoff und Sauerstoffbedarfs über einen Arbeitstag.\relax }}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces An 2019 angelehnter, exemplarischer Verlauf des Wasserstoff und Sauerstoffbedarfs über einen Arbeitstag.\relax }}{27}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Vergleich des Elektrolyseur-Modells mit Messswerten von \citet {hammoudi_new_2012}.\relax }}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Vergleich des Brennstoffzellen-Modells mit Messswerten von \citet {chugh_experimental_2020}.\relax }}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Vergleich des Elektrolyseur-Modells mit Messswerten von \citet {tjarks_pem-elektrolyse-systeme_2017}.\relax }}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Vergleich der Simulationsergebnisse für den Jahres-Stromverbrauch des aktuellen Systems und der Konzepte samt Angabe der Stromeinsparungen im Vergleich zum aktuellen System.\relax }}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Kapitalwerte der Systemkonzepte.\relax }}{37}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces $\ce {CO2}$-Einsparungen der Systemkonzepte.\relax }}{39}{figure.caption.37}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

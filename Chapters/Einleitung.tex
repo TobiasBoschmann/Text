@@ -1,6 +1,17 @@
 \chapter{Einleitung}
-\label{cha:Blabla}
+\label{cha:Einleitung}
 \section{Motivation}
-Ich bin sehr motiviert.
-\section{Zielsetzung}
-Ich habe ein klares Ziel.
+Bei der Herstellung und Nachbehandlung von Quarzglas wird in fluktuierenden Mengen Wasserstoff sowie Sauerstoff benötigt. Diese werden von dem Kunden intern mithilfe eines Elektrolyseurs erzeugt. Elektrolyseure spalten Wasser zu Wasserstoff und Sauerstoff und produzieren die beiden Gase damit in dem festen Stoffmengenverhältnis von $2:1$.
+Allerdings werden die Gase in den Verfahrensschritten des Kunden in einem niedrigeren Stoffmengenverhältnis - ca. $1,3:1$ - benötigt. Daher wird ein Wasserstoffüberschuss erzeugt, welcher im aktuellen System ungenutzt in die Atmosphäre entweicht.\\
+In dieser Arbeit wird daher anhand einer Simulationsstudie untersucht, ob eine Nutzung der überschüssigen Gase sinnvoll in das Energiesystem des Herstellers eingebunden werden kann. Dabei wird insbesondere die Verwendung einer Brennstoffzelle zur Kraft-Wärme-Kopplung betrachtet. Diese bietet die Möglichkeit, den Wasserstoff mit Umgebungsluft zu Wasser zu rekombinieren.\\
+Zudem wird untersucht, welchen Nutzten die Einbindung einer Photovoltaik-Anlage in das Energiesystem für die Deckung des Energiebedarfs hat.\\
+
+In vorangehenden Arbeiten wurde an dem Institut bereits die Bibliothek AixLib in der Modellierungssprache \textit{Modelica} entwickelt. Die AixLib enthält unter anderem Modelle der relevanten Elektronik-Komponenten, wie Beispielsweise der PV-Anlage. In dieser Arbeit werden darauf aufbauend Modelle der benötigten Wasserstoffkomponenten - insbesondere Elektrolyseur und Brennstoffzelle - erstellt. Das Ziel ist dabei ein Aufbau, der es ermöglicht, verschiedene Anlagen anhand von Kennwerten aus Datenblättern zu modellieren. Daraufhin werden mögliche Szenarien des Energiesystems sowie relevante Bewertungsgrößen herausgearbeitet. Im folgenden Schritt werden die Modelle der Wasserstoffkomponenten validiert und anschließend die Szenarien in Modelica simuliert. Abschließend wird eine Interpretation der Simulationsergebnisse und darauf aufbauend eine Bewertung der Szenarien anhand der gewählten Kriterien durchgeführt.\\
+
+Ergebnis der Arbeit sind somit einerseits Modelle der Wasserstoffkomponenten, welche auf der bestehenden AixLib-Bibliothek aufbauen und für folgende Arbeiten genutzt werden können. Andererseits wird eine auf Simulationsergebnissen gestützte Bewertung verschiedener Wasserstoff-Energie Systeme anhand von definierten Kriterien durchgeführt. Dazu ist die vorliegende Arbeit wie folgt aufgebaut:
+
+\begin{itemize}
+\item In Kapitel 2 werden die allgemeine Grundlagen vorgestellt, auf denen die Modellierung der Wasserstoffkomponenten aufbaut. Anfangs werden dazu allgemeine Grundlagen der Modellierung sowie der Stand der Modellierung von Elektrolyseuren und Brennstoffzellen vorgestellt. Weiterhin wird die Funktionsweise von Elektrolyse- und Brennstoffzellen, deren thermodynamische und elektrochemische Grundlagen sowie gängige technische Lösungen erläutert.
+\item Kapitel 3 dokumentiert die Entwicklung des zur Simulation des Wasserstoff-Energiesystems verwendeten Modells. Anfangs wird die Modellierung des Elektrolyseurs und der Brennstoffzelle vorgestellt. Weiterhin werden Bewertungskriterien für Konzepte des Wasserstoff-Energiesystems ausgearbeitet und anschließend alternative Systemkonzepte präsentiert. Im letzten Abschnitt werden die für die Simulation der Konzepte gewählte Parameter und Randbedingungen hergeleitet.
+\item In Kapitel 4 wird einerseits eine Validierung der Komponentenmodelle anhand von in der Literatur dokumentierten Messwerten an Elektrolyse- und Brennstoffzellen vorgenommen. Weiterhin werden die Simulationsergebnisse präsentiert und darauf aufbauend eine Bewertung der Systemkonzepte nach den herausgearbeiteten Kriterien vorgenommen.
+\end{itemize}

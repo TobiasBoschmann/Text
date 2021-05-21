@@ -1,8 +1,26 @@
-\chapter{Erkenntnisse}
-\label{cha:Erkenntnisse}
-\section{Erkenntnisse zur Modellierung der Wasserstoffkomponenten}
--Zusammenfassung der Ergebnisse\\
-(Modellbewertung mit Schwächen u. Stärken; Vergleich der Konzepte)\\
-\section{Erkenntnisse zur Simulation der Systemkonzepte}
--Ausblick aus Diskussion zusammenfassen\\
-(Verbesserungspotentiale des Modells; mögliche Änderungen der Konzepte)\\
+\chapter{Fazit und Ausblick}
+\label{cha:Fazit}
+In der vorliegenden Arbeit wird untersucht, ob das Wasserstoff-Energiesystem eines Quarzglasherstellers  
+
+
+ ein Modell für Elektrolyseure und Brennstoffzellen in Modelica entwickelt. Das Modell wird anhand von Kennwerten aus Datenblättern parametriert und ist darüber hinaus in der Lage, Zellen verschiedener Technologien zu modellieren.\\
+
+Aus der Validierung der Modelle geht hervor, dass sie für die im Rahmen dieser Arbeit angestrebte Untersuchungen ausreichend genaue Ergebnisse liefern: Bei der für die Simulation gewählten Betriebstemperatur liegen die Abweichungen der Polarisationskurve des alkalischen Elektrolyseurs bei unter $\SI{3,5}{\%}$, für die PEM-Brennstoffzelle ergeben sich Abweichungen von durchschnittlich $\SI{5,3}{\%}$.\\
+Für einen PEM-Elektrolyseur werden Abweichungen von unter  $\SI{0,5}{\%}$ zu Messwerten aus der Literatur verzeichnet.\\
+Bei den beiden PEM-Zellen nimmt die Genauigkeit des Modells außerhalb des gewählten Temperaturbereichs stark ab. 
+---------- folgenden Absatz hier oder später? ------------
+Daher wird empfohlen wie von \citet{falcao_review_2020} oder \citet{milewski_modeling_2014} präsentiert, eine Approximation des Temperatureinflusses auf die Fitting-Parameter in das Modell aufzunehmen. Zudem verspricht die getrennte Parametrierung von Elektrolyseur und Brennstoffzelle eine weitere Verbesserung der Ergebnisse.\\
+
+Als Erweiterungen des Wasserstoff-Energiesystems des Quarzglasherstellers werden folgende Komponenten betrachtet: Eine Brennstoffzelle zur Nutzung des Wasserstoffüberschusses durch Kraft-Wärme-Kopplung, eine PV-Anlage und ein Gasspeichers zum Einspeichern von Solarstrom-Überschuss. Zur Bewertung der Systemkonzepte werden der Kapitalwert und die $\ce{CO2}$-Einsparungen berechnet.\\
+Die ökonomische Bewertung der Brennstoffzelle fällt tendenziell negativ aus: Abhängig vom prognostizierten Prozessgasbedarf liegt der Kapitalwert zwischen $-15.388$ und $5.\SI{847}{\sieuro}$. Aus ökologischer Sicht stellt die Installation der Brennstoffzelle eine Verbesserung dar - es ergeben sich $\ce{CO2}$-Einsparungen von $3,6$ bis $\SI{8}{\tonne}$.\\ 
+Die PV-Anlage wird als sinnvoll Investition gewertet, da der Kapitalwert mit $84.\SI{726}{\sieuro}$ klar positiv ausfällt (Der Kapitalwert übersteigt dabei die Anfangsinvestitionen). Auch aus ökologischer Sicht wird die PV-Anlage verglichen mit der Brennstoffzelle positiver eingestuft: Die simulierten $\ce{CO2}$-Einsparungen sind mit $\SI{24,8}{\tonne}$ um den Faktor 3 bis 6 höher.\\
+
+Für folgende Arbeiten wird eine Validierung des Modells bei verschiedenen Druckniveaus empfohlen.\\
+
+Um die Rechenzeit der Simulation gering zu halten wird in dieser Arbeit auf eine Simulation des thermischen Verhaltens der Elektrolysezelle verzichtet, allerdings kann diese bei Bedarf aus dem Brennstoffzellenmodell übernommen werden. Daraus könnte bewertet werden, ob eine Nutzung der Abwärme der Elektrolysezelle sinnvoll ist.
+Eine weitere Möglichkeit zur Ausweitung des Modells sind dynamische Vorgänge, die in dieser Arbeit aufgrund der großen Zeitschritte der Simulation nicht beachtet wurden (Ausführlichere Begründung in \ref{subsec:Modellierung der Zelle}). Um diese zu berücksichtigen, kann die Instaionarität der Zelltemperatur in der Energiebilanz (Gleichung \ref{gl:Energiebilanz}) beibehalten werden.\\
+
+Einige Autoren nutzten daher Approximationen, um den Verlauf der Parameter $\alpha$ und $i_0$ über der Temperatur im Modell zu berücksichtigen . Für die Modellierung von PEM-Zellen verspricht dies eine 
+Steigerung der Genauigkeit bei niedrigen Temperaturen. Ob diese Maßnahme die Genauigkeit der Modellierung von alkalischen Zellen erhöht ist unklar, da die Validierungsergebnisse des alkalischen Elektrolyseurs keine signifikante Steigerung der Abweichungen bei zu- oder abnehmenden Temperaturen dokumentieren.\\
+
+In folgenden Arbeiten sollte daher untersucht werden, ob weitere Messreihen den unterschiedlichen Temperatureinfluss auf die Polarisationskurven bestätigen. Dies würde im Modell gegebenenfalls eine Unterscheidung bei der Berechnung der Verluste von Brennstoffzellen und Elektrolyseuren erfordern.\\

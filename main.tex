@@ -368,8 +368,16 @@
 %-----------------------------------------------------------------------------
 % Units and symboles
 %-----------------------------------------------------------------------------
-\usepackage{siunitx}	
+\usepackage[ decimalsymbol=comma]{siunitx}	
 % Prefered to package "siunits". Should be placed after "graphicx" package
+\sisetup{per-mode = symbol}
+\DeclareSIUnit{\sieuro}{\mbox{\euro}}
+\DeclareSIUnit{\cent}{\text{ct}} 
+\DeclareSIUnit{\kiloWh}{\text{kWh}}
+\DeclareSIUnit{\kiloW}{\text{kW}} 
+\DeclareSIUnit{\megaWh}{\text{MWh}}
+\DeclareSIUnit{\a}{\text{a}}
+\DeclareSIUnit{\Nmc}{\text{Nmc}}
 
 \usepackage[official]{eurosym}
 \DeclareUnicodeCharacter{20AC}{\euro} 
@@ -419,7 +427,7 @@
 % References and Citations
 %-----------------------------------------------------------------------------
 \usepackage{varioref}
-\usepackage[square]{natbib}
+\usepackage[square, numbers]{natbib}
 \usepackage{bibunits}
 
 
@@ -583,9 +591,9 @@
 \input{Chapters/Einleitung}
 \input{Chapters/Grundlagen}
 \input{Chapters/Methode}
-\input{Chapters/Anwendung}
 \input{Chapters/Diskussion} 
 \input{Chapters/Erkenntnisse}
+ 
 
 
 %-----------------------------------------------------------------------------

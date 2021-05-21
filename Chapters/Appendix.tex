@@ -1,1 +1,120 @@
-wird hier der gesamte Code abgebildet??
+\chapter{Parametrierung der Modelle}
+\label{Apx:Modelle}
+\paragraph{Alkalischer Elektrolyseur}\ \\
+Vom Hersteller ist die maximale Wasserstoffproduktion mit $\SI{21,33}{\Nmc\per\hour}$ angegeben \citep[S. 50]{noauthor_bedienungs-_nodate}, dies entspricht $\SI{0,2643}{\mol\per\s}$. Über den Zusammenhang der von $i$ und $\dot{n}_{H_2O}$ (Gleichung \ref{gl:n_i}) und der maximalen Stromdichte von $\SI{0,5}{\A\per\cm\squared}$ wird daher eine Zellfläche von $\SI{10,2}{\m\squared}$ angenommen.\\
+Die Elektrolyt-Konzentration ist mit $\SI{20}{\%}$ angegeben \citep[S. 36]{noauthor_bedienungs-_nodate}, was bei Natronlauge $\SI{6,095}{\mol\per\l}$ entspricht \citep{periodensystem-online_dichtewerttabelle_nodate-1}\\
+Für den Parameter $\alpha$ wurde der von \citet{milewski_modeling_2014} für die Kathode angegebene Wert verwendet. Weil \citet{milewski_modeling_2014} die Aktivierungsverluste mit dem Faktor $2,3026$ multipliziert, ist der verwendete Wert für $\alpha$ wie folgt bereinigt:
+\begin{align*}
+\frac{1}{\alpha} = &\frac{2.3026}{\alpha _{milewski}}\\
+\alpha = &\frac{\alpha _{milewski}}{2,3026}\\
+	   = &\frac{0,39}{2,3026} = 0,17
+\end{align*}
+
+\paragraph{PEM-Brennstoffzelle}\ \\
+Die Zellfläche der Brennstoffzelle wurde aus der Zellfläche des Elektrolyseurs und dem Verhältnis der maximalen Stromdichte abgeleitet: 
+\begin{align*}
+A_{Brennstoffzelle} = &A_{Elektrolyseur} \cdot \frac{i_{max, pem}}{i_{max, alk}}\\
+                    = &\SI{10,2}{\m\squared} \cdot \frac{\SI{2}{\A\per\cm\squared}}{\SI{0,5}{\A\per\cm\squared}}\\
+	   				= &\SI{2,55}{\m\squared}
+\end{align*}
+Nach den Simulationsergebnisse liegt die maximale elektrische Leistung der Brennstoffzelle bei $\SI{24,475}{\kilo\W}$.\\
+Der Parameter $C_{th}$ ist \citet{webster_implementation_2019} entnommen und wurde über die Zellfläche skaliert:
+\begin{align*}
+C_{th} = &C_{th,webster} \cdot \frac{A}{A_{webster}}\\
+       = &\SI{14,97}{\W\per\K} \cdot \frac{\SI{2,55}{\m\squared}}{\SI{1,74}{\m\squared}}\\
+	  = &\SI{21,94}{\W\per\K}
+\end{align*}
+
+\chapter{Systemkonzepte}
+\label{Apx:Systemkonzepte} 
+\paragraph{Gasbedarf}\ \\
+Für die Monate Juni bis August wird angenommen, dass keine Heizwärme benötigt wird. Der maximale Gasverbrauch eines Tages in diesem Zeitraum  liegt bei $\SI{18,8}{\m\cubic} \cdot \SI{11,4}{\kiloWh\per\cubic\m} = \SI{214,32}{\kiloWh\per\cubic\m}$ (Brennwert 2020 nach Gasabrechnung G 685 - Regionetz \citep{regionetz_gasabrechnung_nodate}).\\
+Von dem Tagesgasverbrauch wird dieser Wert abgezogen und das Ergebnis als zum Heizen benötigte Gasmenge pro Tag angenommen (Weil Elektrolyseur und Brennstoffzelle ausschließlich während der Arbeitszeit (ca. 6.30-16.30) betrieben wird ausschließlich die Gasmenge während der Arbeitszeit in Betracht gezogen).\\
+
+Die Abwärme der Brennstoffzelle, die zur Deckung des Heizwärmebedarfs genutzt wird, wird im Modell in Gaseinsparungen umgerechnet. Angenommen wird dafür, dass der Wirkungsgrad der Gasheizung bei $\SI{90}{\%}$ liegt (\citet{herrmann_effizienz_2006} gibt für Gasheizungen einen Bereich von $80$ bis $\SI{110}{\%}$ an).\\ --eher in den Methodenteil???
+
+\paragraph{Prozessgasverbrauchswerte}\ \\
+Wasserstoff und Sauerstoff wurden vom Kunden in Bündeln je 12 Flaschen mit einem Volumen von $\SI{50}{\l}$ und einem Druck von $\SI{300}{\bar}$ gekauft (In Tabelle \ref{tb:Einkauf} sind die Einkaufsmengen für die Jahre 2018 und 2019 angegeben). Nach dem idealen Gas Gesetz ergeben sich daraus die angegebenen Stoffmengen bei der Standardtemperatur von $\SI{298,15}{\K}$.
+
+\begin{table}[ht]
+		\centering
+		\caption{Gekaufte Menge an Wasserstoff und Sauerstoff für die Jahre 2018 und 2019.}
+		\begin{tabular}{l c c}
+		\toprule
+		 & Anzahl an Bündeln & Stoffmenge\\
+		\midrule
+		Wasserstoff 2018 & 105 & $\SI{775420}{\mol}$\\
+		Sauerstoff 2018 & 86 & $\SI{635106}{\mol}$\\
+		Wasserstoff 2019 & 66 & $ \SI{487407}{\mol}$\\
+		Sauerstoff 2019 & 47 & $\SI{347093}{\mol}$\\
+		\bottomrule
+		\end{tabular}
+		\label{tb:Einkauf}
+\end{table}	
+
+Zur Berechnung des Jahressauerstoffbedarfs der Datensätze wird die tägliche Bedarfszeit mit der Anzahl der Arbeitstage im Jahr (mit 245 angenommen) und der durchschnittlichen Stoffmengenproduktion ($\SI{0,2643}{\mol\per\s} \cdot \SI{75}{\%} / 2 = \SI{0,0991}{\mol\per\s}$ für Sauerstoff und $\SI{0,2643}{\mol\per\s} \cdot \SI{75}{\%} = \SI{0,1982}{\mol\per\s}$ für Wasserstoff) multipliziert. 
+
+\begin{table}[ht]
+		\centering
+		\caption{Berechnung des Jahressauerstoff- und wasserstoffverbrauchs für Datensätze 1 und 2.}
+		\begin{tabular}{l c c c}
+		\toprule
+		 & Bedarfszeit & Jahresverbrauch & Abweichung zum Realwert\\
+		\midrule
+		Datensatz 1 $H_2$ & $\SI{4}{\hour},\SI{30}{\minute}$ & $\SI{786775}{\mol}$ & $\SI{1,5}{\%}$\\
+		Datensatz 1 $O_2$ & $\SI{7}{\hour},\SI{15}{\minute}$ & $\SI{633775}{\mol}$ & $\SI{0,2}{\%}$\\
+		Datensatz 2 $H_2$ & $\SI{2}{\hour},\SI{45}{\minute}$ & $\SI{480795}{\mol}$ & $\SI{0,5}{\%}$\\
+		Datensatz 2 $O_2$ & $\SI{4}{\hour}$ & $ \SI{349669}{\mol}$ & $\SI{0,7}{\%}$\\
+		\bottomrule
+		\end{tabular}
+		\label{tb:VerbrauchSimulation}
+\end{table}	
+
+\chapter{Parameter zur Berechnung des Kapitalwerts}
+\label{Apx:Kapitalwert}
+
+\begin{table}[ht]
+		\centering
+		\caption{Parameter der Kapitalwertberechnung.}
+		\begin{tabular}{l c c}
+		\toprule
+		Kalkulationszeitraum & $n$ & $\SI{20}{\a}$ \citep{von_appen_optimale_2015}\\ 
+		Kalkulatorischer Zinssatz & $i$ & $\SI{5,56}{\percent}$ \cite{gpanrw_kalkulatorischer_2021}\\
+		Strompreis & $z_{netzbezug}$ & $\SI{22,26}{\cent\per\kiloWh}$ \citep{eon_energie_ihr_2021}\\
+		Einspeisevergütung & $z_{eispeisung}$ & $\SI{7,65}{\cent\per\kiloWh}$ \citep{bna_bundesnetzagentur_2021}\\
+		Gaspreis & $z_{gas}$ & $\SI{4,89}{\cent\per\kiloWh}$ \citep{eon_energie_gewerbegas_2021}\\
+		Investitionskosten der PV-Anlage & $I_{PV}$ & $80.\SI{352}{\sieuro}$ \citet{von_appen_optimale_2015}\\
+		Jährliche Wartungskosten der PV-Anlage & $Z_{PV}$ & $1.\SI{205}{\sieuro}$ \citet{von_appen_optimale_2015}\\
+		Investitionskosten der Brennstoffzelle & $I_{BZ}$ & $ 33.\SI{286}{\sieuro}$ \citep{jungbluth_kraft-warme-kopplung_2012}\\
+		Jährliche Betriebskosten der Brennstoffzelle & $z_{BZ}$ & $\SI{2,02}{\cent\per\kiloWh}$ \citep{jungbluth_kraft-warme-kopplung_2012}\\
+		Speicherkosten pro Kilogramm Wasserstoff & $z_{Speicher}$ & $\SI{891}{\sieuro\per\kg}$ \citep{schill_vergleich_2018}\\
+		\bottomrule
+		\end{tabular}
+		\label{tb:ParameterKapitalwert}
+\end{table}
+	
+Der Betrachtungszeitraum wird, wie auch bei \citet{von_appen_optimale_2015} auf $20$ Jahren angesetzt. Als kalkulatorische Zinssatz wird der in \cite{gpanrw_kalkulatorischer_2021} für das Jahr 2020 als Obergrenze angegebene Wert übernommen. Der Strom- und Gaspreis sind \citet{eon_energie_ihr_2021} (für einen Jahresbedarf von $\SI{866.860}{\kiloWh}$) und \citet{eon_energie_gewerbegas_2021} (für einen Jahresbedarf von $\SI{27.224}{\kiloWh}$) entnommen. Die Einspeisevergütung ergibt sich aus den Angaben der Bundesnetzagentur \citep{bna_bundesnetzagentur_2021} für Solarstromanlagen mit einer Peakleistung bis zu $\SI{40}{\kiloWh}$ (Installation ab dem 01.07.2021). \\ 
+\citet[S.3]{von_appen_optimale_2015} geben als Investitionskosten für PV-Anlagen bezogen auf die installierte Fläche: $\SI{150}{\sieuro\per\m\squared}$ an. Mit 372 Module a $\SI{1,44}{\m\squared}$ ergeben sich Investitionskosten von $SI{150}{\sieuro\per\m\squared} \cdot\SI{1,44}{\m\squared} \cdot 372 = \SI{80.352}{\sieuro}$. Die jährliche Wartungskosten liegen nach \citet{von_appen_optimale_2015} bei $\SI{1,5}{\%}$ der Investitionskosten.\\
+Die Investitionskosten der Brennstoffzelle betragen nach \citet[S. 74]{jungbluth_kraft-warme-kopplung_2012}  $\SI{1360}{\sieuro\per\kilo\W}$ bei einer elektrischen Peakleistung von $\SI{24,475}{\kiloW}$ (Maximalwert der Brennstoffzellen-Ausgangsleistung der Simulation). Die Betriebskosten gibt er mit $z_{BZ} = \SI{2,02}{\cent\per\kiloWh}$ an (Nach den Simulationsergebnissen beträgt die Jahresleistung der Brennstoffzelle $12.\SI{857}{\kiloWh}$ für 2018 beziehungsweise $5.\SI{858}{\kiloWh}$ für 2019.\\		 
+Speicherkosten für Wasserstoff liegen nach \citet{schill_vergleich_2018} zwischen $10$ bis $\SI{30}{\sieuro\per\kiloWh}$ bezogen auf den Brennwert. Daraus ergeben sich Speicherkosten von $\frac{\SI{15}{\sieuro\per\kiloWh} \cdot \Delta H^0_R}{M_{H_2}} = \SI{594}{\sieuro\per\kg_{H2}}$.\\
+Da ein Speicher für $\ce{H2}$ und $\ce{O2}$ im Stoffmengenverhältnis $2:1$ benötigt wird, werden spezifische Speicherkosten von $z_{Speicher} = 1,5 \cdot \frac{\SI{15}{\sieuro\per\kiloWh} \cdot \Delta H^0_R}{M_{H_2}} = \SI{891}{\sieuro\per\kg_{H2}}$ angenommen.\\	
+
+\chapter{Parameter zur Berechnung der CO2-Einsparungen}
+\label{Apx:CO2}
+\begin{table}[ht]
+		\centering
+		\caption{Parameter der $\ce{CO2}$-Einsparungen.}
+		\begin{tabular}{l c c}
+		\toprule
+		 $\ce{CO2}$ Faktor Strommix & $m_{Strom}$ & $\SI{401}{\g\per\kiloWh}$ \citep{ortl_entwicklung_2020} \\
+		 $\ce{CO2}$ Faktor Erdgas & $m_{Gas}$ & $\SI{201,24}{\g\per\kiloWh}$ \citep{redaktionsassistenz_2_co2-emissionsfaktoren_2016}\\
+		 $\ce{CO2}$ PV-Strom & $m_{PV}$ &$\SI{50}{\g\per\kiloWh}$ \citep[S. 48]{wirth_aktuelle_nodate}\\
+		 $\ce{CO2}$ Brennstoffzelle & $m_{BZ}$ &$\SI{38,8}{\kg\per\a}$ \citep{miotti_integrated_2017}\\
+		\bottomrule
+		\end{tabular}
+		\label{tb:ParameterKapitalwert}
+\end{table}
+
+Für den $\ce{CO2}$ Faktor des Deutschen Strommix wurden Daten aus 2019 verwendet \citep{ortl_entwicklung_2020}. Die spezifischen $\ce{CO2}$-Emissionen von Erdgas lagen in Deutschland zwischen 2005-2014 bei konstant $\SI{55,9}{tonne}$-$\ce{CO2}$/TJ  \citep{redaktionsassistenz_2_co2-emissionsfaktoren_2016} was umgerechnet $\SI{201,24}{\g\per\kWh}$ ergibt.\\
+Für die Herstellung der PV-Anlage und der Brennstoffzelle wurden Angaben für die Emissionen von $\ce{CO2}$-Äquivalent verwendet. Im Falle der PV-Anlage wurden die durchschnittlichen  Emissionen von Deutschem PV-Strom verwendet. 
+Die Emissionen bei der Herstellung von Brennstoffzellen liegen nach \citet{miotti_integrated_2017} bei $\SI{2,47}{\tonne}$ bei einer Anlage mit einer elektrischen Leistung von $\SI{80}{\kiloW}$. Die spezifischen $\ce{CO2}$-Emissionen betragen demnach $\SI{30,9}{\kg\per\kiloW}$, wonach die in den Systemkonzepten eingesetzt Brennstoffzelle bei der Herstellung $\SI{756,3}{\kg}$-$\ce{CO2}$-Äquivalent verursacht. Für die Berechnung der $\ce{CO2}$-Einsparungen wird dieser Wert auf die angenommene Lebensdauer ($\SI{20}{\a}$) aufgeteilt.
