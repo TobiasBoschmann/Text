@@ -31,8 +31,6 @@ C_{th} = &C_{th,webster} \cdot \frac{A}{A_{webster}}\\
 Für die Monate Juni bis August wird angenommen, dass keine Heizwärme benötigt wird. Der maximale Gasverbrauch eines Tages in diesem Zeitraum  liegt bei $\SI{18,8}{\m\cubic} \cdot \SI{11,4}{\kiloWh\per\cubic\m} = \SI{214,32}{\kiloWh\per\cubic\m}$ (Brennwert 2020 nach Gasabrechnung G 685 - Regionetz \citep{regionetz_gasabrechnung_nodate}).\\
 Von dem Tagesgasverbrauch wird dieser Wert abgezogen und das Ergebnis als zum Heizen benötigte Gasmenge pro Tag angenommen (Weil Elektrolyseur und Brennstoffzelle ausschließlich während der Arbeitszeit (ca. 6.30-16.30) betrieben wird ausschließlich die Gasmenge während der Arbeitszeit in Betracht gezogen).\\
 
-Die Abwärme der Brennstoffzelle, die zur Deckung des Heizwärmebedarfs genutzt wird, wird im Modell in Gaseinsparungen umgerechnet. Angenommen wird dafür, dass der Wirkungsgrad der Gasheizung bei $\SI{90}{\%}$ liegt (\citet{herrmann_effizienz_2006} gibt für Gasheizungen einen Bereich von $80$ bis $\SI{110}{\%}$ an).\\ --eher in den Methodenteil???
-
 \paragraph{Prozessgasverbrauchswerte}\ \\
 Wasserstoff und Sauerstoff wurden vom Kunden in Bündeln je 12 Flaschen mit einem Volumen von $\SI{50}{\l}$ und einem Druck von $\SI{300}{\bar}$ gekauft (In Tabelle \ref{tb:Einkauf} sind die Einkaufsmengen für die Jahre 2018 und 2019 angegeben). Nach dem idealen Gas Gesetz ergeben sich daraus die angegebenen Stoffmengen bei der Standardtemperatur von $\SI{298,15}{\K}$.
 
@@ -79,7 +77,7 @@ Zur Berechnung des Jahressauerstoffbedarfs der Datensätze wird die tägliche Be
 		\begin{tabular}{l c c}
 		\toprule
 		Kalkulationszeitraum & $n$ & $\SI{20}{\a}$ \citep{von_appen_optimale_2015}\\ 
-		Kalkulatorischer Zinssatz & $i$ & $\SI{5,56}{\percent}$ \cite{gpanrw_kalkulatorischer_2021}\\
+		Kalkulatorischer Zinssatz & $r$ & $\SI{5,56}{\percent}$ \cite{gpanrw_kalkulatorischer_2021}\\
 		Strompreis & $z_{netzbezug}$ & $\SI{22,26}{\cent\per\kiloWh}$ \citep{eon_energie_ihr_2021}\\
 		Einspeisevergütung & $z_{eispeisung}$ & $\SI{7,65}{\cent\per\kiloWh}$ \citep{bna_bundesnetzagentur_2021}\\
 		Gaspreis & $z_{gas}$ & $\SI{4,89}{\cent\per\kiloWh}$ \citep{eon_energie_gewerbegas_2021}\\
@@ -99,6 +97,8 @@ Die Investitionskosten der Brennstoffzelle betragen nach \citet[S. 74]{jungbluth
 Speicherkosten für Wasserstoff liegen nach \citet{schill_vergleich_2018} zwischen $10$ bis $\SI{30}{\sieuro\per\kiloWh}$ bezogen auf den Brennwert. Daraus ergeben sich Speicherkosten von $\frac{\SI{15}{\sieuro\per\kiloWh} \cdot \Delta H^0_R}{M_{H_2}} = \SI{594}{\sieuro\per\kg_{H2}}$.\\
 Da ein Speicher für $\ce{H2}$ und $\ce{O2}$ im Stoffmengenverhältnis $2:1$ benötigt wird, werden spezifische Speicherkosten von $z_{Speicher} = 1,5 \cdot \frac{\SI{15}{\sieuro\per\kiloWh} \cdot \Delta H^0_R}{M_{H_2}} = \SI{891}{\sieuro\per\kg_{H2}}$ angenommen.\\	
 
+Für die Überschlagsrechnung des optimierten Brennstoffzellen-Konzepts wird von einer Maximalleistung von $\SI{24,475}{\kiloW} \cdot \SI{11,5}{\%} = \SI{2,8}{\kiloW}$ gerechnet. Nach \citet[S. 74]{jungbluth_kraft-warme-kopplung_2012} ergeben sich dafür spezifischen Investitionskosten von $1.\SI{875}{\sieuro}$.
+
 \chapter{Parameter zur Berechnung der CO2-Einsparungen}
 \label{Apx:CO2}
 \begin{table}[ht]
@@ -112,7 +112,7 @@ Da ein Speicher für $\ce{H2}$ und $\ce{O2}$ im Stoffmengenverhältnis $2:1$ ben
 		 $\ce{CO2}$ Brennstoffzelle & $m_{BZ}$ &$\SI{38,8}{\kg\per\a}$ \citep{miotti_integrated_2017}\\
 		\bottomrule
 		\end{tabular}
-		\label{tb:ParameterKapitalwert}
+		\label{tb:ParameterCO2}
 \end{table}
 
 Für den $\ce{CO2}$ Faktor des Deutschen Strommix wurden Daten aus 2019 verwendet \citep{ortl_entwicklung_2020}. Die spezifischen $\ce{CO2}$-Emissionen von Erdgas lagen in Deutschland zwischen 2005-2014 bei konstant $\SI{55,9}{tonne}$-$\ce{CO2}$/TJ  \citep{redaktionsassistenz_2_co2-emissionsfaktoren_2016} was umgerechnet $\SI{201,24}{\g\per\kWh}$ ergibt.\\

@@ -38,7 +38,7 @@ Nach \citet{sjoberg_nonlinear_1995} liegt die Schwierigkeit in der Modellierung 
 \subsection{Stand der Technik der Modellierung von Elektrolyseuren}
 Im Folgenden wird ein kurzer Überblick über Aktuelle Forschungsergebnisse zur Modellierung von Elektrolyseuren geliefert:\\
 
-\citet{ulleberg_modeling_2003} präsentiert ein semi-physikalisches Modell einer alkalischen Elektrolyse-Zelle zur Bestimmung der Polarisationskurve. Dabei wurden als Einflussparameter die Betriebstemperatur und der Druck berücksichtigt. Der Zusammenhang von elektrischer Leistung und produzierter Stoffmenge wird durch eine Kombination aus physikalischen Gesetzen und aus Messwerten gefolgerten Approximationen bestimmt. \citet{amores_influence_2014} ergänzten dieses Modell um weitere Einflussparameter um den Gültigkeitsbereich des Modells zu vergrößern. Die Parameter wurden dabei mithilfe eines Matlab Fitting-Codes aus experimentell gewonnenen Messwerten bestimmt.\\
+\citet{ulleberg_modeling_2003} präsentiert ein semi-physikalisches Modell einer alkalischen Elektrolyse-Zelle zur Bestimmung der Polarisationskurve. Dabei wurden als Einflussparameter die Betriebstemperatur und der Druck berücksichtigt. Der Zusammenhang von elektrischer Leistung und produzierter Stoffmenge wird durch eine Kombination aus physikalischen Gesetzen und aus Messwerten gefolgerten Approximationen bestimmt. \citet{amores_influence_2014} ergänzen dieses Modell um weitere Einflussparameter um den Gültigkeitsbereich des Modells zu vergrößern. Die Parameter wurden dabei mithilfe eines Matlab Fitting-Codes aus experimentell gewonnenen Messwerten bestimmt.\\
 
 \citet{tjarks_pem-elektrolyse-systeme_2017} stellt ein physikalisches Modell eines PEM-Elektrolyseurs für die Untersuchung von Power-to-Gas Anwendungen vor. Dabei werden physikalische Gesetze verwendet, um Verlustmechanismen zu beschreiben. Weiterhin wird das Zellverhalten mit Fitting Parametern den Messwerten einer Versuchsreihe angenähert. Eine Besonderheit des Modells ist die Berücksichtigung des Thermomanagements des Elektrolyseurs zur Berechnung der benötigten Heiz- beziehungsweise Kühlleistung. Zudem werden zum Betrieb des Elektrolyseurs benötigte Systemkomponenten in der Modellierung berücksichtigt.\\
 
@@ -89,14 +89,14 @@ Die allgemeine Reaktionsgleichung ist dabei unabhängig vom Elektrolyt, wohingeg
 
 \subsection{Elektrochemische Betrachtung}
 \label{subsec:Elektrochemische Betrachtung}
-Die benötigte Energie bei einer Redoxreaktion entspricht der Reaktionsenthalpie $\Delta H_R$ und lässt sich aus den Bildungsenthalpien ($\Delta_f H_i$) und stöchiometrischen Koeffizienten ($\nu_i$) der Edukte und Produkte bestimmen \citep{falcao_review_2020,brauns_alkaline_2020}:
+Die benötigte Energie bei einer Redoxreaktion entspricht der Reaktionsenthalpie $\Delta_R H$ und lässt sich aus den Bildungsenthalpien ($\Delta_f H_i$) und stöchiometrischen Koeffizienten ($\nu_i$) der Edukte und Produkte bestimmen \citep{falcao_review_2020,brauns_alkaline_2020}:
 \begin{align}
- 	\Delta H_R = \sum{\nu_i \Delta_f H_i}
+ 	\Delta_R H = \sum{\nu_i \cdot \Delta_f H_i}
 \end{align}
-Unter der Annahme, dass die nötige thermische Energie vorliegt, entspricht die zur Reaktion benötigte elektrische Energie  der freien Reaktionsenthalpie $\Delta G_R$, welche sich über die Reaktionsentropie $\Delta S_R$ errechnen lässt \citep{falcao_review_2020,brauns_alkaline_2020}.
+Unter der Annahme, dass die nötige thermische Energie vorliegt, entspricht die zur Reaktion benötigte elektrische Energie  der freien Reaktionsenthalpie $\Delta_R G$, welche sich über die Reaktionsentropie $\Delta_R S$ errechnen lässt \citep{falcao_review_2020,brauns_alkaline_2020}.
 \begin{align}
-	\Delta G_R = \Delta H_R - T\Delta S_R \\
- 	\Delta S_R = \sum{\nu_i S_i}
+	\Delta_R G = \Delta_R H - T \cdot \Delta_R S \\
+ 	\Delta _R S = \sum{\nu_i S_i}
 \end{align}
 
 Für die Wasserelektrolyse (\ref{gl:Reaktionsgleichung}) bei Standardbedingungen ($T_0 = \SI{25}{\degreeCelsius}$ und $p_0 = \SI{101,325}{\kilo\pascal}$) ergibt sich mit den Daten aus Tabelle \ref{tb:Stoffdaten} die Reaktionsenthalpie zu $\Delta H^0_R = \SI{285,25}{\kilo\J\per\mol}$ und die freie Enthalpie zu $\Delta G^0_R = \SI{236,59}{\kilo\J\per\mol}$. Es liegt dabei eine starke Temperaturabhängigkeit vor, was in Abbildung \ref{fig:Entropien} deutlich wird.
@@ -118,7 +118,7 @@ Für die Wasserelektrolyse (\ref{gl:Reaktionsgleichung}) bei Standardbedingungen
 		\multicolumn{1}{c}{$\textrm{[kJ/mol]}$}& 
 		
 		\multicolumn{1}{c}{$\textrm{[J/(molK)]}$} &
-		\multicolumn{1}{c}{$\textrm{[--]}$}
+		\multicolumn{1}{c}{$\textrm{[---]}$}
 		\\
 		\midrule
 		$\ce{H2O}$ & -285,25 & -216.35 &  -1\\
@@ -146,7 +146,7 @@ U_{rev} = U^0_{rev} + \Delta U_{rev}(p) + \Delta U_{rev}(T)
 \label{gl:Urev}\\
 \Delta U_{rev}(T) = - 8,5 \cdot 10^{-4} \cdot (T-298)
 \label{gl:dT}\\ 
-\Delta U_{rev}(p) = \frac{RT}{nF}\ln{ \Bigl( \frac{p_{H_2}/p_0 \sqrt{p_{O_2}/p_0}}{a_{H_{2}O}}  \Bigr) } 	
+\Delta U_{rev}(p) = \frac{RT}{zF}\ln{ \Bigl( \frac{p_{H_2}/p_0 \sqrt{p_{O_2}/p_0}}{a_{H_{2}O}}  \Bigr) } 	
 \label{gl:dp}
 \end{align} 
 
@@ -170,21 +170,21 @@ Als maßgeblichen Verluste, auch Überspannungen genannt, werden üblicherweise 
 \paragraph{Aktivierungsverluste} kommen durch die elektrochemischen Vorgänge an den Oberflächen er Elektroden und ihrer Kinetik zustande. Dabei treten zwei Phänomene auf:  Einerseits chemische (wegen des chemischen Gleichgewichtszustands der Ionen an der Grenzfläche zwischen Elektrode und Elektrolyt) und andererseits elektrische (aufgrund des Ladungstransports durch das elektrische Feld an der Grenzfläche) \citep{stempien_solid_2013}. Aktivierungsverluste lassen sich mithilfe der Butler-Volmer-Gleichung beschreiben \citep{olivier_low-temperature_2017,stempien_solid_2013}. Zur Modellierung kann für ausreichend hohe Stromdichten vereinfachend die Tafel- Gleichung angewendet werden, \citet{abdin_modelling_2015} nutzen sie in der folgenden Form:\\
 
 \begin{align}
-	U_{Akt} = \frac{RT}{ 2 \cdot\alpha_k
+	U_{Akt} = \frac{RT}{ 2 \cdot \alpha
 		\cdot F} \cdot ln(i/i_0)
 \label{gl:Akt}
 \end{align}
 
-Die Parameter $\alpha$ und $i_0$ sind dabei experimentell zu ermitteln und unterscheiden sich je nach Technologie.\\
+Der Durchtrittsfaktor $\alpha$ und die Austauschstromdichte $i_0$ sind dabei experimentell zu ermitteln und unterscheiden sich je nach Bauart.\\
 
 \paragraph{Ohmsche Verluste} werden durch elektrische sowie ionische Widerstände und Kontaktwiderständen zwischen den Komponenten verursacht. Ionischen Widerstände, welche sich in dem Elektrolyt  und an den Elektrodenoberflächen lokalisieren lassen, dominieren üblicherweise die Ohmschen Verluste \citep{stempien_solid_2013,milewski_modeling_2014}. Elektrisch Widerstände treten in den Elektroden und an den Kontakten der Zelle auf und lassen sich somit durch einen günstigen Aufbau der Zelle vermindern \citep{tjarks_pem-elektrolyse-systeme_2017}. Die ohmschen Verluste können mithilfe des Ohmschen-Gesetztes (Gleichung \ref{gl:Ohm}) bestimmt werden, für welches neben dem Elektrodenabstand auch die Leitfähigkeit des Elektrolyts benötigt wird.\\ 
 \citet{olivier_low-temperature_2017} geben eine Gleichung zur Berechnung der Leitfähigkeit alkalischer Zellen an, dabei sind die Einflussfaktoren die Betriebstemperatur ($T$) sowie die Stoffmengenkonzentration ($m$) der Lauge des Elektrolyts. Die Berechnung der Leitfähigkeit für Festoxid (SO) Zellen ist \citet{hajimolana_mathematical_2011} entnommen. 
-Der Ansatz für PEM-Zellen wird in der Literatur häufig verwendet \citep{falcao_review_2020, olivier_low-temperature_2017} und beachtet neben der Betriebstemperatur ($T$) auch den Feuchtegehalt der Membran ($\lambda$). \citet{tjarks_pem-elektrolyse-systeme_2017}  erweitert die Berechnung des ohmschen Wiederstandes nach Gleichung \ref{gl:Ohm2} um einen Parameter zur Berücksichtigung elektrische Widerstände $R_{ele}$.
+Der Ansatz für PEM-Zellen wird in der Literatur häufig verwendet \citep{falcao_review_2020, olivier_low-temperature_2017} und beachtet neben der Betriebstemperatur ($T$) auch den Feuchtegehalt der Membran ($\lambda$). \citet{tjarks_pem-elektrolyse-systeme_2017}  erweitert die Berechnung des ohmschen Wiederstandes nach Gleichung \ref{gl:Ohm2} um einen Parameter zur Berücksichtigung elektrische Widerstände $R_{el}$.
 
 \begin{align}
 	U_{Ohm} = &i \cdot (\delta / \sigma)
 \label{gl:Ohm}\\
-	U_{Ohm,PEM} = &  i \cdot (\delta / \sigma + R_{ele})
+	U_{Ohm,PEM} = &  i \cdot (\delta / \sigma + R_{el})
 \label{gl:Ohm2}
 \end{align} \begin{align}
 	\sigma _{Alk} = &   -2.04m -0.0028m^2  + 0.005332mT  \notag\\
@@ -204,7 +204,7 @@ Zur Bestimmung des Wärmeflusses wird nach \citet{webster_implementation_2019} d
 Die Enthalpiedifferenz ergibt sich aus der Reaktionsenthalpie und der Temperaturdifferenz zwischen Eingang und Ausgang. Die benötigte Reaktionsenthalpie und die elektrische Leistung drückt \citet{webster_implementation_2019}	über die Thermoneutrale Spannung und die Zellspannung aus. Unter der Annahme, dass die   Ausgangstemperatur der Gase gleich der Betriebstemperatur ist, ergibt sich für die Energiebilanz damit:  
  
 \begin{align}
-	C_{Zelle} \frac{\mathrm{d}T}{\mathrm{d}t} = &-(\dot{n}_{H2, in} \cdot c_{p, H2} +\dot{n}_{H2, in} \cdot c_{p, O2}) \cdot (T_{in} - T) \notag\\
+	C_{Zelle} \frac{\mathrm{d}T}{\mathrm{d}t} = &-(\dot{n}_{H2, ein} \cdot c_{p, H2} +\dot{n}_{H2, ein} \cdot c_{p, O2}) \cdot (T_{ein} - T) \notag\\
 	 &- I \cdot (U_{Zell} - U_{tn}) - \dot{Q}
 	\label{gl:Energiebilanz}
 \end{align}
@@ -307,7 +307,7 @@ Die in \ref{subsec:Elektrochemische Betrachtung} genannten elektrochemischen Gru
 
 Wie auch bei Elektrolyseuren existieren für die Umsetzung von reinem Wasserstoff alkalische, PEM und Festoxid Brennstoffzellen \citep{lucia_overview_2014}. Auf weitere Technologien, welche Methan, Erdgas oder vergaste Kohle als Energieträger verwenden wird in dieser Arbeit nicht näher eingegangen.\\
 Während die elektrochemischen Grundlagen der Brennstoffzelle bereits im 19. Jahrhundert entdeckt wurden, entwickelte die NASA   gegen Ende der 1950er die ersten alkalischen und PEM Brennstoffzellen für Raumfahrtanwendungen. Auffällig ist, dass im Gegensatz zur Elektrolyse, bei der heutzutage bei großen Anlagen alkalische Elektrolyseure der Stand der Technik sind (\ref{par:Alkalischer Elektrolyseur}), bei den Brennstoffzellen die PEM-Technologie deutlich verbreiteter ist. So gibt \citet{lucia_overview_2014} an, dass 2010  der Marktanteil der PEM-Technologie bei Brennstoffzellen bei 97\% lag. Eine mögliche Erklärung dafür ist, dass Brennstoffzellen vorwiegend bei mobilen Anwendungen eingesetzt werden - nach \citet{lucia_overview_2014} ist dies bei 95\% aller verkauften Brennstoffzellen der Fall. Die Vorteile von Brennstoffzellen sind dabei die geringen Geräusch- und Schadstoffemissionen \citep{olabi_prospects_2020}. Für mobile Anwendungen eignen sich insbesondere PEM-Brennstoffzellen, da diese bei einer höheren maximalen Stromdichte betrieben werden können als alkalische und Festoxid-Zellen. Das wiederum bringt  Vorteile im Bezug auf den benötigten Bauraum und das Gewicht mit sich.\\ 
-Eine weiteres Anwendungsgebiet von Brennstoffzellen ist aufgrund des exothermen Betriebs die Kraft-Wärme-Kopplung. \citet{olabi_prospects_2020} gibt an, dass Brennstoffzellen höhere Gesamt-Wirkungsgrade erreichen als andere klein-skalierte Systeme zur Kraft-Wärme-Kopplung. Dabei ist zu beachten, dass die Qualität der Abwärme insbesondere von der Betriebstemperatur der Brennstoffzelle abhängt, was nach Tabelle \ref{tb:VglBz} für den Einsatz von Festoxid-Brennstoffzellen spricht.\\ 
+Eine weiteres Anwendungsgebiet von Brennstoffzellen ist aufgrund des exothermen Betriebs die Kraft-Wärme-Kopplung. \citet{olabi_prospects_2020} geben an, dass Brennstoffzellen höhere Gesamt-Wirkungsgrade erreichen als andere klein-skalierte Systeme zur Kraft-Wärme-Kopplung. Dabei ist zu beachten, dass die Qualität der Abwärme insbesondere von der Betriebstemperatur der Brennstoffzelle abhängt, was nach Tabelle \ref{tb:VglBz} für den Einsatz von Festoxid-Brennstoffzellen spricht.\\ 
 In Tabelle \ref{tb:VglBz} werden wichtige Kennwerte der drei Technologien sowie ihre Vor- und Nachteile angegeben.\\
 
 \begin{table}[ht]

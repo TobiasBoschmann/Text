@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -108,6 +108,12 @@ Symphony~Energy Co.LTD.
 \newblock URL
   \url{https://energy-xprt.com/products/model-se6m60-series-polycrystamilne-solar-module-227605}.
 
+\bibitem[Deutschland()]{bundesregierung_deutschland_klimaschutzgesetz_nodate}
+Bundesregierung Deutschland.
+\newblock Klimaschutzgesetz: {Klimaneutralität} bis 2045.
+\newblock URL
+  \url{https://www.bundesregierung.de/breg-de/themen/klimaschutz/klimaschutzgesetz-2021-1913672}.
+
 \bibitem[DWD({\natexlab{a}})]{dwd_historische_nodate}
 DWD.
 \newblock Historische {Wetterdaten}, {Deutschland}; {Wetterstation}
@@ -120,6 +126,12 @@ DWD.
 \newblock Klimaberatungsmodul; {TRY15} ({Bezugskoordinaten}: 50,7931° {N}
   6,0546° {O}), {\natexlab{b}}.
 \newblock URL \url{https://kunden.dwd.de/obt/index.jsp}.
+
+\bibitem[Energie()]{energie_treibhausgasemissionen_nodate}
+Bundesministerium für Wirtschaft~und Energie.
+\newblock Treibhausgasemissionen in {Deutschland} nach {Sektoren}.
+\newblock URL
+  \url{https://www.bmwi.de/Redaktion/DE/Infografiken/Industrie/treibhausgasemissionen-deutschland-nach-sektoren.html}.
 
 \bibitem[Energie(2021{\natexlab{a}})]{eon_energie_gewerbegas_2021}
 E.ON Energie.

@@ -39,6 +39,8 @@ Der Wärmestrom $\dot{Q}$ setzt sich aus den Wärmeverlusten $\dot{Q}_{Verlust}$
 \dot{Q}_{Verlust} = C_{th} \cdot (T - T_{Umgebung}) 
 \end{align}
 
+Die zur Deckung des Heizwärmebedarfs genutzte Abwärme der Brennstoffzelle, wird im Modell in Gaseinsparungen umgerechnet. Angenommen wird dafür, dass der Wirkungsgrad der Gasheizung bei $\SI{90}{\%}$ liegt (\citet{herrmann_effizienz_2006} gibt für Gasheizungen einen Bereich von $80$ bis $\SI{110}{\%}$ an).\\ 
+
 \section{Entwicklung von Energiesystem-Konzepten}
 Im folgenden Abschnitt werden anfangs die zur Bewertung der Systemkonzepte genutzten Parameter erläutert. Zudem werden die betrachteten Konzepte sowie die gewählte Betriebsstrategie erläutert.
 
@@ -46,16 +48,16 @@ Im folgenden Abschnitt werden anfangs die zur Bewertung der Systemkonzepte genut
 In \citet{reich_grundlagen_2018} werden Kriterien zum Vergleich von Energiesystemen angeführt, die eine umfassende Bewertung ermöglichen. Als für ein Unternehmen relevante Kriterien werden in dieser Arbeit Kennwerte zur ökonomische sowie ökologische Bewertung der Konzepte genutzt.\\
 
 Zur ökonomischen Bewertung wird der Kapitalwert - eine Kennzahl der Dynamischen Investitionsrechnung \citep{muller_vorlesung_2020} - als Kriterium verwendet . 
-Fällt der Kapitalwert einer Investition positiv aus, so wird diese als wirtschaftlich sinnvoll bewertet. Der Kapitalwert $C$ für einen Zeitraum von $n$ Jahren errechnet sich aus den Anfangsinvestitionen $I_0$, den jährlichen Einsparungen $Z_{ein}$ und Ausgaben $Z_{aus}$ und dem kalkulatorischen Zinssatz $i$ \citep{muller_vorlesung_2020} (Die jährlichen Einsparungen errechnen sich in dieser Arbeit aus den verminderten Strom- und Gaskosten und der Einspeisevergütung und als Ausgaben werden zusätzliche Wartungskosten gewertet):
+Fällt der Kapitalwert einer Investition positiv aus, so wird diese als wirtschaftlich sinnvoll bewertet. Der Kapitalwert $C$ für einen Zeitraum von $n$ Jahren errechnet sich aus den Anfangsinvestitionen $I_0$, den jährlichen Einsparungen $Z_{ein}$ und Ausgaben $Z_{aus}$ und dem kalkulatorischen Zinssatz $r$ \citep{muller_vorlesung_2020} (Die jährlichen Einsparungen errechnen sich in dieser Arbeit aus den verminderten Strom- und Gaskosten und der Einspeisevergütung und als Ausgaben werden zusätzliche Wartungskosten gewertet):
 
 \begin{align}
-C = -I_0 + \frac{(1+i)^n-1}{(1+i)^n \cdot i} \cdot (Z_{ein} - Z_{aus})
+C = -I_0 + \frac{(1+r)^n-1}{(1+r)^n \cdot r} \cdot (Z_{ein} - Z_{aus})
 \end{align}
 
-Als ökologisches Bewertungskriterium dient in dieser Arbeit der eingesparte $\ce{CO2}$ Ausstoß ($\Delta m_{\ce{CO2}}$). Dieser setzt sich einerseits aus den Stromeinsparung $\Delta P_{el}$ in Verbindung mit dem $\ce{CO2}$ Faktor für den Strommix ($m_{Strom}$) und andererseits aus den Gaseinsparungen ($\Delta Q$) und dem $\ce{CO2}$ Faktor des Erdgases ($m_{Gas}$) zusammen (Als Stromeinsparungen wird in dieser Arbeit neben dem eingesparten Netzverbrauch auch die Einspeisung gewertet).  
+Als ökologisches Bewertungskriterium dient in dieser Arbeit der eingesparte \ce{CO2}-Ausstoß ($\Delta m_{\ce{CO2}}$). Dieser setzt sich einerseits aus den Stromeinsparung $\Delta P_{el}$ in Verbindung mit dem \ce{CO2}-Faktor für den Strommix ($m_{Strom}$) und andererseits aus den Gaseinsparungen ($\Delta Q$) und dem \ce{CO2}-Faktor des Erdgases ($m_{Gas}$) zusammen (Als Stromeinsparungen wird in dieser Arbeit neben dem eingesparten Netzverbrauch auch die Einspeisung gewertet). Dabei werden für einen gesamtheitliche Betrachtung auch die \ce{CO2}-Emissionen miteinbezogen, die bei der Produktion der Komponenten entstehen, um die das Wasserstoff-Energiesystem erweitert wird ($\Delta m_{Prod.}$).
 
 \begin{align}
-\Delta m_{\ce{CO2}} = \Delta P_{el} \cdot m_{Strom} + \Delta Q \cdot m_{Gas}
+\Delta m_{\ce{CO2}} = \Delta P_{el} \cdot m_{Strom} + \Delta Q \cdot m_{Gas} - \Delta m_{Prod.}
 \end{align}
 
 \subsection{Entwicklung von Systemkonzepten}
@@ -81,7 +83,7 @@ Im folgenden Abschnitt werden die gewählten Parameter zur Simulation der System
 \paragraph{Alkalischer Elektrolyseur}\ \\
 Im System des Quarzglasherstellers ist ein alkalischer Elektrolyseur vom Hersteller ErreDue S.p.A. mit der Modellbezeichnung G-32 verbaut. Als voreingestellte Betriebstemperatur ist $\SI{60}{\degreeCelsius}$ angegeben und der Betriebsdruck liegt standardmäßig bei $\SI{4}{\bar}$.
 Für die gesamte Zellfläche liegen keine Angaben vor, daher wird diese anhand der maximal produzierten Stoffmenge und den Literaturangaben zur maximalen Stromdichte von alkalischen Elektrolyseuren abgeschätzt (siehe \ref{Apx:Modelle}). Als Elektrolyt dient 20-prozentige Natronlauge, was einer Stoffmengenkonzentration von $\SI{6,095}{\mol\per\l}$ entspricht \citep{periodensystem-online_dichtewerttabelle_nodate-1}.\\
-Für den Elektrodenabstand ($\delta_{alk}$) und die Parameter $\alpha$ und $i_0$ werden die von \citet{milewski_modeling_2014} angegebenen Werte übernommen (siehe \ref{Apx:Modelle}).\\ 
+Für den Elektrodenabstand ($\delta_{alk}$), den Durchtrittsfaktor ($\alpha$) und die Austauschstromdichte ($i_0$) werden die von \citet{milewski_modeling_2014} angegebenen Werte übernommen (siehe \ref{Apx:Modelle}).\\ 
 Der Wirkungsgrad des von \citet[S.~50]{tjarks_pem-elektrolyse-systeme_2017} verwendeten Gleichrichters liegt bei einer Leistung von $20-\SI{100}{\%}$ in einem Bereich von $94-\SI{96}{\%}$, daher wird in dieser Arbeit ein Wirkungsgrad von $\SI{95}{\%}$ angenommen.
 
 \begin{table}[ht]
@@ -93,8 +95,8 @@ Der Wirkungsgrad des von \citet[S.~50]{tjarks_pem-elektrolyse-systeme_2017} verw
 		Betriebsdruck & $p$ & $\SI{4}{\bar}$\\
 		Gesamtfläche & $A_{ges}$ & $\SI{10,2}{\m\squared }$\\
 		Elektrolytkonzentration & $m$ & $\SI{6,095}{\mol \per \l}$\\
-		 & $i_0$ & $ \SI{3,15}{\A\per\m\squared}$\\
-		 & $\alpha$ & $\SI{0,17}{}$\\
+		Austauschstromdichte & $i_0$ & $ \SI{3,15}{\A\per\m\squared}$\\
+		Durchtrittsfaktor & $\alpha$ & $\SI{0,17}{}$\\
 		Elektrodenabstand & $\delta_{alk}$ & $\SI{0,66}{\cm}$\\
 		Effizienz des Gleichrichters & $\eta_{GR}$ & $\SI{95}{\%}$ \\
 		\bottomrule
@@ -116,8 +118,8 @@ Als Wirkungsgrad des Wechselrichters wird auf Grundlage der von \citet{trubitsyn
 		Betriebsdruck & $p$ & $\SI{4}{\bar}$\\
 		Gesamtfläche & $A_{ges}$ & $\SI{2,55}{\m\squared }$\\
 		Membrandicke & $\delta_{pem}$ & $\SI{150}{\micro\m}$\\
-		 & $i_0$ & $ \SI{2,16e-4}{\A\per\m\squared}$\\
-		 & $\alpha$ & $0,7353$\\
+		Austauschstromdichte & $i_0$ & $ \SI{2,16e-4}{\A\per\m\squared}$\\
+		Durchtrittsfaktor & $\alpha$ & $0,7353$\\
 		Elektrischer Widerstand & $R_{ele}$ & $\SI{0,096}{\ohm\per\cm\squared}$ \citep{tjarks_pem-elektrolyse-systeme_2017}\\	
 		Wärmeverlustfaktor & $C_{th}$ & $\SI{21,939}{\W\per\K}$\\
 		Effizienz des Wechselrichters & $\eta_{WR}$ & $\SI{96}{\%}$ \\
