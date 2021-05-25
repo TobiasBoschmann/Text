@@ -5,24 +5,56 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[noa()]{noauthor_bedienungs-_nodate}
-Bedienungs- und {Wartungsanleitung} {WASSERSTOFF} / {SAUERSTOFF} {GENERATOR}
-  {Line} {H04} {Modell} {G24} – {G32}.
-
-\bibitem[Abdin et~al.(2015)Abdin, Webb, und Gray]{abdin_modelling_2015}
-Z.~Abdin, C.~J. Webb, und E.~MacA. Gray.
-\newblock Modelling and simulation of a proton exchange membrane ({PEM})
-  electrolyser cell.
-\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
-  (39):\penalty0 13243--13257, October 2015.
-\newblock ISSN 0360-3199.
-\newblock \doi{10.1016/j.ijhydene.2015.07.129}.
+\bibitem[Deutschland()]{bundesregierung_deutschland_klimaschutzgesetz_nodate}
+Bundesregierung Deutschland.
+\newblock Klimaschutzgesetz: {Klimaneutralität} bis 2045.
 \newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0360319915019321}.
+  \url{https://www.bundesregierung.de/breg-de/themen/klimaschutz/klimaschutzgesetz-2021-1913672}.
 
-\bibitem[Amores et~al.(2014)Amores, Rodríguez, und
+\bibitem[Energie()]{energie_treibhausgasemissionen_nodate}
+Bundesministerium für Wirtschaft~und Energie.
+\newblock Treibhausgasemissionen in {Deutschland} nach {Sektoren}.
+\newblock URL
+  \url{https://www.bmwi.de/Redaktion/DE/Infografiken/Industrie/treibhausgasemissionen-deutschland-nach-sektoren.html}.
+
+\bibitem[Tabeling(2006)]{tabeling_softwaresysteme_2006}
+Peter Tabeling.
+\newblock \emph{Softwaresysteme und ihre {Modellierung}: {Grundlagen},
+  {Methoden} und {Techniken}}.
+\newblock Springer-Verlag, January 2006.
+\newblock ISBN 978-3-540-29276-0.
+\newblock Google-Books-ID: t4ouBAAAQBAJ.
+
+\bibitem[Sjöberg et~al.(1995)Sjöberg, Zhang, Ljung, Benveniste, Deylon,
+  Glorennec, Hjalmarsson, and Juditsky]{sjoberg_nonlinear_1995}
+Jonas Sjöberg, Qinghua Zhang, Lennart Ljung, Albert Benveniste, Bernard
+  Deylon, Pierre-Yves Glorennec, Håkan Hjalmarsson, and Anatoli Juditsky.
+\newblock \emph{Nonlinear {Black}-{Box} {Modeling} in {System}
+  {Identification}: a {Unified} {Overview}}.
+\newblock Linköping University, 1995.
+\newblock URL \url{http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-55254}.
+
+\bibitem[Hauth(2008)]{hauth_grey-box_2008}
+Jan Hauth.
+\newblock Grey-{Box} {Modelling} for {Nonlinear} {Systems}.
+\newblock 2008.
+\newblock URL
+  \url{https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2045}.
+
+\bibitem[Ulleberg(2003)]{ulleberg_modeling_2003}
+Øystein Ulleberg.
+\newblock Modeling of advanced alkaline electrolyzers: a system simulation
+  approach.
+\newblock \emph{International Journal of Hydrogen Energy}, 28\penalty0
+  (1):\penalty0 21--33, January 2003.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/b8s496}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319902000332}.
+
+\bibitem[Amores et~al.(2014)Amores, Rodríguez, and
   Carreras]{amores_influence_2014}
-Ernesto Amores, Jesús Rodríguez, und Christian Carreras.
+Ernesto Amores, Jesús Rodríguez, and Christian Carreras.
 \newblock Influence of operation parameters in the modeling of alkaline water
   electrolyzers for hydrogen production.
 \newblock \emph{International Journal of Hydrogen Energy}, 39\penalty0
@@ -32,65 +64,40 @@ Ernesto Amores, Jesús Rodríguez, und Christian Carreras.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0360319914019120}.
 
-\bibitem[Barragan et~al.(2020)Barragan, Enrique, Segura, und
-  Andujar]{barragan_iterative_2020}
-Antonio~J. Barragan, Juan~M. Enrique, Francisca Segura, und Jose~M. Andujar.
-\newblock Iterative {Fuzzy} {Modeling} of {Hydrogen} {Fuel} {Cells} by the
-  {Extended} {Kalman} {Filter}.
-\newblock \emph{IEEE Access}, 8:\penalty0 180280--180294, 2020.
-\newblock ISSN 2169-3536.
-\newblock \doi{10/gjnk8h}.
-\newblock URL \url{https://ieeexplore.ieee.org/document/9154375/}.
+\bibitem[Tjarks(2017)]{tjarks_pem-elektrolyse-systeme_2017}
+Geert~Hauke Tjarks.
+\newblock \emph{{PEM}-{Elektrolyse}-{Systeme} zur {Anwendung} in
+  {Power}-to-{Gas} {Anlagen}}, volume RWTH Aachen University.
+\newblock RWTH Aachen University, 2017.
+\newblock \doi{10.18154/RWTH-2017-04470}.
+\newblock URL \url{http://publications.rwth-aachen.de/record/689617}.
+\newblock Artwork Size: pages IV, 135 Seiten : Illustrationen, Diagramme ISSN:
+  1866-1793 Pages: pages IV, 135 Seiten : Illustrationen, Diagramme Publication
+  Title: Dissertation.
 
-\bibitem[Biaku et~al.(2008)Biaku, Dale, Mann, Salehfar, Peters, und
-  Han]{biaku_semiempirical_2008}
-C.~Y. Biaku, N.~V. Dale, M.~D. Mann, H.~Salehfar, A.~J. Peters, und T.~Han.
-\newblock A semiempirical study of the temperature dependence of the anode
-  charge transfer coefficient of a {6kW} {PEM} electrolyzer.
-\newblock \emph{International Journal of Hydrogen Energy}, 33\penalty0
-  (16):\penalty0 4247--4254, August 2008.
-\newblock ISSN 0360-3199.
-\newblock \doi{10/fkhj5k}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0360319908007118}.
+\bibitem[Rodríguez and Amores(2020)]{rodriguez_cfd_2020}
+Jesús Rodríguez and Ernesto Amores.
+\newblock {CFD} {Modeling} and {Experimental} {Validation} of an {Alkaline}
+  {Water} {Electrolysis} {Cell} for {Hydrogen} {Production}.
+\newblock \emph{Processes}, 8\penalty0 (12):\penalty0 1634, December 2020.
+\newblock \doi{10/gjnkf8}.
+\newblock URL \url{https://www.mdpi.com/2227-9717/8/12/1634}.
+\newblock Number: 12 Publisher: Multidisciplinary Digital Publishing Institute.
 
-\bibitem[BNA(2021)]{bna_bundesnetzagentur_2021}
-BNA.
-\newblock Bundesnetzagentur - {Veröffentlichung} von {EEG}-{Registerdaten},
-  May 2021.
-\newblock URL
-  \url{https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/ErneuerbareEnergien/ZahlenDatenInformationen/EEG_Registerdaten/EEG_Registerdaten_node.html}.
+\bibitem[Motapon et~al.(2012)Motapon, Tremblay, and
+  Dessaint]{motapon_development_2012}
+Souleman~Njoya Motapon, Olivier Tremblay, and Louis~A. Dessaint.
+\newblock Development of a generic fuel cell model: application to a fuel cell
+  vehicle simulation.
+\newblock \emph{International Journal of Power Electronics}, 4\penalty0
+  (6):\penalty0 505, 2012.
+\newblock ISSN 1756-638X, 1756-6398.
+\newblock \doi{10/gj3fcx}.
+\newblock URL \url{http://www.inderscience.com/link.php?id=52427}.
 
-\bibitem[Bocklisch(2010)]{bocklisch_optimierendes_2010}
-Dipl-Ing~Thilo Bocklisch.
-\newblock Optimierendes {Energiemanagement} von
-  {Brennstoffzelle}-{Direktspeicher}-{Hybridsystemen}.
-\newblock April 2010.
-\newblock URL
-  \url{https://monarch.qucosa.de/landing-page/?tx_dlf[id]=https%3A%2F%2Fmonarch.qucosa.de%2Fapi%2Fqucosa%253A19281%2Fmets}.
-
-\bibitem[Brauns und Turek(2020)]{brauns_alkaline_2020}
-Jörn Brauns und Thomas Turek.
-\newblock Alkaline water electrolysis powered by renewable energy: {A} review.
-\newblock \emph{Processes}, 8\penalty0 (2):\penalty0 248, 2020.
-\newblock \doi{10/gjh7mg}.
-\newblock Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem[Butz et~al.(2009)Butz, Schneider, Gerthsen, Schowalter, und
-  Rosenauer]{butz_decomposition_2009}
-B.~Butz, R.~Schneider, D.~Gerthsen, M.~Schowalter, und A.~Rosenauer.
-\newblock Decomposition of 8.5mol.\% {Y2O3}-doped zirconia and its contribution
-  to the degradation of ionic conductivity.
-\newblock \emph{Acta Materialia}, 57\penalty0 (18):\penalty0 5480--5490,
-  October 2009.
-\newblock ISSN 1359-6454.
-\newblock \doi{10/b2tc8h}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S1359645409004790}.
-
-\bibitem[Chugh et~al.(2020)Chugh, Chaudhari, Sonkar, Sharma, Kapur, und
+\bibitem[Chugh et~al.(2020)Chugh, Chaudhari, Sonkar, Sharma, Kapur, and
   Ramakumar]{chugh_experimental_2020}
-Sachin Chugh, Chinmay Chaudhari, Kapil Sonkar, Alok Sharma, G.S. Kapur, und
+Sachin Chugh, Chinmay Chaudhari, Kapil Sonkar, Alok Sharma, G.S. Kapur, and
   S.S.V. Ramakumar.
 \newblock Experimental and modelling studies of low temperature {PEMFC}
   performance.
@@ -101,18 +108,298 @@ Sachin Chugh, Chinmay Chaudhari, Kapil Sonkar, Alok Sharma, G.S. Kapur, und
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S036031992030077X}.
 
+\bibitem[Barragan et~al.(2020)Barragan, Enrique, Segura, and
+  Andujar]{barragan_iterative_2020}
+Antonio~J. Barragan, Juan~M. Enrique, Francisca Segura, and Jose~M. Andujar.
+\newblock Iterative {Fuzzy} {Modeling} of {Hydrogen} {Fuel} {Cells} by the
+  {Extended} {Kalman} {Filter}.
+\newblock \emph{IEEE Access}, 8:\penalty0 180280--180294, 2020.
+\newblock ISSN 2169-3536.
+\newblock \doi{10/gjnk8h}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/9154375/}.
+
+\bibitem[Jiao and Ni(2017)]{jiao_challenges_2017}
+K.~Jiao and M.~Ni.
+\newblock Challenges and opportunities in modelling of proton exchange membrane
+  fuel cells ({PEMFC}).
+\newblock \emph{International Journal of Energy Research}, 41\penalty0
+  (13):\penalty0 1793--1797, October 2017.
+\newblock ISSN 0363907X.
+\newblock \doi{10/gjnx9v}.
+\newblock URL \url{http://doi.wiley.com/10.1002/er.3798}.
+
+\bibitem[Falcão and Pinto(2020)]{falcao_review_2020}
+D.~S. Falcão and AMFR Pinto.
+\newblock A review on {PEM} electrolyzer modelling: {Guidelines} for beginners.
+\newblock \emph{Journal of Cleaner Production}, 261:\penalty0 121184, 2020.
+\newblock \doi{10/gg47r5}.
+\newblock Publisher: Elsevier.
+
+\bibitem[Brauns and Turek(2020)]{brauns_alkaline_2020}
+Jörn Brauns and Thomas Turek.
+\newblock Alkaline water electrolysis powered by renewable energy: {A} review.
+\newblock \emph{Processes}, 8\penalty0 (2):\penalty0 248, 2020.
+\newblock \doi{10/gjh7mg}.
+\newblock Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Koj(2021)]{koj_entwicklung_2021}
+Matthias Koj.
+\newblock Entwicklung und {Charakterisierung} von {Elektroden} für die
+  {Sauerstoffentwicklung} in der alkalischen {Wasserelektrolyse}.
+\newblock February 2021.
+\newblock \doi{10.21268/20210202-2}.
+\newblock URL
+  \url{https://dokumente.ub.tu-clausthal.de/receive/clausthal_mods_00001680}.
+
+\bibitem[Olivier et~al.(2017)Olivier, Bourasseau, and
+  Bouamama]{olivier_low-temperature_2017}
+Pierre Olivier, Cyril Bourasseau, and Pr.~Belkacem Bouamama.
+\newblock Low-temperature electrolysis system modelling: {A} review.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 78:\penalty0
+  280--300, October 2017.
+\newblock ISSN 1364-0321.
+\newblock \doi{10/gbsxvk}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S136403211730432X}.
+
+\bibitem[Tremel(2018)]{tremel_electrolysisfundamental_2018}
+Alexander Tremel.
+\newblock Electrolysis—{Fundamental} {Technologies}, {Requirements} and
+  {Current} {Status}.
+\newblock In Alexander Tremel, editor, \emph{Electricity-based {Fuels}},
+  {SpringerBriefs} in {Applied} {Sciences} and {Technology}, pages 19--31.
+  Springer International Publishing, Cham, 2018.
+\newblock ISBN 978-3-319-72459-1.
+\newblock \doi{10.1007/978-3-319-72459-1_2}.
+\newblock URL \url{https://doi.org/10.1007/978-3-319-72459-1_2}.
+
+\bibitem[Stempien et~al.(2013)Stempien, Sun, and Chan]{stempien_solid_2013}
+J.~P. Stempien, Q.~Sun, and S.~H. Chan.
+\newblock Solid {Oxide} {Electrolyzer} {Cell} {Modeling}: {A} {Review}.
+\newblock \emph{Journal of Power of Technologies}, Vol. 93\penalty0 (nr 4),
+  2013.
+\newblock ISSN 1425-1353.
+\newblock URL
+  \url{http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-48815965-a9b4-4185-9caa-ffd04b51a12e}.
+
+\bibitem[Abdin et~al.(2015)Abdin, Webb, and Gray]{abdin_modelling_2015}
+Z.~Abdin, C.~J. Webb, and E.~MacA. Gray.
+\newblock Modelling and simulation of a proton exchange membrane ({PEM})
+  electrolyser cell.
+\newblock \emph{International Journal of Hydrogen Energy}, 40\penalty0
+  (39):\penalty0 13243--13257, October 2015.
+\newblock ISSN 0360-3199.
+\newblock \doi{10.1016/j.ijhydene.2015.07.129}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319915019321}.
+
+\bibitem[Milewski et~al.(2014)Milewski, Guandalini, and
+  Campanari]{milewski_modeling_2014}
+Jaroslaw Milewski, Giulio Guandalini, and Stefano Campanari.
+\newblock Modeling an alkaline electrolysis cell through reduced-order and
+  loss-estimate approaches.
+\newblock \emph{Journal of Power Sources}, 269:\penalty0 203--211, December
+  2014.
+\newblock ISSN 03787753.
+\newblock \doi{10/gjvnbb}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0378775314010027}.
+
+\bibitem[Hajimolana et~al.(2011)Hajimolana, Hussain, Daud, Soroush, and
+  Shamiri]{hajimolana_mathematical_2011}
+S.~Ahmad Hajimolana, M.~Azlan Hussain, W.M. Ashri~Wan Daud, M.~Soroush, and
+  A.~Shamiri.
+\newblock Mathematical modeling of solid oxide fuel cells: {A} review.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 15\penalty0
+  (4):\penalty0 1893--1917, May 2011.
+\newblock ISSN 13640321.
+\newblock \doi{10/fjt73q}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S1364032110004466}.
+
+\bibitem[Webster and Bode(2019)]{webster_implementation_2019}
+John Webster and Carsten Bode.
+\newblock Implementation of a {Non}-{Discretized} {Multiphysics} {PEM}
+  {Electrolyzer} {Model} in {Modelica}.
+\newblock pages 833--840, February 2019.
+\newblock \doi{10/gjvtn2}.
+\newblock URL
+  \url{https://ep.liu.se/en/conference-article.aspx?series=ecp&issue=157&Article_No=88}.
+
+\bibitem[Biaku et~al.(2008)Biaku, Dale, Mann, Salehfar, Peters, and
+  Han]{biaku_semiempirical_2008}
+C.~Y. Biaku, N.~V. Dale, M.~D. Mann, H.~Salehfar, A.~J. Peters, and T.~Han.
+\newblock A semiempirical study of the temperature dependence of the anode
+  charge transfer coefficient of a {6kW} {PEM} electrolyzer.
+\newblock \emph{International Journal of Hydrogen Energy}, 33\penalty0
+  (16):\penalty0 4247--4254, August 2008.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/fkhj5k}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319908007118}.
+
+\bibitem[Guandalini et~al.(2016)Guandalini, Campanari, and
+  Valenti]{guandalini_comparative_2016}
+Giulio Guandalini, Stefano Campanari, and Gianluca Valenti.
+\newblock Comparative assessment and safety issues in state-of-the-art hydrogen
+  production technologies.
+\newblock \emph{International Journal of Hydrogen Energy}, 41\penalty0
+  (42):\penalty0 18901--18920, November 2016.
+\newblock ISSN 0360-3199.
+\newblock \doi{10/f89dfv}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0360319916302592}.
+
+\bibitem[Milanzi et~al.(2018)Milanzi, Spiller, Grosse, Hermann, and
+  Müller-Kirchenbauer]{milanzi_technischer_2018}
+Sarah Milanzi, Carla Spiller, Benjamin Grosse, Lisa Hermann, and Joachim
+  Müller-Kirchenbauer.
+\newblock Technischer {Stand} und {Flexibilität} des
+  {Power}-to-{Gas}-{Verfahrens}.
+\newblock August 2018.
+\newblock \doi{10/gjnmdv}.
+\newblock URL \url{https://zenodo.org/record/2620253}.
+\newblock Publisher: Zenodo Version Number: V01.
+
+\bibitem[Yan et~al.(2017)Yan, Fang, Blum, and Lehnert]{yan_performance_2017}
+Yulin Yan, Q.~Fang, L.~Blum, and W.~Lehnert.
+\newblock Performance and degradation of an {SOEC} stack with different cell
+  components.
+\newblock \emph{Electrochimica acta}, 258:\penalty0 1254--1261, 2017.
+\newblock \doi{10/gcqc6j}.
+\newblock Publisher: Elsevier.
+
+\bibitem[Butz et~al.(2009)Butz, Schneider, Gerthsen, Schowalter, and
+  Rosenauer]{butz_decomposition_2009}
+B.~Butz, R.~Schneider, D.~Gerthsen, M.~Schowalter, and A.~Rosenauer.
+\newblock Decomposition of 8.5mol.\% {Y2O3}-doped zirconia and its contribution
+  to the degradation of ionic conductivity.
+\newblock \emph{Acta Materialia}, 57\penalty0 (18):\penalty0 5480--5490,
+  October 2009.
+\newblock ISSN 1359-6454.
+\newblock \doi{10/b2tc8h}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1359645409004790}.
+
+\bibitem[Schiller et~al.(2010)Schiller, Ansar, and Patz]{schiller_high_2010}
+Günter Schiller, Asif Ansar, and Olaf Patz.
+\newblock High {Temperature} {Water} {Electrolysis} {Using} {Metal} {Supported}
+  {Solid} {Oxide} {Electrolyser} {Cells} ({SOEC}).
+\newblock \emph{Advances in Science and Technology}, 72:\penalty0 135--143,
+  October 2010.
+\newblock ISSN 1662-0356.
+\newblock \doi{10/dnsghx}.
+\newblock URL \url{https://www.scientific.net/AST.72.135}.
+
+\bibitem[Rashid et~al.(2015)Rashid, Al~Mesfer, Naseem, and
+  Danish]{rashid_hydrogen_2015}
+Md~Mamoon Rashid, Mohammed~K. Al~Mesfer, Hamid Naseem, and Mohd Danish.
+\newblock Hydrogen production by water electrolysis: a review of alkaline water
+  electrolysis, {PEM} water electrolysis and high temperature water
+  electrolysis.
+\newblock \emph{Int. J. Eng. Adv. Technol}, 4\penalty0 (3):\penalty0
+  2249--8958, 2015.
+
+\bibitem[Olabi et~al.(2020)Olabi, Wilberforce, Sayed, Elsaid, and
+  Abdelkareem]{olabi_prospects_2020}
+A.~G. Olabi, Tabbi Wilberforce, Enas~Taha Sayed, Khaled Elsaid, and
+  Mohammad~Ali Abdelkareem.
+\newblock Prospects of {Fuel} {Cell} {Combined} {Heat} and {Power} {Systems}.
+\newblock \emph{Energies}, 13\penalty0 (16):\penalty0 4104, January 2020.
+\newblock \doi{10/gjnx38}.
+\newblock URL \url{https://www.mdpi.com/1996-1073/13/16/4104}.
+\newblock Number: 16 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Lucia(2014)]{lucia_overview_2014}
+Umberto Lucia.
+\newblock Overview on fuel cells.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 30:\penalty0
+  164--169, February 2014.
+\newblock ISSN 13640321.
+\newblock \doi{10/f5swt6}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S1364032113006965}.
+
+\bibitem[Mekhilef et~al.(2012)Mekhilef, Saidur, and
+  Safari]{mekhilef_comparative_2012}
+S.~Mekhilef, R.~Saidur, and A.~Safari.
+\newblock Comparative study of different fuel cell technologies.
+\newblock \emph{Renewable and Sustainable Energy Reviews}, 16\penalty0
+  (1):\penalty0 981--989, January 2012.
+\newblock ISSN 1364-0321.
+\newblock \doi{10/d2sbhv}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1364032111004709}.
+
+\bibitem[Engler et~al.()Engler, Bard, and Viotto]{engler_wechselrichter_nodate}
+Ing~A. Engler, J.~Bard, and M.~Viotto.
+\newblock Wechselrichter für die {Netzkopplung} von {Brennstoffzellen}.
+
+\bibitem[Schamai(2009)]{schamai_modelica_2009}
+Wladimir Schamai.
+\newblock \emph{Modelica {Modeling} {Language} ({ModelicaML}) : {A} {UML}
+  {Profile} for {Modelica}}.
+\newblock Linköping University Electronic Press, 2009.
+\newblock URL \url{http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-20553}.
+
+\bibitem[Trubitsyn et~al.(2010)Trubitsyn, Pierquet, Hayman, Gamache, Sullivan,
+  and Perreault]{trubitsyn_high-efficiency_2010}
+Aleksey Trubitsyn, Brandon~J. Pierquet, Alexander~K. Hayman, Garet~E. Gamache,
+  Charles~R. Sullivan, and David~J. Perreault.
+\newblock High-efficiency inverter for photovoltaic applications.
+\newblock In \emph{2010 {IEEE} {Energy} {Conversion} {Congress} and
+  {Exposition}}, pages 2803--2810, Atlanta, GA, September 2010. IEEE.
+\newblock ISBN 978-1-4244-5286-6.
+\newblock \doi{10/b57pmg}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/5618163/}.
+
+\bibitem[García-Valverde et~al.(2012)García-Valverde, Espinosa, and
+  Urbina]{garcia-valverde_simple_2012}
+R.~García-Valverde, N.~Espinosa, and A.~Urbina.
+\newblock Simple {PEM} water electrolyser model and experimental validation.
+\newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
+  (2):\penalty0 1927--1938, January 2012.
+\newblock ISSN 03603199.
+\newblock \doi{10/dqz2nr}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0360319911021380}.
+
+\bibitem[Herrmann(2006)]{herrmann_effizienz_2006}
+J.~Herrmann.
+\newblock \emph{Effizienz, {Wirtschaftlichkeit} und {Potential} von
+  klein-{Blockheizkraftwerken} = {Efficiency}, {Economics} and {Potential} of
+  mini {Combined} {Heat} and {Power} {Units}}.
+\newblock PhD thesis, Universität Augsburg Augsburg, 2006.
+\newblock URL
+  \url{https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_2143924}.
+
+\bibitem[Reich and Reppich(2018)]{reich_grundlagen_2018}
+Gerhard Reich and Marcus Reppich.
+\newblock Grundlagen zur {Bewertung} von {Energiesystemen}.
+\newblock \emph{Regenerative Energietechnik}, pages 31--60, 2018.
+\newblock \doi{10/gjpqg4}.
+\newblock URL
+  \url{https://link.springer.com/chapter/10.1007/978-3-658-20608-6_2}.
+\newblock Publisher: Springer Vieweg, Wiesbaden.
+
+\bibitem[Müller(2020)]{muller_vorlesung_2020}
+Dirk Müller.
+\newblock Vorlesung "{Energiewirtschaft}", {Dynamische} {Investitionsrechnung},
+  April 2020.
+
+\bibitem[Periodensystem-online({\natexlab{a}})]{periodensystem-online_dichtewerttabelle_nodate-1}
+Periodensystem-online.
+\newblock Dichtewerttabelle anzeigen - {Das} {Periodensystem} online,
+  {\natexlab{a}}.
+\newblock URL
+  \url{http://www.periodensystem-online.de/index.php?id=lists&form=Dichtewerte&sst=5}.
+
 \bibitem[Co.LTD()]{symphony_energy_coltd_se6m60_nodate}
 Symphony~Energy Co.LTD.
 \newblock {SE6M60} {Series} - {PolycrystaMilne} {Solar} {Module} by {Symphony}
   {Energy} {Co}.{LTD}.
 \newblock URL
   \url{https://energy-xprt.com/products/model-se6m60-series-polycrystamilne-solar-module-227605}.
-
-\bibitem[Deutschland()]{bundesregierung_deutschland_klimaschutzgesetz_nodate}
-Bundesregierung Deutschland.
-\newblock Klimaschutzgesetz: {Klimaneutralität} bis 2045.
-\newblock URL
-  \url{https://www.bundesregierung.de/breg-de/themen/klimaschutz/klimaschutzgesetz-2021-1913672}.
 
 \bibitem[DWD({\natexlab{a}})]{dwd_historische_nodate}
 DWD.
@@ -127,79 +414,9 @@ DWD.
   6,0546° {O}), {\natexlab{b}}.
 \newblock URL \url{https://kunden.dwd.de/obt/index.jsp}.
 
-\bibitem[Energie()]{energie_treibhausgasemissionen_nodate}
-Bundesministerium für Wirtschaft~und Energie.
-\newblock Treibhausgasemissionen in {Deutschland} nach {Sektoren}.
-\newblock URL
-  \url{https://www.bmwi.de/Redaktion/DE/Infografiken/Industrie/treibhausgasemissionen-deutschland-nach-sektoren.html}.
-
-\bibitem[Energie(2021{\natexlab{a}})]{eon_energie_gewerbegas_2021}
-E.ON Energie.
-\newblock Gewerbegas vergleichen: {Günstig}, schnell, 100\% sicher, May
-  2021{\natexlab{a}}.
-\newblock URL \url{https://www.eon.de/de/gk/erdgas/gewerbegas.html}.
-
-\bibitem[Energie(2021{\natexlab{b}})]{eon_energie_ihr_2021}
-E.ON Energie.
-\newblock Ihr {Industriestrom} 2021: {Preisvergleich} für {Unternehmen}, May
-  2021{\natexlab{b}}.
-\newblock URL \url{https://www.eon.de/de/gk/strom/industriestrom.html}.
-
-\bibitem[Engler et~al.()Engler, Bard, und Viotto]{engler_wechselrichter_nodate}
-Ing~A. Engler, J.~Bard, und M.~Viotto.
-\newblock Wechselrichter für die {Netzkopplung} von {Brennstoffzellen}.
-
-\bibitem[Falcão und Pinto(2020)]{falcao_review_2020}
-D.~S. Falcão und AMFR Pinto.
-\newblock A review on {PEM} electrolyzer modelling: {Guidelines} for beginners.
-\newblock \emph{Journal of Cleaner Production}, 261:\penalty0 121184, 2020.
-\newblock \doi{10/gg47r5}.
-\newblock Publisher: Elsevier.
-
-\bibitem[García-Valverde et~al.(2012)García-Valverde, Espinosa, und
-  Urbina]{garcia-valverde_simple_2012}
-R.~García-Valverde, N.~Espinosa, und A.~Urbina.
-\newblock Simple {PEM} water electrolyser model and experimental validation.
-\newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
-  (2):\penalty0 1927--1938, January 2012.
-\newblock ISSN 03603199.
-\newblock \doi{10/dqz2nr}.
-\newblock URL
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S0360319911021380}.
-
-\bibitem[gpaNRW(2021)]{gpanrw_kalkulatorischer_2021}
-gpaNRW.
-\newblock Kalkulatorischer {Zinssatz} 2020 {\textbar} {gpaNRW}, May 2021.
-\newblock URL
-  \url{https://gpanrw.de/aktuelles/aktuelle-meldungen/hinweise-zum-kalkulatorischen-zinssatz-2020}.
-
-\bibitem[Guandalini et~al.(2016)Guandalini, Campanari, und
-  Valenti]{guandalini_comparative_2016}
-Giulio Guandalini, Stefano Campanari, und Gianluca Valenti.
-\newblock Comparative assessment and safety issues in state-of-the-art hydrogen
-  production technologies.
-\newblock \emph{International Journal of Hydrogen Energy}, 41\penalty0
-  (42):\penalty0 18901--18920, November 2016.
-\newblock ISSN 0360-3199.
-\newblock \doi{10/f89dfv}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0360319916302592}.
-
-\bibitem[Hajimolana et~al.(2011)Hajimolana, Hussain, Daud, Soroush, und
-  Shamiri]{hajimolana_mathematical_2011}
-S.~Ahmad Hajimolana, M.~Azlan Hussain, W.M. Ashri~Wan Daud, M.~Soroush, und
-  A.~Shamiri.
-\newblock Mathematical modeling of solid oxide fuel cells: {A} review.
-\newblock \emph{Renewable and Sustainable Energy Reviews}, 15\penalty0
-  (4):\penalty0 1893--1917, May 2011.
-\newblock ISSN 13640321.
-\newblock \doi{10/fjt73q}.
-\newblock URL
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S1364032110004466}.
-
-\bibitem[Hammoudi et~al.(2012)Hammoudi, Henao, Agbossou, Dubé, und
+\bibitem[Hammoudi et~al.(2012)Hammoudi, Henao, Agbossou, Dubé, and
   Doumbia]{hammoudi_new_2012}
-M.~Hammoudi, C.~Henao, K.~Agbossou, Y.~Dubé, und M.L. Doumbia.
+M.~Hammoudi, C.~Henao, K.~Agbossou, Y.~Dubé, and M.L. Doumbia.
 \newblock New multi-physics approach for modelling and design of alkaline
   electrolyzers.
 \newblock \emph{International Journal of Hydrogen Energy}, 37\penalty0
@@ -209,31 +426,62 @@ M.~Hammoudi, C.~Henao, K.~Agbossou, Y.~Dubé, und M.L. Doumbia.
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S036031991201590X}.
 
-\bibitem[Hauth(2008)]{hauth_grey-box_2008}
-Jan Hauth.
-\newblock Grey-{Box} {Modelling} for {Nonlinear} {Systems}.
-\newblock 2008.
+\bibitem[Periodensystem-online({\natexlab{b}})]{periodensystem-online_dichtewerttabelle_nodate}
+Periodensystem-online.
+\newblock Dichtewerttabelle anzeigen - {Das} {Periodensystem} online,
+  {\natexlab{b}}.
 \newblock URL
-  \url{https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2045}.
+  \url{http://www.periodensystem-online.de/index.php?id=lists&form=Dichtewerte&sst=6}.
 
-\bibitem[Herrmann(2006)]{herrmann_effizienz_2006}
-J.~Herrmann.
-\newblock \emph{Effizienz, {Wirtschaftlichkeit} und {Potential} von
-  klein-{Blockheizkraftwerken} = {Efficiency}, {Economics} and {Potential} of
-  mini {Combined} {Heat} and {Power} {Units}}.
-\newblock PhD thesis, Universität Augsburg Augsburg, 2006.
+\bibitem[Bocklisch(2010)]{bocklisch_optimierendes_2010}
+Dipl-Ing~Thilo Bocklisch.
+\newblock Optimierendes {Energiemanagement} von
+  {Brennstoffzelle}-{Direktspeicher}-{Hybridsystemen}.
+\newblock April 2010.
 \newblock URL
-  \url{https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_2143924}.
+  \url{https://monarch.qucosa.de/landing-page/?tx_dlf[id]=https%3A%2F%2Fmonarch.qucosa.de%2Fapi%2Fqucosa%253A19281%2Fmets}.
 
-\bibitem[Jiao und Ni(2017)]{jiao_challenges_2017}
-K.~Jiao und M.~Ni.
-\newblock Challenges and opportunities in modelling of proton exchange membrane
-  fuel cells ({PEMFC}).
-\newblock \emph{International Journal of Energy Research}, 41\penalty0
-  (13):\penalty0 1793--1797, October 2017.
-\newblock ISSN 0363907X.
-\newblock \doi{10/gjnx9v}.
-\newblock URL \url{http://doi.wiley.com/10.1002/er.3798}.
+\bibitem[noa()]{noauthor_bedienungs-_nodate}
+Bedienungs- und {Wartungsanleitung} {WASSERSTOFF} / {SAUERSTOFF} {GENERATOR}
+  {Line} {H04} {Modell} {G24} – {G32}.
+
+\bibitem[Regionetz()]{regionetz_gasabrechnung_nodate}
+Regionetz.
+\newblock Gasabrechnung {G} 685 {\textbar} {Regionetz}.
+\newblock URL
+  \url{https://www.regionetz.de/privatkunden/gasanschluss/gasabrechnung-g-685/}.
+
+\bibitem[Von~Appen et~al.(2015)Von~Appen, Burgenmeister, and
+  Braun]{von_appen_optimale_2015}
+Jan Von~Appen, Balthasar Burgenmeister, and Martin Braun.
+\newblock Optimale {Dimensionierung} von {PV}-{Speicher}-{Systemen} unter
+  {Unsicherheit}.
+\newblock In \emph{30. {Symposium} {Photovoltaische} {Solarenergie}}, 2015.
+
+\bibitem[gpaNRW(2021)]{gpanrw_kalkulatorischer_2021}
+gpaNRW.
+\newblock Kalkulatorischer {Zinssatz} 2020 {\textbar} {gpaNRW}, May 2021.
+\newblock URL
+  \url{https://gpanrw.de/aktuelles/aktuelle-meldungen/hinweise-zum-kalkulatorischen-zinssatz-2020}.
+
+\bibitem[Energie(2021{\natexlab{a}})]{eon_energie_ihr_2021}
+E.ON Energie.
+\newblock Ihr {Industriestrom} 2021: {Preisvergleich} für {Unternehmen}, May
+  2021{\natexlab{a}}.
+\newblock URL \url{https://www.eon.de/de/gk/strom/industriestrom.html}.
+
+\bibitem[BNA(2021)]{bna_bundesnetzagentur_2021}
+BNA.
+\newblock Bundesnetzagentur - {Veröffentlichung} von {EEG}-{Registerdaten},
+  May 2021.
+\newblock URL
+  \url{https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/ErneuerbareEnergien/ZahlenDatenInformationen/EEG_Registerdaten/EEG_Registerdaten_node.html}.
+
+\bibitem[Energie(2021{\natexlab{b}})]{eon_energie_gewerbegas_2021}
+E.ON Energie.
+\newblock Gewerbegas vergleichen: {Günstig}, schnell, 100\% sicher, May
+  2021{\natexlab{b}}.
+\newblock URL \url{https://www.eon.de/de/gk/erdgas/gewerbegas.html}.
 
 \bibitem[Jungbluth(2012)]{jungbluth_kraft-warme-kopplung_2012}
 Christian~Herbert Jungbluth.
@@ -245,175 +493,6 @@ Christian~Herbert Jungbluth.
   \url{https://epub.wupperinst.org/frontdoor/index/index/docId/4240}.
 \newblock ISBN: 9783893364695.
 
-\bibitem[Koj(2021)]{koj_entwicklung_2021}
-Matthias Koj.
-\newblock Entwicklung und {Charakterisierung} von {Elektroden} für die
-  {Sauerstoffentwicklung} in der alkalischen {Wasserelektrolyse}.
-\newblock February 2021.
-\newblock \doi{10.21268/20210202-2}.
-\newblock URL
-  \url{https://dokumente.ub.tu-clausthal.de/receive/clausthal_mods_00001680}.
-
-\bibitem[Lucia(2014)]{lucia_overview_2014}
-Umberto Lucia.
-\newblock Overview on fuel cells.
-\newblock \emph{Renewable and Sustainable Energy Reviews}, 30:\penalty0
-  164--169, February 2014.
-\newblock ISSN 13640321.
-\newblock \doi{10/f5swt6}.
-\newblock URL
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S1364032113006965}.
-
-\bibitem[Mekhilef et~al.(2012)Mekhilef, Saidur, und
-  Safari]{mekhilef_comparative_2012}
-S.~Mekhilef, R.~Saidur, und A.~Safari.
-\newblock Comparative study of different fuel cell technologies.
-\newblock \emph{Renewable and Sustainable Energy Reviews}, 16\penalty0
-  (1):\penalty0 981--989, January 2012.
-\newblock ISSN 1364-0321.
-\newblock \doi{10/d2sbhv}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S1364032111004709}.
-
-\bibitem[Milanzi et~al.(2018)Milanzi, Spiller, Grosse, Hermann, und
-  Müller-Kirchenbauer]{milanzi_technischer_2018}
-Sarah Milanzi, Carla Spiller, Benjamin Grosse, Lisa Hermann, und Joachim
-  Müller-Kirchenbauer.
-\newblock Technischer {Stand} und {Flexibilität} des
-  {Power}-to-{Gas}-{Verfahrens}.
-\newblock August 2018.
-\newblock \doi{10/gjnmdv}.
-\newblock URL \url{https://zenodo.org/record/2620253}.
-\newblock Publisher: Zenodo Version Number: V01.
-
-\bibitem[Milewski et~al.(2014)Milewski, Guandalini, und
-  Campanari]{milewski_modeling_2014}
-Jaroslaw Milewski, Giulio Guandalini, und Stefano Campanari.
-\newblock Modeling an alkaline electrolysis cell through reduced-order and
-  loss-estimate approaches.
-\newblock \emph{Journal of Power Sources}, 269:\penalty0 203--211, December
-  2014.
-\newblock ISSN 03787753.
-\newblock \doi{10/gjvnbb}.
-\newblock URL
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S0378775314010027}.
-
-\bibitem[Miotti et~al.(2017)Miotti, Hofer, und Bauer]{miotti_integrated_2017}
-Marco Miotti, Johannes Hofer, und Christian Bauer.
-\newblock Integrated environmental and economic assessment of current and
-  future fuel cell vehicles.
-\newblock \emph{The International Journal of Life Cycle Assessment},
-  22\penalty0 (1):\penalty0 94--110, January 2017.
-\newblock ISSN 0948-3349, 1614-7502.
-\newblock \doi{10/f9kncx}.
-\newblock URL \url{http://link.springer.com/10.1007/s11367-015-0986-4}.
-
-\bibitem[Müller(2020)]{muller_vorlesung_2020}
-Dirk Müller.
-\newblock Vorlesung "{Energiewirtschaft}", {Dynamische} {Investitionsrechnung},
-  April 2020.
-
-\bibitem[Motapon et~al.(2012)Motapon, Tremblay, und
-  Dessaint]{motapon_development_2012}
-Souleman~Njoya Motapon, Olivier Tremblay, und Louis~A. Dessaint.
-\newblock Development of a generic fuel cell model: application to a fuel cell
-  vehicle simulation.
-\newblock \emph{International Journal of Power Electronics}, 4\penalty0
-  (6):\penalty0 505, 2012.
-\newblock ISSN 1756-638X, 1756-6398.
-\newblock \doi{10/gj3fcx}.
-\newblock URL \url{http://www.inderscience.com/link.php?id=52427}.
-
-\bibitem[Olabi et~al.(2020)Olabi, Wilberforce, Sayed, Elsaid, und
-  Abdelkareem]{olabi_prospects_2020}
-A.~G. Olabi, Tabbi Wilberforce, Enas~Taha Sayed, Khaled Elsaid, und
-  Mohammad~Ali Abdelkareem.
-\newblock Prospects of {Fuel} {Cell} {Combined} {Heat} and {Power} {Systems}.
-\newblock \emph{Energies}, 13\penalty0 (16):\penalty0 4104, January 2020.
-\newblock \doi{10/gjnx38}.
-\newblock URL \url{https://www.mdpi.com/1996-1073/13/16/4104}.
-\newblock Number: 16 Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem[Olivier et~al.(2017)Olivier, Bourasseau, und
-  Bouamama]{olivier_low-temperature_2017}
-Pierre Olivier, Cyril Bourasseau, und Pr.~Belkacem Bouamama.
-\newblock Low-temperature electrolysis system modelling: {A} review.
-\newblock \emph{Renewable and Sustainable Energy Reviews}, 78:\penalty0
-  280--300, October 2017.
-\newblock ISSN 1364-0321.
-\newblock \doi{10/gbsxvk}.
-\newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S136403211730432X}.
-
-\bibitem[Periodensystem-online({\natexlab{a}})]{periodensystem-online_dichtewerttabelle_nodate}
-Periodensystem-online.
-\newblock Dichtewerttabelle anzeigen - {Das} {Periodensystem} online,
-  {\natexlab{a}}.
-\newblock URL
-  \url{http://www.periodensystem-online.de/index.php?id=lists&form=Dichtewerte&sst=6}.
-
-\bibitem[Periodensystem-online({\natexlab{b}})]{periodensystem-online_dichtewerttabelle_nodate-1}
-Periodensystem-online.
-\newblock Dichtewerttabelle anzeigen - {Das} {Periodensystem} online,
-  {\natexlab{b}}.
-\newblock URL
-  \url{http://www.periodensystem-online.de/index.php?id=lists&form=Dichtewerte&sst=5}.
-
-\bibitem[Rashid et~al.(2015)Rashid, Al~Mesfer, Naseem, und
-  Danish]{rashid_hydrogen_2015}
-Md~Mamoon Rashid, Mohammed~K. Al~Mesfer, Hamid Naseem, und Mohd Danish.
-\newblock Hydrogen production by water electrolysis: a review of alkaline water
-  electrolysis, {PEM} water electrolysis and high temperature water
-  electrolysis.
-\newblock \emph{Int. J. Eng. Adv. Technol}, 4\penalty0 (3):\penalty0
-  2249--8958, 2015.
-
-\bibitem[Redaktionsassistenz~2(2016)]{redaktionsassistenz_2_co2-emissionsfaktoren_2016}
-U.~B.~A. Redaktionsassistenz~2.
-\newblock \emph{{CO2}-{Emissionsfaktoren} für fossile {Brennstoffe}}.
-\newblock Umweltbundesamt, September 2016.
-\newblock URL
-  \url{https://www.umweltbundesamt.de/publikationen/co2-emissionsfaktoren-fuer-fossile-brennstoffe}.
-
-\bibitem[Regionetz()]{regionetz_gasabrechnung_nodate}
-Regionetz.
-\newblock Gasabrechnung {G} 685 {\textbar} {Regionetz}.
-\newblock URL
-  \url{https://www.regionetz.de/privatkunden/gasanschluss/gasabrechnung-g-685/}.
-
-\bibitem[Reich und Reppich(2018)]{reich_grundlagen_2018}
-Gerhard Reich und Marcus Reppich.
-\newblock Grundlagen zur {Bewertung} von {Energiesystemen}.
-\newblock \emph{Regenerative Energietechnik}, pages 31--60, 2018.
-\newblock \doi{10/gjpqg4}.
-\newblock URL
-  \url{https://link.springer.com/chapter/10.1007/978-3-658-20608-6_2}.
-\newblock Publisher: Springer Vieweg, Wiesbaden.
-
-\bibitem[Rodríguez und Amores(2020)]{rodriguez_cfd_2020}
-Jesús Rodríguez und Ernesto Amores.
-\newblock {CFD} {Modeling} and {Experimental} {Validation} of an {Alkaline}
-  {Water} {Electrolysis} {Cell} for {Hydrogen} {Production}.
-\newblock \emph{Processes}, 8\penalty0 (12):\penalty0 1634, December 2020.
-\newblock \doi{10/gjnkf8}.
-\newblock URL \url{https://www.mdpi.com/2227-9717/8/12/1634}.
-\newblock Number: 12 Publisher: Multidisciplinary Digital Publishing Institute.
-
-\bibitem[Örtl(2020)]{ortl_entwicklung_2020}
-Elke Örtl.
-\newblock \emph{Entwicklung der spezifischen {Kohlendioxid}-{Emissionen} des
-  deutschen {Strommix} in den {Jahren} 1990 - 2019}.
-\newblock Umweltbundesamt, April 2020.
-\newblock URL
-  \url{https://www.umweltbundesamt.de/publikationen/entwicklung-der-spezifischen-kohlendioxid-6}.
-
-\bibitem[Schamai(2009)]{schamai_modelica_2009}
-Wladimir Schamai.
-\newblock \emph{Modelica {Modeling} {Language} ({ModelicaML}) : {A} {UML}
-  {Profile} for {Modelica}}.
-\newblock Linköping University Electronic Press, 2009.
-\newblock URL \url{http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-20553}.
-
 \bibitem[Schill(2018)]{schill_vergleich_2018}
 Jacques Schill.
 \newblock \emph{Vergleich verschiedener {Methoden} zur {Speicherung} von
@@ -423,101 +502,20 @@ Jacques Schill.
 \newblock Accepted: 2020-06-29T17:24:54Z Journal Abbreviation: Comparison of
   different methods for hydrogen storage.
 
-\bibitem[Schiller et~al.(2010)Schiller, Ansar, und Patz]{schiller_high_2010}
-Günter Schiller, Asif Ansar, und Olaf Patz.
-\newblock High {Temperature} {Water} {Electrolysis} {Using} {Metal} {Supported}
-  {Solid} {Oxide} {Electrolyser} {Cells} ({SOEC}).
-\newblock \emph{Advances in Science and Technology}, 72:\penalty0 135--143,
-  October 2010.
-\newblock ISSN 1662-0356.
-\newblock \doi{10/dnsghx}.
-\newblock URL \url{https://www.scientific.net/AST.72.135}.
-
-\bibitem[Sjöberg et~al.(1995)Sjöberg, Zhang, Ljung, Benveniste, Deylon,
-  Glorennec, Hjalmarsson, und Juditsky]{sjoberg_nonlinear_1995}
-Jonas Sjöberg, Qinghua Zhang, Lennart Ljung, Albert Benveniste, Bernard
-  Deylon, Pierre-Yves Glorennec, Håkan Hjalmarsson, und Anatoli Juditsky.
-\newblock \emph{Nonlinear {Black}-{Box} {Modeling} in {System}
-  {Identification}: a {Unified} {Overview}}.
-\newblock Linköping University, 1995.
-\newblock URL \url{http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-55254}.
-
-\bibitem[Stempien et~al.(2013)Stempien, Sun, und Chan]{stempien_solid_2013}
-J.~P. Stempien, Q.~Sun, und S.~H. Chan.
-\newblock Solid {Oxide} {Electrolyzer} {Cell} {Modeling}: {A} {Review}.
-\newblock \emph{Journal of Power of Technologies}, Vol. 93\penalty0 (nr 4),
-  2013.
-\newblock ISSN 1425-1353.
+\bibitem[Örtl(2020)]{ortl_entwicklung_2020}
+Elke Örtl.
+\newblock \emph{Entwicklung der spezifischen {Kohlendioxid}-{Emissionen} des
+  deutschen {Strommix} in den {Jahren} 1990 - 2019}.
+\newblock Umweltbundesamt, April 2020.
 \newblock URL
-  \url{http://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-48815965-a9b4-4185-9caa-ffd04b51a12e}.
+  \url{https://www.umweltbundesamt.de/publikationen/entwicklung-der-spezifischen-kohlendioxid-6}.
 
-\bibitem[Tabeling(2006)]{tabeling_softwaresysteme_2006}
-Peter Tabeling.
-\newblock \emph{Softwaresysteme und ihre {Modellierung}: {Grundlagen},
-  {Methoden} und {Techniken}}.
-\newblock Springer-Verlag, January 2006.
-\newblock ISBN 978-3-540-29276-0.
-\newblock Google-Books-ID: t4ouBAAAQBAJ.
-
-\bibitem[Tjarks(2017)]{tjarks_pem-elektrolyse-systeme_2017}
-Geert~Hauke Tjarks.
-\newblock \emph{{PEM}-{Elektrolyse}-{Systeme} zur {Anwendung} in
-  {Power}-to-{Gas} {Anlagen}}, volume RWTH Aachen University.
-\newblock RWTH Aachen University, 2017.
-\newblock \doi{10.18154/RWTH-2017-04470}.
-\newblock URL \url{http://publications.rwth-aachen.de/record/689617}.
-\newblock Artwork Size: pages IV, 135 Seiten : Illustrationen, Diagramme ISSN:
-  1866-1793 Pages: pages IV, 135 Seiten : Illustrationen, Diagramme Publication
-  Title: Dissertation.
-
-\bibitem[Tremel(2018)]{tremel_electrolysisfundamental_2018}
-Alexander Tremel.
-\newblock Electrolysis—{Fundamental} {Technologies}, {Requirements} and
-  {Current} {Status}.
-\newblock In Alexander Tremel, editor, \emph{Electricity-based {Fuels}},
-  {SpringerBriefs} in {Applied} {Sciences} and {Technology}, pages 19--31.
-  Springer International Publishing, Cham, 2018.
-\newblock ISBN 978-3-319-72459-1.
-\newblock \doi{10.1007/978-3-319-72459-1_2}.
-\newblock URL \url{https://doi.org/10.1007/978-3-319-72459-1_2}.
-
-\bibitem[Trubitsyn et~al.(2010)Trubitsyn, Pierquet, Hayman, Gamache, Sullivan,
-  und Perreault]{trubitsyn_high-efficiency_2010}
-Aleksey Trubitsyn, Brandon~J. Pierquet, Alexander~K. Hayman, Garet~E. Gamache,
-  Charles~R. Sullivan, und David~J. Perreault.
-\newblock High-efficiency inverter for photovoltaic applications.
-\newblock In \emph{2010 {IEEE} {Energy} {Conversion} {Congress} and
-  {Exposition}}, pages 2803--2810, Atlanta, GA, September 2010. IEEE.
-\newblock ISBN 978-1-4244-5286-6.
-\newblock \doi{10/b57pmg}.
-\newblock URL \url{https://ieeexplore.ieee.org/document/5618163/}.
-
-\bibitem[Ulleberg(2003)]{ulleberg_modeling_2003}
-Øystein Ulleberg.
-\newblock Modeling of advanced alkaline electrolyzers: a system simulation
-  approach.
-\newblock \emph{International Journal of Hydrogen Energy}, 28\penalty0
-  (1):\penalty0 21--33, January 2003.
-\newblock ISSN 0360-3199.
-\newblock \doi{10/b8s496}.
+\bibitem[Redaktionsassistenz~2(2016)]{redaktionsassistenz_2_co2-emissionsfaktoren_2016}
+U.~B.~A. Redaktionsassistenz~2.
+\newblock \emph{{CO2}-{Emissionsfaktoren} für fossile {Brennstoffe}}.
+\newblock Umweltbundesamt, September 2016.
 \newblock URL
-  \url{https://www.sciencedirect.com/science/article/pii/S0360319902000332}.
-
-\bibitem[Von~Appen et~al.(2015)Von~Appen, Burgenmeister, und
-  Braun]{von_appen_optimale_2015}
-Jan Von~Appen, Balthasar Burgenmeister, und Martin Braun.
-\newblock Optimale {Dimensionierung} von {PV}-{Speicher}-{Systemen} unter
-  {Unsicherheit}.
-\newblock In \emph{30. {Symposium} {Photovoltaische} {Solarenergie}}, 2015.
-
-\bibitem[Webster und Bode(2019)]{webster_implementation_2019}
-John Webster und Carsten Bode.
-\newblock Implementation of a {Non}-{Discretized} {Multiphysics} {PEM}
-  {Electrolyzer} {Model} in {Modelica}.
-\newblock pages 833--840, February 2019.
-\newblock \doi{10/gjvtn2}.
-\newblock URL
-  \url{https://ep.liu.se/en/conference-article.aspx?series=ecp&issue=157&Article_No=88}.
+  \url{https://www.umweltbundesamt.de/publikationen/co2-emissionsfaktoren-fuer-fossile-brennstoffe}.
 
 \bibitem[Wirth()]{wirth_aktuelle_nodate}
 Dr~Harry Wirth.
@@ -526,12 +524,14 @@ Dr~Harry Wirth.
 \newblock URL
   \url{https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/aktuelle-fakten-zur-photovoltaik-in-deutschland.html}.
 
-\bibitem[Yan et~al.(2017)Yan, Fang, Blum, und Lehnert]{yan_performance_2017}
-Yulin Yan, Q.~Fang, L.~Blum, und W.~Lehnert.
-\newblock Performance and degradation of an {SOEC} stack with different cell
-  components.
-\newblock \emph{Electrochimica acta}, 258:\penalty0 1254--1261, 2017.
-\newblock \doi{10/gcqc6j}.
-\newblock Publisher: Elsevier.
+\bibitem[Miotti et~al.(2017)Miotti, Hofer, and Bauer]{miotti_integrated_2017}
+Marco Miotti, Johannes Hofer, and Christian Bauer.
+\newblock Integrated environmental and economic assessment of current and
+  future fuel cell vehicles.
+\newblock \emph{The International Journal of Life Cycle Assessment},
+  22\penalty0 (1):\penalty0 94--110, January 2017.
+\newblock ISSN 0948-3349, 1614-7502.
+\newblock \doi{10/f9kncx}.
+\newblock URL \url{http://link.springer.com/10.1007/s11367-015-0986-4}.
 
 \end{thebibliography}

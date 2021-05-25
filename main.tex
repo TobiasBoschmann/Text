@@ -318,17 +318,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{array}
-
 \usepackage[version=4]{mhchem}
-
-
-%-----------------------------------------------------------------------------
-% Q&A environment setup
-%-----------------------------------------------------------------------------
-% The following commands are only used for the Q&A format in the examples of the template. You can remove this in your main document. Note that this is also useful for cerating exam formats, etc.
-\newenvironment{QandA}{\begin{enumerate}[label=\bfseries\arabic*.]\bfseries}
-                      {\end{enumerate}}
-\newenvironment{answered}{\par\normalfont}{}
 
 
 %-----------------------------------------------------------------------------
@@ -427,8 +417,9 @@
 % References and Citations
 %-----------------------------------------------------------------------------
 \usepackage{varioref}
-\usepackage[square, numbers]{natbib}
+\usepackage[sort, square, numbers]{natbib}
 \usepackage{bibunits}
+\usepackage{notoccite} %soll Zitate im Preembel verhindern
 
 
 %-----------------------------------------------------------------------------
@@ -602,7 +593,7 @@
 \clearpage
 \refstepcounter{Hilfszaehler}
 \addcontentsline{toc}{chapter}{\bibname}
-\protect\bibliographystyle{plainnat} % This style is not mandatory. Another would be e.g. natdin.
+\protect\bibliographystyle{unsrtnat}% This style is not mandatory. Another would be e.g. natdin.
 \bibliography{Literature}
 
 

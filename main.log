@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  25 MAY 2021 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  25 MAY 2021 16:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -1475,7 +1475,7 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@chunks=\count373
 \LT@p@ftn=\toks49
 )
-Class scrreprt Info: longtable captions redefined on input line 416.
+Class scrreprt Info: longtable captions redefined on input line 406.
 
 ("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow
 .sty"
@@ -1599,6 +1599,10 @@ LaTeX Info: Redefining \cite on input line 694.
 Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
 \@bibunitaux=\write5
 \@bibunitauxcnt=\count391
+)
+("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/notoccite\notocci
+te.sty"
+Package: notoccite 2000/07/20
 ) (main.aux (Chapters/NomenclatureTable.aux)
 
 LaTeX Warning: Label `fig:Modellstruktur' multiply defined.
@@ -1668,10 +1672,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 \c@lstlisting=\count398
 
-Package chemgreek Info: Activating mapping `default' on line 446.
+Package chemgreek Info: Activating mapping `default' on line 437.
 
 \AtBeginShipoutBox=\box148
-Package hyperref Info: Link coloring ON on input line 446.
+Package hyperref Info: Link coloring ON on input line 437.
 
 ("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.
 sty"
@@ -1688,14 +1692,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count399
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 446.
-LaTeX Info: Redefining \pageref on input line 446.
-LaTeX Info: Redefining \nameref on input line 446.
+LaTeX Info: Redefining \ref on input line 437.
+LaTeX Info: Redefining \pageref on input line 437.
+LaTeX Info: Redefining \nameref on input line 437.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-LaTeX Info: Redefining \Ref on input line 446.
+LaTeX Info: Redefining \Ref on input line 437.
 Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           Using `bookmark' together with `hyperref' is recommended,
 (scrreprt)           because of handling of possible bookmark level gaps.
@@ -1703,7 +1707,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 446.
+(scrreprt)           before \begin{document} on input line 437.
 
 ("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark
 .sty"
@@ -1800,14 +1804,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--9
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.503 }{}
+l.494 }{}
           [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.II}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.503 }{}
+l.494 }{}
           [2] (Chapters/Abstract_secondLanguage.tex) [3
 
 ] [4
@@ -2396,117 +2400,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 ("C:\Users\tobias\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 58--63
-\T1/lmtt/m/n/10.95 Unternehmen _ Institutionen / ErneuerbareEnergien / ZahlenDa
-tenInformationen /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--71
-\T1/lmtt/m/n/10.95 landing-[]page / ?tx _ dlf[id ] =https % 3A % 2F % 2Fmonarch
- . qucosa . de % 2Fapi % 2Fqucosa %
- []
-
-[43
-
-
-]
-Underfull \hbox (badness 3168) in paragraph at lines 105--110
-[]\T1/lmr/m/n/10.95 Symphony Ener-gy Co.LTD.  SE6M60 Se-ries - Po-ly-cry-sta-Mi
-l-ne So-lar Mo-du-
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 105--110
-\T1/lmr/m/n/10.95 le by Sym-phony Ener-gy Co.LTD.  URL [][]$\T1/lmtt/m/n/10.95 
-https : / / energy-[]xprt . com / products /
- []
-
-
-Underfull \hbox (badness 5217) in paragraph at lines 112--116
+Underfull \hbox (badness 5217) in paragraph at lines 9--13
 []\T1/lmr/m/n/10.95 Bundesregierung Deutsch-land.  Kli-ma-schutz-ge-setz: Kli-m
 a-neu-tra-li-tät bis 2045.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
 \T1/lmr/m/n/10.95 URL [][]$\T1/lmtt/m/n/10.95 https : / / www . bundesregierung
  . de / breg-[]de / themen / klimaschutz /
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 118--123
+Underfull \hbox (badness 1596) in paragraph at lines 15--19
+\T1/lmr/m/n/10.95 land nach Sek-to-ren.  URL [][]$\T1/lmtt/m/n/10.95 https : / 
+/ www . bmwi . de / Redaktion / DE / Infografiken /
+ []
+
+[43
+
+
+] [44] [45] [46]
+Underfull \hbox (badness 2529) in paragraph at lines 391--396
+[]\T1/lmr/m/n/10.95 Periodensystem-online.  Dich-te-wert-ta-bel-le an-zei-gen -
+ Das Pe-ri-oden-sys-tem on-li-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 391--396
+\T1/lmr/m/n/10.95 ne, .  URL [][]$\T1/lmtt/m/n/10.95 http : / / www . periodens
+ystem-[]online . de / index . php ? id = lists & form =
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 398--403
+[]\T1/lmr/m/n/10.95 Symphony Ener-gy Co.LTD.  SE6M60 Se-ries - Po-ly-cry-sta-Mi
+l-ne So-lar Mo-du-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 398--403
+\T1/lmr/m/n/10.95 le by Sym-phony Ener-gy Co.LTD.  URL [][]$\T1/lmtt/m/n/10.95 
+https : / / energy-[]xprt . com / products /
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 405--410
 \T1/lmr/m/n/10.95 nung: 15000), .  URL [][]$\T1/lmtt/m/n/10.95 https : / / open
 data . dwd . de / climate _ environment / CDC /
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 131--135
-\T1/lmr/m/n/10.95 land nach Sek-to-ren.  URL [][]$\T1/lmtt/m/n/10.95 https : / 
-/ www . bmwi . de / Redaktion / DE / Infografiken /
+Underfull \hbox (badness 2529) in paragraph at lines 430--435
+[]\T1/lmr/m/n/10.95 Periodensystem-online.  Dich-te-wert-ta-bel-le an-zei-gen -
+ Das Pe-ri-oden-sys-tem on-li-
  []
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 171--175
+
+Underfull \hbox (badness 1194) in paragraph at lines 430--435
+\T1/lmr/m/n/10.95 ne, .  URL [][]$\T1/lmtt/m/n/10.95 http : / / www . periodens
+ystem-[]online . de / index . php ? id = lists & form =
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 437--443
+\T1/lmtt/m/n/10.95 landing-[]page / ?tx _ dlf[id ] =https % 3A % 2F % 2Fmonarch
+ . qucosa . de % 2Fapi % 2Fqucosa %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--466
 []\T1/lmr/m/n/10.95 gpaNRW.  Kal-ku-la-to-ri-scher Zins-satz 2020 | gpaN-RW, Ma
 y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--175
+Underfull \hbox (badness 10000) in paragraph at lines 462--466
 \T1/lmr/m/n/10.95 2021.  URL [][]$\T1/lmtt/m/n/10.95 https : / / gpanrw . de / 
 aktuelles / aktuelle-[]meldungen /
  []
 
-[45]
-Underfull \hbox (badness 2529) in paragraph at lines 349--354
-[]\T1/lmr/m/n/10.95 Periodensystem-online.  Dich-te-wert-ta-bel-le an-zei-gen -
- Das Pe-ri-oden-sys-tem on-li-
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--479
+\T1/lmtt/m/n/10.95 Unternehmen _ Institutionen / ErneuerbareEnergien / ZahlenDa
+tenInformationen /
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 349--354
-\T1/lmr/m/n/10.95 ne, .  URL [][]$\T1/lmtt/m/n/10.95 http : / / www . periodens
-ystem-[]online . de / index . php ? id = lists & form =
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 356--361
-[]\T1/lmr/m/n/10.95 Periodensystem-online.  Dich-te-wert-ta-bel-le an-zei-gen -
- Das Pe-ri-oden-sys-tem on-li-
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 356--361
-\T1/lmr/m/n/10.95 ne, .  URL [][]$\T1/lmtt/m/n/10.95 http : / / www . periodens
-ystem-[]online . de / index . php ? id = lists & form =
- []
-
-[46]
-Underfull \hbox (badness 1609) in paragraph at lines 372--377
-[]\T1/lmr/m/n/10.95 U. B. A. Re-dak-ti-ons-as-sis-tenz 2.  \T1/lmr/m/it/10.95 C
-O2-Emissionsfaktoren für fos-si-le Brenn-stof-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--409
+Underfull \hbox (badness 10000) in paragraph at lines 506--512
 []\T1/lmr/m/n/10.95 Elke Örtl.  \T1/lmr/m/it/10.95 Ent-wick-lung der spe-zi-fi-
 schen Kohlendioxid-Emissionen des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--409
+Underfull \hbox (badness 10000) in paragraph at lines 506--512
 \T1/lmr/m/it/10.95 deut-schen Strom-mix in den Jah-ren 1990 - 2019\T1/lmr/m/n/1
 0.95 .  Um-welt-bun-des-amt,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--409
+Underfull \hbox (badness 10000) in paragraph at lines 506--512
 \T1/lmr/m/n/10.95 April 2020.  URL [][]$\T1/lmtt/m/n/10.95 https : / / www . um
 weltbundesamt . de / publikationen /
  []
 
-[47] [48]) [49] [50
+[48]
+Underfull \hbox (badness 1609) in paragraph at lines 514--519
+[]\T1/lmr/m/n/10.95 U. B. A. Re-dak-ti-ons-as-sis-tenz 2.  \T1/lmr/m/it/10.95 C
+O2-Emissionsfaktoren für fos-si-le Brenn-stof-
+ []
+
+) [49] [50
 
 ]
 
@@ -2521,14 +2525,14 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 620.
+(scrreprt)              `\appendix' on input line 611.
 
 [51] (Chapters/Appendix.tex [52
 
 ]
 chapter A.
 
-Overfull \hbox (5.21478pt too wide) in paragraph at lines 3--7
+Overfull \hbox (10.68977pt too wide) in paragraph at lines 3--7
 \T1/lmr/m/n/10.95 Die Elektrolyt-Konzentration ist mit $[] []$ an-ge-ge-ben [[]
 , S. 36], was bei Na-tron-lau-ge $[] []$
  []
@@ -2588,11 +2592,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 ) [60
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 651.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 651.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 642.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 642.
  (main.aux (Chapters/NomenclatureTable.aux) (bu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 651.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 651.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 642.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 642.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2601,10 +2605,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45177 strings out of 480930
- 1062942 string characters out of 2899292
- 1566490 words of memory out of 3000000
- 59872 multiletter control sequences out of 15000+200000
+ 45184 strings out of 480930
+ 1063287 string characters out of 2899292
+ 1567523 words of memory out of 3000000
+ 59875 multiletter control sequences out of 15000+200000
  617237 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,21n,136p,10105b,1506s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2634,7 +2638,7 @@ m/lmsy8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (76 pages, 1112861 bytes).
+Output written on main.pdf (76 pages, 1112720 bytes).
 PDF statistics:
  2307 PDF objects out of 2487 (max. 8388607)
  260 named destinations out of 1000 (max. 500000)

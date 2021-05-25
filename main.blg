@@ -2,67 +2,66 @@ This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: Chapters/NomenclatureTable.aux
-The style file: plainnat.bst
+The style file: unsrtnat.bst
 A level-1 auxiliary file: bu.aux
 Database file #1: Literature.bib
-Warning--to sort, need author or key in noauthor_bedienungs-_nodate
-Warning--empty year in noauthor_bedienungs-_nodate
-Warning--empty journal in bocklisch_optimierendes_2010
-Warning--empty year in symphony_energy_coltd_se6m60_nodate
 Warning--empty year in bundesregierung_deutschland_klimaschutzgesetz_nodate
-Warning--empty year in dwd_historische_nodate
-Warning--empty year in dwd_klimaberatungsmodul_nodate
 Warning--empty year in energie_treibhausgasemissionen_nodate
+Warning--empty journal in hauth_grey-box_2008
+Warning--empty journal in koj_entwicklung_2021
+Warning--empty booktitle in webster_implementation_2019
+Warning--empty journal in milanzi_technischer_2018
 Warning--empty journal in engler_wechselrichter_nodate
 Warning--empty year in engler_wechselrichter_nodate
 Warning--empty year in engler_wechselrichter_nodate
-Warning--empty journal in hauth_grey-box_2008
-Warning--empty journal in koj_entwicklung_2021
-Warning--empty journal in milanzi_technischer_2018
-Warning--empty year in periodensystem-online_dichtewerttabelle_nodate
 Warning--empty year in periodensystem-online_dichtewerttabelle_nodate-1
+Warning--empty year in symphony_energy_coltd_se6m60_nodate
+Warning--empty year in dwd_historische_nodate
+Warning--empty year in dwd_klimaberatungsmodul_nodate
+Warning--empty year in periodensystem-online_dichtewerttabelle_nodate
+Warning--empty journal in bocklisch_optimierendes_2010
+Warning--empty year in noauthor_bedienungs-_nodate
 Warning--empty year in regionetz_gasabrechnung_nodate
-Warning--empty booktitle in webster_implementation_2019
 Warning--empty year in wirth_aktuelle_nodate
 You've used 60 entries,
-            2773 wiz_defined-function locations,
-            986 strings with 19598 characters,
-and the built_in function-call counts, 27053 in all, are:
-= -- 2538
-> -- 1403
+            2481 wiz_defined-function locations,
+            945 strings with 19190 characters,
+and the built_in function-call counts, 22562 in all, are:
+= -- 2061
+> -- 977
 < -- 39
-+ -- 490
-- -- 427
-* -- 2238
-:= -- 4232
++ -- 408
+- -- 285
+* -- 1757
+:= -- 3631
 add.period$ -- 281
 call.type$ -- 60
-change.case$ -- 314
+change.case$ -- 112
 chr.to.int$ -- 57
-cite$ -- 140
-duplicate$ -- 1178
-empty$ -- 2199
-format.name$ -- 498
-if$ -- 5631
+cite$ -- 79
+duplicate$ -- 1093
+empty$ -- 2053
+format.name$ -- 356
+if$ -- 4783
 int.to.chr$ -- 4
-int.to.str$ -- 1
+int.to.str$ -- 61
 missing$ -- 48
 newline$ -- 407
-num.names$ -- 238
-pop$ -- 608
+num.names$ -- 179
+pop$ -- 461
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 60
 quote$ -- 0
-skip$ -- 882
+skip$ -- 660
 stack$ -- 0
 substring$ -- 906
-swap$ -- 130
+swap$ -- 190
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 630
-warning$ -- 19
-while$ -- 235
+type$ -- 402
+warning$ -- 18
+while$ -- 176
 width$ -- 0
 write$ -- 952
-(There were 19 warnings)
+(There were 18 warnings)
