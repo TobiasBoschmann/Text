@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  24 MAY 2021 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  25 MAY 2021 11:19
 entering extended mode
 **./main.tex
 (main.tex
@@ -2244,17 +2244,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--42
  []
 
 [31 <./Figures/ValidierungPEMFC.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 <Figures/ValidierungPEMEC.pdf, id=1466, 445.88809pt x 224.11163pt>
 File: Figures/ValidierungPEMEC.pdf Graphic file (type pdf)
 <use Figures/ValidierungPEMEC.pdf>
-Package pdftex.def Info: Figures/ValidierungPEMEC.pdf  used on input line 51.
+Package pdftex.def Info: Figures/ValidierungPEMEC.pdf  used on input line 52.
 (pdftex.def)             Requested size: 445.887pt x 224.11107pt.
 
-Overfull \hbox (4.86926pt too wide) in paragraph at lines 51--52
+Overfull \hbox (4.86926pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
@@ -2262,22 +2262,22 @@ Overfull \hbox (4.86926pt too wide) in paragraph at lines 51--52
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
@@ -2285,17 +2285,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--69
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./Figures/ValidierungPEMEC.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
@@ -2303,39 +2303,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 File: Figures/Stromverbrauch_Sim_2.pdf Graphic file (type pdf)
 <use Figures/Stromverbrauch_Sim_2.pdf>
 Package pdftex.def Info: Figures/Stromverbrauch_Sim_2.pdf  used on input line 9
-3.
+4.
 (pdftex.def)             Requested size: 417.1989pt x 211.25734pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [35] [36 <./Figures/Stromverbrauch_Sim_2.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Overfull \hbox (6.31343pt too wide) in paragraph at lines 127--130
-\T1/lmr/m/n/10.95 von $[] []$, was ei-nem Vier-tel der In-ves-ti-ti-ons-kos-ten
- des si-mu-lier-ten Brennstoffzellen-Konzepts
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
@@ -2345,10 +2339,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--135
 <Figures/Kapitalwerte.pdf, id=1637, 379.70244pt x 177.7768pt>
 File: Figures/Kapitalwerte.pdf Graphic file (type pdf)
 <use Figures/Kapitalwerte.pdf>
-Package pdftex.def Info: Figures/Kapitalwerte.pdf  used on input line 140.
+Package pdftex.def Info: Figures/Kapitalwerte.pdf  used on input line 141.
 (pdftex.def)             Requested size: 379.70149pt x 177.77635pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
@@ -2356,20 +2350,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--170
 Underfull \vbox (badness 2828) has occurred while \output is active []
 
  [38 <./Figures/Kapitalwerte.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 <Figures/CO2Einsparungen.pdf, id=1753, 419.46526pt x 211.70552pt>
 File: Figures/CO2Einsparungen.pdf Graphic file (type pdf)
 <use Figures/CO2Einsparungen.pdf>
-Package pdftex.def Info: Figures/CO2Einsparungen.pdf  used on input line 178.
+Package pdftex.def Info: Figures/CO2Einsparungen.pdf  used on input line 179.
 (pdftex.def)             Requested size: 419.46423pt x 211.705pt.
-
-Overfull \hbox (26.74237pt too wide) in paragraph at lines 186--202
- [][] 
- []
-
 ) (Chapters/Erkenntnisse.tex [39 <./Figures/CO2Einsparungen.pdf>] [40]
 chapter 5.
 
@@ -2545,13 +2534,13 @@ Overfull \hbox (5.21478pt too wide) in paragraph at lines 3--7
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3623) has occurred while \output is active []
 
  [53]
 [54]
 chapter B.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
@@ -2560,13 +2549,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 ] [56]
 chapter C.
 
-Overfull \hbox (25.78738pt too wide) in paragraph at lines 94--99
+Overfull \hbox (25.78738pt too wide) in paragraph at lines 95--100
 \T1/lmr/m/n/10.95 ei-ner elek-tri-schen Peak-leis-tung von $[] []$ (Ma-xi-mal-w
 ert der Brennstoffzellen-Ausgangsleistung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--100
 
  []
 
@@ -2614,7 +2603,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  45177 strings out of 480930
  1062942 string characters out of 2899292
- 1567437 words of memory out of 3000000
+ 1566490 words of memory out of 3000000
  59872 multiletter control sequences out of 15000+200000
  617237 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2645,7 +2634,7 @@ m/lmsy8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (76 pages, 1115020 bytes).
+Output written on main.pdf (76 pages, 1112861 bytes).
 PDF statistics:
  2307 PDF objects out of 2487 (max. 8388607)
  260 named destinations out of 1000 (max. 500000)
