@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  25 MAY 2021 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  29 MAY 2021 08:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -1796,7 +1796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
@@ -1830,7 +1830,12 @@ Overfull \hbox (2.58478pt too wide) detected at line 7
  [6]
 \openout2 = `Chapters/NomenclatureTable.aux'.
 
- (Chapters/NomenclatureTable.tex [7
+ (Chapters/NomenclatureTable.tex
+Overfull \hbox (6.55008pt too wide) in paragraph at lines 20--21
+[]|[]| 
+ []
+
+[7
 
 
 
@@ -1858,6 +1863,12 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Overfull \hbox (3.58163pt too wide) in paragraph at lines 10--10
  [][] [][][]\T1/lmr/m/n/10.95 Vergleich der gän-gi-gen Tech-no-lo-gi-en Wassers
 toff-basierter Brenn-stoff-zel-len nach 
+ []
+
+
+Overfull \hbox (14.01517pt too wide) in paragraph at lines 12--12
+ [][] [][][]\T1/lmr/m/n/10.95 In der Si-mu-la-ti-ons-stu-die be-trach-te-te Er-
+wei-te-run-gen des Wasserstoff-Energiesystems.[][] [][]  
  []
 
 )
@@ -1891,61 +1902,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 [1
 
-]
-Overfull \hbox (14.0152pt too wide) in paragraph at lines 17--18
-[]\T1/lmr/m/n/10.95 Kapitel 3 do-ku-men-tiert die Ent-wick-lung des zur Si-mu-l
-a-ti-on des Wasserstoff-Energiesystems
- []
-
-
-Overfull \hbox (7.54471pt too wide) in paragraph at lines 17--18
-\T1/lmr/m/n/10.95 stoff-zel-le vor-ge-stellt. Wei-ter-hin wer-den Be-wer-tungs-
-kri-te-ri-en für Kon-zep-te des Wasserstoff-
- []
-
-) (Chapters/Grundlagen.tex [2]
+]) (Chapters/Grundlagen.tex [2]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Figures/Modell-System.pdf, id=367, 294.72386pt x 61.68382pt>
+<Figures/Modell-System.pdf, id=373, 294.72386pt x 61.68382pt>
 File: Figures/Modell-System.pdf Graphic file (type pdf)
 <use Figures/Modell-System.pdf>
-Package pdftex.def Info: Figures/Modell-System.pdf  used on input line 12.
+Package pdftex.def Info: Figures/Modell-System.pdf  used on input line 10.
 (pdftex.def)             Requested size: 294.72313pt x 61.68365pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
 [3
 
  <./Figures/Modell-System.pdf>]
-Overfull \hbox (14.32037pt too wide) in paragraph at lines 24--36
+Overfull \hbox (14.32037pt too wide) in paragraph at lines 22--38
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
-
  []
 
 
@@ -1964,153 +1958,179 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 67--71
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 
  []
 
 [6]
-<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=424, 353.67477pt x 122.5
+<Figures/LadungstraegerBeiDerWasserelektrolyse.pdf, id=430, 353.67477pt x 122.5
 6429pt>
 File: Figures/LadungstraegerBeiDerWasserelektrolyse.pdf Graphic file (type pdf)
 
 <use Figures/LadungstraegerBeiDerWasserelektrolyse.pdf>
 Package pdftex.def Info: Figures/LadungstraegerBeiDerWasserelektrolyse.pdf  use
-d on input line 84.
+d on input line 86.
 (pdftex.def)             Requested size: 353.6739pt x 122.56396pt.
-
-Underfull \vbox (badness 1033) has occurred while \output is active []
-
  [7 <./Figures/LadungstraegerBeiDerWasserelektrolyse.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
+Underfull \hbox (badness 10000) in alignment at lines 110--130
+[][][][] 
  []
 
-<Figures/VerlaufVonEntropien.pdf, id=470, 331.97304pt x 155.07175pt>
+<Figures/VerlaufVonEntropien.pdf, id=471, 331.97304pt x 155.07175pt>
 File: Figures/VerlaufVonEntropien.pdf Graphic file (type pdf)
 <use Figures/VerlaufVonEntropien.pdf>
-Package pdftex.def Info: Figures/VerlaufVonEntropien.pdf  used on input line 15
-5.
+Package pdftex.def Info: Figures/VerlaufVonEntropien.pdf  used on input line 13
+6.
 (pdftex.def)             Requested size: 331.97221pt x 155.07135pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[8 <./Figures/VerlaufVonEntropien.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-[9 <./Figures/VerlaufVonEntropien.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-[10]
-<Figures/PolarisationskurvenElektrolyseure.pdf, id=581, 197.0131pt x 124.38156p
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [10]
+<Figures/PolarisationskurvenElektrolyseure.pdf, id=583, 197.0131pt x 124.38156p
 t>
 File: Figures/PolarisationskurvenElektrolyseure.pdf Graphic file (type pdf)
 <use Figures/PolarisationskurvenElektrolyseure.pdf>
 Package pdftex.def Info: Figures/PolarisationskurvenElektrolyseure.pdf  used on
- input line 217.
+ input line 224.
 (pdftex.def)             Requested size: 197.0126pt x 124.38124pt.
- [11 <./Figures/PolarisationskurvenElektrolyseure.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[12]
-Overfull \hbox (0.96346pt too wide) in paragraph at lines 251--254
-[] []\T1/lmss/bx/n/10.95 Protonen Aus-tausch Mem-bran (PEM) Elek-tro-ly-seur[][
-] \T1/lmr/m/n/10.95 PEM-Elektrolyseure wer-den seit 1950
+[12 <./Figures/PolarisationskurvenElektrolyseure.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
+
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--303
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 308--312
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
 
-Underfull \vbox (badness 3803) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
- [15]
-<Figures/ElektrolyseurProzessschritte.pdf, id=718, 368.61113pt x 164.92331pt>
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+[16]
+<Figures/ElektrolyseurProzessschritte.pdf, id=728, 368.61113pt x 164.92331pt>
 File: Figures/ElektrolyseurProzessschritte.pdf Graphic file (type pdf)
 <use Figures/ElektrolyseurProzessschritte.pdf>
 Package pdftex.def Info: Figures/ElektrolyseurProzessschritte.pdf  used on inpu
-t line 343.
+t line 367.
 (pdftex.def)             Requested size: 368.61023pt x 164.9229pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/BrennstoffzelleProzessschritte.pdf, id=721, 368.12556pt x 167.89348pt>
+<Figures/BrennstoffzelleProzessschritte.pdf, id=733, 368.12556pt x 167.89348pt>
 
 File: Figures/BrennstoffzelleProzessschritte.pdf Graphic file (type pdf)
 <use Figures/BrennstoffzelleProzessschritte.pdf>
 Package pdftex.def Info: Figures/BrennstoffzelleProzessschritte.pdf  used on in
-put line 350.
+put line 379.
 (pdftex.def)             Requested size: 368.12466pt x 167.89307pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--360
-
- []
-
-[16]) (Chapters/Methode.tex
-Overfull \hbox (3.10265pt too wide) in paragraph at lines 361--1
+) (Chapters/Methode.tex
+Overfull \hbox (3.10265pt too wide) in paragraph at lines 384--1
 \T1/lmr/m/n/10.95 Net-zes an-zu-pas-sen. Nach Eng-ler et al. [][][] ha-ben sich
  im Be-reich der Wech-sel-rich-ter Transistor-
  []
 
-[17 <./Figures/ElektrolyseurProzessschritte.pdf> <./Figures/BrennstoffzelleProz
-essschritte.pdf
+[17] [18 <./Figures/ElektrolyseurProzessschritte.pdf> <./Figures/Brennstoffzell
+eProzessschritte.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/BrennstoffzelleProzessschritte.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
->] [18]
+>]
 chapter 3.
-
-Overfull \hbox (5.53125pt too wide) in paragraph at lines 8--10
-\T1/lmr/m/n/10.95 Ziel die-ser Ar-beit ist ein Mo-dell, wel-ches in der La-ge i
-st das Ver-hal-ten des ge-sam-ten Elektrolyse-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
@@ -2121,7 +2141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-<Figures/Modellstruktur.pdf, id=920, 450.08281pt x 312.45259pt>
+<Figures/Modellstruktur.pdf, id=938, 450.08281pt x 312.45259pt>
 File: Figures/Modellstruktur.pdf Graphic file (type pdf)
 <use Figures/Modellstruktur.pdf>
 Package pdftex.def Info: Figures/Modellstruktur.pdf  used on input line 19.
@@ -2131,15 +2151,15 @@ Overfull \hbox (9.06396pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--25
-
- []
-
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
@@ -2153,55 +2173,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[21]
-<Figures/Systemkonzepte.pdf, id=975, 323.96034pt x 304.1363pt>
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+ [21]
+<Figures/Systemkonzepte.pdf, id=996, 323.96034pt x 304.1363pt>
 File: Figures/Systemkonzepte.pdf Graphic file (type pdf)
 <use Figures/Systemkonzepte.pdf>
-Package pdftex.def Info: Figures/Systemkonzepte.pdf  used on input line 66.
+Package pdftex.def Info: Figures/Systemkonzepte.pdf  used on input line 71.
 (pdftex.def)             Requested size: 323.95953pt x 304.13556pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
+Underfull \hbox (badness 7238) in paragraph at lines 84--84
+[][][]|[]\T1/lmr/m/n/10.95 In der Si-mu-la-ti-ons-stu-die be-trach-te-te Er-wei
+-te-run-gen des Wasserstoff-
  []
 
 [23 <./Figures/Systemkonzepte.pdf>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-<Figures/Datensatz1molar.pdf, id=1145, 430.94904pt x 198.70131pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+<Figures/Datensatz1molar.pdf, id=1163, 430.94904pt x 198.70131pt>
 File: Figures/Datensatz1molar.pdf Graphic file (type pdf)
 <use Figures/Datensatz1molar.pdf>
-Package pdftex.def Info: Figures/Datensatz1molar.pdf  used on input line 144.
-(pdftex.def)             Requested size: 430.94798pt x 198.70082pt.
-<Figures/Datensatz2molar.pdf, id=1146, 430.94904pt x 198.70131pt>
-File: Figures/Datensatz2molar.pdf Graphic file (type pdf)
-<use Figures/Datensatz2molar.pdf>
-Package pdftex.def Info: Figures/Datensatz2molar.pdf  used on input line 151.
+Package pdftex.def Info: Figures/Datensatz1molar.pdf  used on input line 166.
 (pdftex.def)             Requested size: 430.94798pt x 198.70082pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chapters/Diskussion.tex [26 <./Figures/Datensatz1molar.pdf>] [27 <./Figures/
-Datensatz2molar.pdf>] [28
+<Figures/Datensatz2molar.pdf, id=1165, 430.94904pt x 198.70131pt>
+File: Figures/Datensatz2molar.pdf Graphic file (type pdf)
+<use Figures/Datensatz2molar.pdf>
+Package pdftex.def Info: Figures/Datensatz2molar.pdf  used on input line 175.
+(pdftex.def)             Requested size: 430.94798pt x 198.70082pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (Chapters/Diskussion.tex [26] [27 <./Figures/Datensatz1molar.pdf> <./Figures/
+Datensatz2molar.pdf
+
+pdfTeX warning: pdflatex (file ./Figures/Datensatz2molar.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] [28
 
 ]
 chapter 4.
-<Figures/ValidierungALK.pdf, id=1322, 462.41508pt x 233.14903pt>
+<Figures/ValidierungALK.pdf, id=1340, 462.41508pt x 233.14903pt>
 File: Figures/ValidierungALK.pdf Graphic file (type pdf)
 <use Figures/ValidierungALK.pdf>
 Package pdftex.def Info: Figures/ValidierungALK.pdf  used on input line 14.
@@ -2224,7 +2263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-<Figures/ValidierungPEMFC.pdf, id=1335, 445.11543pt x 228.59258pt>
+<Figures/ValidierungPEMFC.pdf, id=1353, 445.11543pt x 228.59258pt>
 File: Figures/ValidierungPEMFC.pdf Graphic file (type pdf)
 <use Figures/ValidierungPEMFC.pdf>
 Package pdftex.def Info: Figures/ValidierungPEMFC.pdf  used on input line 29.
@@ -2252,7 +2291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
-<Figures/ValidierungPEMEC.pdf, id=1466, 445.88809pt x 224.11163pt>
+<Figures/ValidierungPEMEC.pdf, id=1484, 445.88809pt x 224.11163pt>
 File: Figures/ValidierungPEMEC.pdf Graphic file (type pdf)
 <use Figures/ValidierungPEMEC.pdf>
 Package pdftex.def Info: Figures/ValidierungPEMEC.pdf  used on input line 52.
@@ -2303,7 +2342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<Figures/Stromverbrauch_Sim_2.pdf, id=1511, 417.19992pt x 211.25787pt>
+<Figures/Stromverbrauch_Sim_2.pdf, id=1529, 417.19992pt x 211.25787pt>
 File: Figures/Stromverbrauch_Sim_2.pdf Graphic file (type pdf)
 <use Figures/Stromverbrauch_Sim_2.pdf>
 Package pdftex.def Info: Figures/Stromverbrauch_Sim_2.pdf  used on input line 9
@@ -2340,7 +2379,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--136
 [37
 
 ]
-<Figures/Kapitalwerte.pdf, id=1637, 379.70244pt x 177.7768pt>
+<Figures/Kapitalwerte.pdf, id=1655, 379.70244pt x 177.7768pt>
 File: Figures/Kapitalwerte.pdf Graphic file (type pdf)
 <use Figures/Kapitalwerte.pdf>
 Package pdftex.def Info: Figures/Kapitalwerte.pdf  used on input line 141.
@@ -2358,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-<Figures/CO2Einsparungen.pdf, id=1753, 419.46526pt x 211.70552pt>
+<Figures/CO2Einsparungen.pdf, id=1771, 419.46526pt x 211.70552pt>
 File: Figures/CO2Einsparungen.pdf Graphic file (type pdf)
 <use Figures/CO2Einsparungen.pdf>
 Package pdftex.def Info: Figures/CO2Einsparungen.pdf  used on input line 179.
@@ -2376,20 +2415,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--9
  []
 
 
-Overfull \hbox (1.30519pt too wide) in paragraph at lines 10--13
-\T1/lmr/m/n/10.95 spricht ei-ne ver-bes-ser-te öko-no-mi-sche Be-wer-tung bei n
-a-he-zu gleich-blei-ben-den $[][][]$-Emissionen. 
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
+Overfull \hbox (1.30519pt too wide) in paragraph at lines 12--14
+\T1/lmr/m/n/10.95 spricht ei-ne ver-bes-ser-te öko-no-mi-sche Be-wer-tung bei n
+a-he-zu gleich-blei-ben-den $[][][]$-Emissionen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 [41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -2605,10 +2649,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45184 strings out of 480930
- 1063287 string characters out of 2899292
- 1567523 words of memory out of 3000000
- 59875 multiletter control sequences out of 15000+200000
+ 45186 strings out of 480930
+ 1063274 string characters out of 2899292
+ 1567697 words of memory out of 3000000
+ 59876 multiletter control sequences out of 15000+200000
  617237 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,21n,136p,10105b,1506s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2638,9 +2682,9 @@ m/lmsy8.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Users/tobias/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (76 pages, 1112720 bytes).
+Output written on main.pdf (76 pages, 1116748 bytes).
 PDF statistics:
- 2307 PDF objects out of 2487 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2328 PDF objects out of 2487 (max. 8388607)
+ 261 named destinations out of 1000 (max. 500000)
+ 474 words of extra memory for PDF output out of 10000 (max. 10000000)
 

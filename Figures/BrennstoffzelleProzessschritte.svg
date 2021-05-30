@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,9 +39,9 @@
      inkscape:window-height="986"
      id="namedview87"
      showgrid="false"
-     inkscape:zoom="7.9749997"
-     inkscape:cx="292.30006"
-     inkscape:cy="32.261676"
+     inkscape:zoom="11.313708"
+     inkscape:cx="210.40753"
+     inkscape:cy="66.567292"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -354,6 +354,28 @@
          x="312.70932"
          y="202.68556" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath921-3">
+      <rect
+         style="fill:#000000;stroke:#00ffff;stroke-width:2"
+         id="rect923-2"
+         width="493.68912"
+         height="234.07674"
+         x="312.70932"
+         y="202.68556" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath921-3-6">
+      <rect
+         style="fill:#000000;stroke:#00ffff;stroke-width:2"
+         id="rect923-2-6"
+         width="493.68912"
+         height="234.07674"
+         x="312.70932"
+         y="202.68556" />
+    </clipPath>
   </defs>
   <g
      clip-path="url(#clip0)"
@@ -486,26 +508,22 @@
        clip-path="url(#clipPath925)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;"
        x="595.93713"
        y="267.32886"
        id="text936"
        clip-path="url(#clipPath921)"><tspan
          sodipodi:role="line"
-         x="595.93713"
-         y="267.32886"
-         id="tspan938">H2</tspan></text>
+         id="tspan919">H</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;"
        x="509.0015"
        y="268.79092"
        id="text936-7"
        clip-path="url(#clipPath917)"><tspan
          sodipodi:role="line"
-         id="tspan966"
-         x="509.0015"
-         y="268.79092">O2</tspan></text>
+         id="tspan969">O</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1"
@@ -561,5 +579,29 @@
        fill-rule="evenodd"
        id="path39-1"
        clip-path="url(#clipPath897)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px"
+       x="595.93713"
+       y="267.32886"
+       id="text936-8"
+       clip-path="url(#clipPath921-3)"
+       transform="translate(10.583981,3.456328)"><tspan
+         sodipodi:role="line"
+         id="tspan953"
+         x="595.93713"
+         y="267.32886">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Latin Modern Roman';-inkscape-font-specification:'Latin Modern Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px"
+       x="595.93713"
+       y="267.32886"
+       id="text936-8-9"
+       clip-path="url(#clipPath921-3-6)"
+       transform="translate(-76.688847,5.0009123)"><tspan
+         sodipodi:role="line"
+         id="tspan953-3"
+         x="595.93713"
+         y="267.32886">2</tspan></text>
   </g>
 </svg>
